@@ -17,6 +17,8 @@ include $path.'assets/inc/header.php';
     Page content would go here.
 	
 	Kenan's CHange
+	
+	Omar will be working on this page!!
 </p>
 </body>
 </html>
