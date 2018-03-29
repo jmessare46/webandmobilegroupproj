@@ -9,7 +9,7 @@
 
 $path = './';
 $page = 'Classes & Events';
-include $path.'assets/inc/header.php';
+include $path . 'assets/inc/header.php';
 ?>
 
 
