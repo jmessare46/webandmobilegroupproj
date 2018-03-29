@@ -15,6 +15,8 @@ include $path . 'assets/inc/header.php';
 
 <p>
     Page content would go here.
+	
+	Kenan's CHange
 </p>
 </body>
 </html>
