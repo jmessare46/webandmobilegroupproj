@@ -3,13 +3,13 @@
 /**
  * Kung Fu site schedule page.
  *
- * @version 3/27/18
+ * @version 3/29/18
  * @author Joseph Messare
  */
 
 $path = './';
 $page = 'Classes & Events';
-include $path.'assets/inc/header.php';
+include $path . 'assets/inc/header.php';
 ?>
 
 
