@@ -3,7 +3,7 @@
 /**
  * Kung Fu site schedule page.
  *
- * @version 3/27/18
+ * @version 3/29/18
  * @author Joseph Messare
  */
 
