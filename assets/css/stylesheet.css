@@ -4,7 +4,44 @@
     margin: 0;
 }
 
+/*
+ * Styles the header page.
+ */
+
+ /* Makes the mouse turn into a pointer when hovering over the menu items */
 #navlist li:hover
 {
     cursor: pointer;
 }
+
+/*
+ * Styles the about page.
+ */
+ 
+
+ /*
+ * Styles the contact page.
+ */
+
+ /*
+ * Styles the curriculum page.
+ */
+ 
+
+ /*
+ * Styles the history page.
+ */
+
+ /*
+ * Styles the home page.
+ */
+
+ /*
+ * Styles the media page.
+ */
+
+ /*
+ * Styles the schedule page.
+ */
+
+ 
