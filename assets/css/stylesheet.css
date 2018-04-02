@@ -20,28 +20,84 @@
  
 
  /*
- * Styles the contact page.
- */
+  * Styles the contact page.
+  */
+
 
  /*
- * Styles the curriculum page.
- */
+  * Styles the curriculum page.
+  */
  
 
  /*
- * Styles the history page.
- */
+  * Styles the history page.
+  */
+
+/* Makes middle line in time line */
+#centerline
+{
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    top: 0;
+    border-left: 2px solid black;
+}
+
+/* Acts as a sort of container for all of the elements in the timeline */
+#timeline {
+    position: relative;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/* This makes the actual line appear in the middle */
+#timeline::before
+{
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Styling for each historical event */
+div.left, div.right
+{
+    width: 40%;
+    display: block;
+    background: lightblue;
+    padding: 10px;
+    margin: 10px;
+    clear: both;
+}
+
+/* Floats the div to the left */
+div.left
+{
+    float: left;
+}
+
+/* Floats the div to the right */
+div.right
+{
+    float: right;
+}
 
  /*
- * Styles the home page.
- */
+  * Styles the home page.
+  */
+
 
  /*
- * Styles the media page.
- */
+  * Styles the media page.
+  */
+
 
  /*
- * Styles the schedule page.
- */
+  * Styles the schedule page.
+  */
 
  

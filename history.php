@@ -13,10 +13,32 @@ $page = 'Wing Chung History';
 include $path . 'assets/inc/header.php';
 ?>
 
-<h1 id="title"><?php echo $page ?></h1>
+<h1 class="title"><?php echo $page ?></h1>
 
 <p>
-    Page content would go here.
+    <div id="timeline">
+        <div class="left">
+            <p>
+                Left history content
+            </p>
+        </div>
+        <div class="right">
+            <p>
+                Right history content
+            </p>
+        </div>
+        <div class="left">
+            <p>
+                Left history content
+            </p>
+        </div>
+        <div class="right">
+            <p>
+                Right history content
+            </p>
+        </div>
+    </div>
 </p>
+
 </body>
 </html>
