@@ -12,7 +12,7 @@ $page = 'Curriculum';
 include $path . 'assets/inc/header.php';
 ?>
 
-<h1 id="title"><?php echo $page ?></h1>
+<h1 class="title"><?php echo $page ?></h1>
 
 <p>
     Page content would go here.
