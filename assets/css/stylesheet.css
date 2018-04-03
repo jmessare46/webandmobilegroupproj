@@ -73,10 +73,24 @@ div.left, div.right
 {
     width: 40%;
     display: block;
-    background: lightblue;
+    background: lightcoral;
     padding: 10px;
     margin: 10px;
     clear: both;
+}
+
+/* Styles the headings in the time line */
+div.left h3, div.right h3
+{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+/* Styles the text in the timeline */
+div.left p, div.right p
+{
+    padding: 5px;
+    padding-left: 10px;
 }
 
 /* Floats the div to the left */
