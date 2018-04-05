@@ -3,13 +3,8 @@
 /**
  * Kung Fu site curriculum page.
  *
-<<<<<<< HEAD
- * @version 3/29/18
- * @author Joseph Messare
-=======
  * @version 4/3/18
  * @author Ian Mackenzie
->>>>>>> iansbranch
  */
 
 $path = './';
@@ -19,11 +14,6 @@ include $path . 'assets/inc/header.php';
 
 <h1 class="title"><?php echo $page ?></h1>
 
-<<<<<<< HEAD
-<p>
-    Page content would go here.
-</p>
-=======
 <h2>Progression</h2>
 	<p>Progression in Wing Chun is denoted through various colored sashes. Moy Don will teach all the way 
 	up to Master level, the gold sash. Expectations for each sash are detailed below.</p>
@@ -287,6 +277,5 @@ include $path . 'assets/inc/header.php';
 		HELL. THOSE WHO PASS WILL BE PROUD TO BE CALLED A MASTER AND HUMBLE ENOUGH TO JUST BE
 		CALLED TEACHER (SIFU) AND UNDERSTAND WHY.</p>
 			
->>>>>>> iansbranch
 </body>
 </html>
