@@ -8,10 +8,10 @@
 
 $path = './';
 $page = 'About Us';
-include $path.'assets/inc/header.php';
+include $path . 'assets/inc/header.php';
 ?>
 
-<h1 id="title"><?php echo $page ?></h1>
+<h1 class="title"><?php echo $page ?></h1>
 
 <p>
 <!-- Notes For Omar -->

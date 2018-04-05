@@ -10,13 +10,45 @@
 
 $path = './';
 $page = 'Wing Chung History';
-include $path.'assets/inc/header.php';
+include $path . 'assets/inc/header.php';
 ?>
 
-<h1 id="title"><?php echo $page ?></h1>
+<h1 class="title"><?php echo $page ?></h1>
 
 <p>
-    Page content would go here.
+    <div id="timeline">
+        <div class="left">
+            <h3>NG MUI</h3>
+            <p>
+                Left history content
+            </p>
+        </div>
+        <div class="right">
+            <h3>YIM VING TSUN</h3>
+            <p>
+                Right history content
+            </p>
+        </div>
+        <div class="left">
+            <h3>YIP MAN</h3>
+            <p>
+                Left history content
+            </p>
+        </div>
+        <div class="right">
+            <h3>MOY YAT</h3>
+            <p>
+                Right history content
+            </p>
+        </div>
+        <div class="left">
+            <h3>MASTER DON GREEN (MOY DON)</h3>
+            <p>
+                Left history content
+            </p>
+        </div>
+    </div>
 </p>
+
 </body>
 </html>
