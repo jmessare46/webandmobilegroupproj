@@ -71,12 +71,14 @@
 /* Styling for each historical event */
 div.left, div.right
 {
-    width: 40%;
+    width: 45%;
     display: block;
     background: lightcoral;
     padding: 10px;
     margin: 10px;
+    margin-top: 20px;
     clear: both;
+    border-radius: 10px;
 }
 
 /* Styles the headings in the time line */
@@ -97,12 +99,14 @@ div.left p, div.right p
 div.left
 {
     float: left;
+    border-radius: 10px 0px 10px 10px;
 }
 
 /* Floats the div to the right */
 div.right
 {
     float: right;
+    border-radius: 0px 10px 10px 10px;
 }
 
  /*
