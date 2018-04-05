@@ -30,63 +30,21 @@ include $path . 'assets/inc/header.php';
             </p>
         </div>
         <div class="left">
-            <h3>LEUNG POK TOA</h3>
-            <p>
-                Left history content
-            </p>
-        </div>
-        <div class="right">
-            <h3>WONG WAH BO</h3>
-            <p>
-                Right history content
-            </p>
-        </div>
-        <div class="left">
-            <h3>LEUNG LAN KWAI</h3>
-            <p>
-                Left history content
-            </p>
-        </div>
-        <div class="right">
-            <h3>LEUNG YEE TAI</h3>
-            <p>
-                Right history content
-            </p>
-        </div>
-        <div class="left">
-            <h3>DR. LEUNG JUN</h3>
-            <p>
-                Left history content
-            </p>
-        </div>
-        <div class="right">
-            <h3>CHAN WAH SHUN</h3>
-            <p>
-                Right history content
-            </p>
-        </div>
-        <div class="left">
-            <h3>LEUNG BIK</h3>
-            <p>
-                Left history content
-            </p>
-        </div>
-        <div class="right">
             <h3>YIP MAN</h3>
             <p>
-                Right history content
-            </p>
-        </div>
-        <div class="left">
-            <h3>MOY YAT</h3>
-            <p>
                 Left history content
             </p>
         </div>
         <div class="right">
-            <h3>MASTER DON GREEN (MOY DON)</h3>
+            <h3>MOY YAT</h3>
             <p>
                 Right history content
+            </p>
+        </div>
+        <div class="left">
+            <h3>MASTER DON GREEN (MOY DON)</h3>
+            <p>
+                Left history content
             </p>
         </div>
     </div>
