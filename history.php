@@ -73,17 +73,15 @@ include $path . 'assets/inc/header.php';
         <div class="left">
             <h3>MASTER DON GREEN (MOY DON)</h3>
             <p>
-                - Started wing Chung in Virginia under Duncan Leung and for the time he was in service
-                - 17-20 years old
-                - When he returned to Rochester NY started taking Ving Tsun from moy yat in NYC
-                - Because of the travel time to NYC moy yat said for him to train with one of his students in Canada
-                - Dunn Wah Tang was this teacher (Sunny Tang)
-                - When he Finished with Sunny Tang he was to come back to NYC and finish with moy yat
-                - Then became Sifu under moy yat
-                - Started school at Dunn Was Tang in Rochester at that point so the school was changed to be under the moy yat family school which included Sunny Tang
-                - Don green became a disciple under moy yat (Bi Si) in 1994
-                - Don’s School started in September 1992
-                - Was relocated and moved to current location
+                Master Don Green (Moy Don) started Ving Tsun in Virginia under Duncan Leung and also trained while he
+                was in the United States Navy. This took place when Master Green 17 years old and continued until he was
+                20. When he returned to Rochester NY he began training Ving Tsun from Moy Yat in New York City. Because
+                of the distance he was traveling each time to train with Moy Yat he was referred to train with one of
+                Moy Yat's students in Canada Dunn Wah Tang (Sunny Tang). Once Moy Don finished his training with Sunny
+                Tang he went back to New York City to finish his training with Moy Yat soon becoming a certified teacher
+                in the Moy Yat family. Don Green officially became a disciple (Bi Si) under Moy Yat in 1994. At the time
+                however Moy Don had already started a school under Sunny Tang in September of 1992 which transitioned to
+                be under the Moy Yat family. This school was eventually relocated to the where it is today.
             </p>
         </div>
     </div>
