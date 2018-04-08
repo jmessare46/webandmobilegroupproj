@@ -24,19 +24,19 @@ include $path.'assets/inc/header.php';
 •	Brief summary of what the classes are like</br>
 </p>
 
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
-</head>
-<body>
- <h1>School’s Philosophy</h1>
- <p>jjkahdkfjha sdjkfadsjfhasdkjfkkkakjdfha sdkhadsfjahdklfjasdkfjhds jkdhfkjhnk djkfhkjhak j,hmd fkjhakdjhfk jhs udiykhfkb kdhfhkakdhfjdjfjjdfhak djjdh fa
- dfjkadfhk hakmjnsdjfh akjhdfk jhkjjehjbfbbankdjfhkjahkdkjfkjkjdjkjkajkdhfkajdfhou;eppqiewhrojsdnksdjfp aoujueou rhaugdojfhjjkhagdofheoina doufyhnoieyhrfndlhfoiwhfoidfhodfa
- diufjhodjfhnfgofhgpfgdfiogirriiriririr sofhfnolwuhdnnfgnlay aodhgfboieiwhsdfodsoyfgsldfkkfjuweoflsdfghlksdfgjpaghosdfujujwpiof prrfopwrrhfojwrfyndnfowhrejrighlksdfyuiweij
- 
- Kung Fu is great you should learn it - Omar </p>
 
+ <h1>School’s Philosophy</h1>
+ <p>
+     This is coming...<br><br>
+
+     Kung Fu is great you should learn it - Omar
+ </p><br>
+
+ <a href="assets/images/Rules_for_Junior_Members.pdf" download="Rules For Junior Members (K-12)">Rules for Junior Members K - 12</a><br>
+ <a href="assets/images/Rules_of_the_Kwoon.pdf" download="Rules for the Kwoon">Rules for the Kwoon (School)</a><br>
+ <a href="assets/images/Statement%20of%20Commitment.jpeg" download="Statement of Commitment">Statement of Commitment</a><br><br>
+
+ <!-- Our Instructors -->
  <div class="instructors">
      <div class="bio">
          <h3>School Owner Bio</h3>
@@ -75,7 +75,7 @@ include $path.'assets/inc/header.php';
              Rochester, N.Y. on and off from 1993. He now owns a school (Kwoon) in Rochester on 80 Rockwell Place near the
              Record Archives suite 208.
          </p>
-     </div>
+     </div><br>
 
      <div class="bio">
          <h3>Adam Dunn - Assistant Instructor</h3>
@@ -88,7 +88,7 @@ include $path.'assets/inc/header.php';
              extremely proud to be awarded his gold sash and the title of Sifu in 2011. Adam continues to act in the
              role of senior instructor until such time as he chooses to take on students of his own.
          </p>
-     </div>
+     </div><br>
 
      <div class="bio">
          <h3>Sifu Nathan Melenbacker - Assistant Instructor</h3>
@@ -98,30 +98,8 @@ include $path.'assets/inc/header.php';
              Gulf War Navy Veteran, Nate achieved Gold Sash level along with his training partner, Sifu Adam Dunn, in
              2011.
          </p>
-     </div>
+     </div><br>
  </div>
 
-<!-- this is an example of what instructors part would be! -->
- <!-- Our Instructors -->
-        <div class="square">
-          <h2 class="my-4">Our Instructors</h2>
-        </div>
-        
-		<div class="square">
-          <img class="instuctorImg" src="assets/images/imageExample.JPG" alt="">
-          <h3>Joseph Messare
-		  <small>(Job Title)</small>
-		  </h3>
-          <p>Little bit about the instructor</p>
-        </div>
-		
-        <div class="square">
-         <img class="instuctorImg" src="assets/images/imageExample.JPG" alt="">
-          <h3>John Smith
-		  <small>(Job Title)</small>
-		  </h3>
-		  
-          <p>Little bit about the instructor</p>
-        </div>
 </body>
 </html>
