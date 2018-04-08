@@ -13,6 +13,7 @@
 <head>
     <title><?php echo $page;?></title>
     <link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/css/stylesheet.css"/>
+    <script src="<?php echo $path;?>assets/js/functions.js"></script>
 </head>
 <body>
 
