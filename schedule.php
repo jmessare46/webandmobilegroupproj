@@ -5,16 +5,11 @@
  * @version 4/2/18
  * @author Rachael Simmonds
  */
+
+$path = './';
+$page = 'Schedule';
+include $path.'assets/inc/header.php';
 ?>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Schedule</title>
-</head>
-<body>
 
 <!-- Navigation list shown at the top of the page -->
 <div id="nav">
