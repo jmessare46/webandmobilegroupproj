@@ -87,7 +87,7 @@ include $path . 'assets/inc/header.php';
 			<li>PERFORMING ATTACK DOUBLE LOP DA CIRCLE STEP SWEEP</li>
 			<li>TUI MA FOOTWORK</li>
 			
-		<ul>
+		</ul>
 		
 		<ul class="sashExpectations">	
 			<li>BASIC SELF DEFENSE AGAINST KNIFE ATTACKS</li>
