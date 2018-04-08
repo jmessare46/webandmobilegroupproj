@@ -1,10 +1,4 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-	<title> References </title>
-	</head> -->
-
+<?php
 /**
  * Kung Fu site contact us page.
  *
