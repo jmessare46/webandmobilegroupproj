@@ -13,10 +13,21 @@
  * Styles the header page.
  */
 
- /* Makes the mouse turn into a pointer when hovering over the menu items */
+/* Styles each page link */
+#navlist li
+{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+ /* Makes the mouse turn into a pointer when hovering over the menu
+    items and changes the divs background color */
 #navlist li:hover
 {
     cursor: pointer;
+    background-color: darkgray;
 }
 
 /*
