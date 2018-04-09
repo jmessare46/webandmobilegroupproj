@@ -8,7 +8,7 @@
  */
 
 $path = './';
-$page = 'Pictures & Videos';
+$page = 'Members Page';
 include $path . 'assets/inc/header.php';
 ?>
 

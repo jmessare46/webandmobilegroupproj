@@ -25,7 +25,7 @@
         <li onclick="location.href='contact.php'">Contact Us</li>
         <li onclick="location.href='history.php'">History</li>
         <li onclick="location.href='curriculum.php'">Cirriculum</li>
-        <li onclick="location.href='media.php'">Pictures & Videos</li>
         <li onclick="location.href='schedule.php'">Classes & Events</li>
+        <li onclick="location.href='login.php'">Members Only</li>
     </ul>
 </div><br>
