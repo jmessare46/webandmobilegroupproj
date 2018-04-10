@@ -1,15 +1,7 @@
-/*
-    I commented this section out to create a buffer for the header/all genereal content
-    If this messes up anyone's pages, please let me know - Brooke
 *
 {
     padding: 0;
     margin: 0;
-}
-*/
-
-body{
-    margin: 25px;
 }
 
 .title
@@ -20,27 +12,30 @@ body{
 /* Styles the header page */
 
 /* Styles each page link */
-#nav{
-    margin-top: 10px;
-}
-
-#navlist li
-{
-    display: inline;
-    padding: 10px;
-    font-size: 20px;
-    color: white;
+#navBar{
+    display: flex;
+    width: 100%;
     background-color: red;
-    border: 2px solid black;
 }
 
+#navBar a{
+    display: inline-flex;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+#homeLink{
+    background-color: #2F0C08;
+}
  /* Makes the mouse turn into a pointer when hovering over the menu
     items and changes the divs background color */
-#navlist li:hover
-{
+#navBar a:hover{
     cursor: pointer;
-    background-color: rgb(121, 0, 0);
-    transition: background-color .5s;
+    color: #FE6A5D;
+    background-color: #2F0C08;
+    transition: background-color 1s, color 1s;
 }
 
 /*
