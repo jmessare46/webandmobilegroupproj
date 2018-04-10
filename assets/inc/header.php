@@ -13,19 +13,16 @@
 <head>
     <title><?php echo $page;?></title>
     <link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/css/stylesheet.css"/>
-    <script src="<?php echo $path;?>assets/js/functions.js"></script>
 </head>
 <body>
 
 <!-- Navigation list shown at the top of the page -->
-<div id="nav">
-    <ul id="navlist">
-        <li onclick="location.href='index.php'">Home</li>
-        <li onclick="location.href='about.php'">About Us</li>
-        <li onclick="location.href='contact.php'">Contact Us</li>
-        <li onclick="location.href='history.php'">History</li>
-        <li onclick="location.href='curriculum.php'">Cirriculum</li>
-        <li onclick="location.href='schedule.php'">Classes & Events</li>
-        <li onclick="location.href='login.php'">Members Page</li>
-    </ul>
-</div><br>
+<nav id="navBar">
+    <a id="homeLink" href="index.php">Home</a>
+    <a href="about.php">About Us</a>
+    <a href="contact.php">Contact Us</a>
+    <a href="history.php">History</a>
+    <a href="curriculum.php">Curriculum</a>
+    <a href="media.php">Pictures & Videos</a>
+    <a href="schedule.php">Classes & Events</a>
+</nav><br>
