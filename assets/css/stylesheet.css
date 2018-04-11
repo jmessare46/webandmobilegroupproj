@@ -45,9 +45,12 @@
 /*
  * Styles the about page.
  */
- 
-  .instructor1, .instructor2{
+
+.instructor1, .instructor2{
 	 padding: 15px;
+	 family-font: sans-serif;
+	 background-color:#80bdc3;
+	 text-align:justify;
  }
  
  /*Styles the about Page Ends here */
