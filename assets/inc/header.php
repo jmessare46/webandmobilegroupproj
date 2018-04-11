@@ -18,11 +18,11 @@
 
 <!-- Navigation list shown at the top of the page -->
 <nav id="navBar">
-    <a id="homeLink" href="index.php">Home</a>
+    <a href="index.php">Home</a>
     <a href="about.php">About Us</a>
     <a href="contact.php">Contact Us</a>
     <a href="history.php">History</a>
     <a href="curriculum.php">Curriculum</a>
     <a href="schedule.php">Classes & Events</a>
-    <a href="login.php">Members Login</a>
+    <a id="loginLink" href="login.php">Login</a>
 </nav><br>
