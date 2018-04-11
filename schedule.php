@@ -10,18 +10,9 @@ $path = './';
 $page = 'Schedule';
 include $path.'assets/inc/header.php';
 ?>
+<html>
+<body>
 
-<!-- Navigation list shown at the top of the page -->
-<div id="nav">
-    <ul id="navlist">
-        <li><a href="index.php">Home</a></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li class="active"><a href="schedule.php">Schedule</a></li>
-    </ul>
-</div>
 
 <div id="classTimes">
 	<h1>Class Times</h1>
