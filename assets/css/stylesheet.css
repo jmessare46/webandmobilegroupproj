@@ -46,13 +46,11 @@
  * Styles the about page.
  */
  
- /* 
- Omar this will effect everything on everyone's page
- *
- {
-     box-sizing: border-box;
+  .instructor1, .instructor2{
+	 padding: 15px;
  }
- */
+ 
+ /*Styles the about Page Ends here */
 
  body {
      background-color: #474e5d;
