@@ -23,6 +23,6 @@
     <a href="contact.php">Contact Us</a>
     <a href="history.php">History</a>
     <a href="curriculum.php">Curriculum</a>
-    <a href="media.php">Pictures & Videos</a>
     <a href="schedule.php">Classes & Events</a>
+    <a href="login.php">Members Login</a>
 </nav><br>
