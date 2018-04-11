@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+body {
+    background-color: #7EBDC2;
+    font-family: Helvetica, sans-serif;
+}
+
 .title
 {
     margin-bottom: 10px;
@@ -29,14 +34,19 @@
     cursor: pointer;
     text-shadow: 2px 2px #001427;
     background-color: #BF0603;
+<<<<<<< HEAD
     transition: background-color 1s;
 }
 
 #loginLink{
     background-color: #BF0603;
+=======
+>>>>>>> brookesBranch
 }
 
+/* Styles the login button */
 #loginLink{
+    margin-left: 27%;
     background-color: #BF0603;
 }
  /* Makes the mouse turn into a pointer when hovering over the menu
@@ -49,6 +59,7 @@
   .instructor1, .instructor2{
 	 padding: 15px;
  }
+<<<<<<< HEAD
  
  /*Styles the about Page Ends here */
 
@@ -56,6 +67,9 @@
      background-color: #474e5d;
      font-family: Helvetica, sans-serif;
  }
+=======
+ */
+>>>>>>> brookesBranch
  
  /* The actual timeline (the vertical ruler) */
  .timeline {
