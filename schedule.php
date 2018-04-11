@@ -31,7 +31,9 @@ include $path.'assets/inc/header.php';
 	<br>
 		<div id="pTag">
 			<p>For those who would like private lessons, </p>
-			<p>you are able to schedule a time below. </p>
+			<p>you are able to schedule a time on the CONTACT US tab. </p>
+
+			<a href="contact.php">Contact Us</a>
 		</div>
 </div>
 </body>
