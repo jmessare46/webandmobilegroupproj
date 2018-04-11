@@ -6,39 +6,49 @@
  * Time: 9:47 PM
  */
 
-
-session_start();
-
-$username = $_POST['uname'];
-$password = $_POST['psw'];
-
 // If login is clicked
 if (isset( $_POST['submit'] ))
 {
-    // If neither username or password is empty
-    if(empty( $username ) || empty( $password ))
+    $path = './';
+    require $path . 'assets/sql/dbInfo.inc';
+    $db = new mysqli("localhost","jwm2957", "necknews","jwm2957");
+
+    $uname = $_POST['uname'];
+    $pass = $_POST['psw'];
+
+    $queryString = "SELECT * FROM members WHERE uname = '$uname'";
+
+    $result = $db->query($queryString);
+    if ($result)
     {
-        echo "Username or Password error";
-    }
-    else
-    {
-        // Checks if password and user are correct
-        if( $username == "joe" && $password == "test" )
+        // Gets results from database
+        $user = $result->fetch_assoc();
+
+        // Checks to make sure username and password match the database record
+        if($user['uname'] == $uname && $user['pass'] == $pass)
         {
-            // User and password combo was correct and user is sent to members page
-            header("location: member.php");
-            $_SESSION['user'] = "joe";
+            session_start();
+            $_SESSION['uname'] = $user;
+            $_SESSION['pass'] = $pass;
+
+            // Sends authenticated user to members page
+            header( "Location: member.php" );
         }
         else
         {
-            // Redirect to login page
-            header("location: login.php");
+            // Redirects to login page
+            header( "Location: login.php" );
         }
+    }
+    else
+    {
+        // Redirects to login page
+        header( "Location: login.php" );
     }
 }
 else
 {
-    // Something went really wrong
-    echo "Page submission error";
+    // Redirects to login page
+    header( "Location: login.php" );
 }
-    ?>
+?>
