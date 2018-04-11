@@ -15,7 +15,7 @@
 #navBar{
     display: flex;
     width: 100%;
-    background-color: red;
+    background-color: #001427;
 }
 
 #navBar a{
@@ -26,17 +26,18 @@
     color: white;
 }
 
-#homeLink{
-    background-color: #2F0C08;
+#navBar a:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px #001427;
+    background-color: #BF0603;
+    transition: background-color 1s;
+}
+
+#loginLink{
+    background-color: #BF0603;
 }
  /* Makes the mouse turn into a pointer when hovering over the menu
     items and changes the divs background color */
-#navBar a:hover{
-    cursor: pointer;
-    color: #FE6A5D;
-    background-color: #2F0C08;
-    transition: background-color 1s, color 1s;
-}
 
 /*
  * Styles the about page.
