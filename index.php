@@ -5,33 +5,16 @@
  * @version 3/27/18
  * @author Joseph Messare
  */
+
+$path = './';
+$page = 'Home';
+include $path . 'assets/inc/header.php';
 ?>
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Homepage</title>
-</head>
-<body>
-
-<!-- Navigation list shown at the top of the page -->
-<div id="nav">
-    <ul id="navlist">
-        <li class="active">Home</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</div>
-
-<h1 id="title">Kung Fu School</h1>
+<h1 class="title"><?php echo $page ?></h1>
 
 <p>
-    Home page content would go here.
+    Page content would go here.
 </p>
 </body>
 </html>
