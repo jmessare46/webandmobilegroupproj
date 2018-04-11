@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+body {
+    background-color: #7EBDC2;
+    font-family: Helvetica, sans-serif;
+}
+
 .title
 {
     margin-bottom: 10px;
@@ -29,17 +34,12 @@
     cursor: pointer;
     text-shadow: 2px 2px #001427;
     background-color: #BF0603;
-    transition: background-color 1s;
-<<<<<<< HEAD
-=======
+    transition: background-color .2;
 }
 
+/* Styles the login button */
 #loginLink{
-    background-color: #BF0603;
->>>>>>> bf49b7cb53636edb07e4fdf3e434c6fc2f5cab72
-}
-
-#loginLink{
+    margin-left: 27%;
     background-color: #BF0603;
 }
  /* Makes the mouse turn into a pointer when hovering over the menu
@@ -56,11 +56,6 @@
      box-sizing: border-box;
  }
  */
-
- body {
-     background-color: #474e5d;
-     font-family: Helvetica, sans-serif;
- }
  
  /* The actual timeline (the vertical ruler) */
  .timeline {

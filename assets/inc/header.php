@@ -24,5 +24,7 @@
     <a href="history.php">History</a>
     <a href="curriculum.php">Curriculum</a>
     <a href="schedule.php">Classes & Events</a>
-    <a id="loginLink" href="login.php">Login</a>
+    <div id="loginLink">
+        <a href="login.php">Members</a>
+    </div>
 </nav><br>
