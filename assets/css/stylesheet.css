@@ -30,13 +30,10 @@
     text-shadow: 2px 2px #001427;
     background-color: #BF0603;
     transition: background-color 1s;
-<<<<<<< HEAD
-=======
 }
 
 #loginLink{
     background-color: #BF0603;
->>>>>>> bf49b7cb53636edb07e4fdf3e434c6fc2f5cab72
 }
 
 #loginLink{
@@ -128,25 +125,28 @@
 #login input
 {
     padding: 10px;
-    width: 71%;
-    display: inline;
+    width: 90%;
     margin-bottom: 10px;
 }
 
 /* Styles the user and password labels */
 #login label
 {
-    padding-right: 10px;
+    float: left;
+    padding: 5px;
+    padding-left: 10px;
 }
+
 
 /* Styles the login button */
 #login button
 {
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
     border-radius: 3px;
-    width: 100%;
-    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Makes middle line in time line */

@@ -20,14 +20,14 @@ if ( isset($_SESSION['user']) && $_SESSION['user'] == "joe")
 <div id="loginBox">
     <h1>Member Login Page</h1>
     <form id="login" method="POST" action="loginAuth.php">
-        <label for="uname"><b>Username: </b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required><br>
+        <div id="loginCont">
+            <label for="uname">Username: </label><br>
+            <input type="text" placeholder="Enter Username" name="uname" required><br>
 
-        <label for="psw"><b>Password: </b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required><br>
-        <button type="submit" name="submit">Login</button>
-
-
+            <label for="psw">Password: </label><br>
+            <input type="password" placeholder="Enter Password" name="psw" required><br>
+            <button type="submit" name="submit">Login</button>
+        </div>
     </form>
 </div>
 
