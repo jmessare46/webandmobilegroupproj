@@ -11,7 +11,6 @@
 
 /* Styles the header page */
 
-/* Styles each page link */
 #navBar{
     display: flex;
     width: 100%;
@@ -31,6 +30,13 @@
     text-shadow: 2px 2px #001427;
     background-color: #BF0603;
     transition: background-color 1s;
+<<<<<<< HEAD
+=======
+}
+
+#loginLink{
+    background-color: #BF0603;
+>>>>>>> bf49b7cb53636edb07e4fdf3e434c6fc2f5cab72
 }
 
 #loginLink{
@@ -84,6 +90,64 @@
  /*
   * Styles the history page.
   */
+
+/*
+ * Styles the login page.
+ */
+
+/* Styles the form container */
+#loginBox
+{
+    background-color: red;
+    width: 80%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+/* Styles the member login header */
+#loginBox h1
+{
+    text-align: center;
+}
+
+/* Styles the login form */
+#login
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 50px;
+    width: 50%;
+}
+
+/* Styles the input sections of user and password */
+#login input
+{
+    padding: 10px;
+    width: 71%;
+    display: inline;
+    margin-bottom: 10px;
+}
+
+/* Styles the user and password labels */
+#login label
+{
+    padding-right: 10px;
+}
+
+/* Styles the login button */
+#login button
+{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    width: 100%;
+    float: left;
+}
 
 /* Makes middle line in time line */
 #centerline
