@@ -34,7 +34,6 @@ body {
     cursor: pointer;
     text-shadow: 2px 2px #001427;
     background-color: #BF0603;
-}
 
 /* Styles the login button */
 #loginLink{
@@ -122,25 +121,28 @@ body {
 #login input
 {
     padding: 10px;
-    width: 71%;
-    display: inline;
+    width: 90%;
     margin-bottom: 10px;
 }
 
 /* Styles the user and password labels */
 #login label
 {
-    padding-right: 10px;
+    float: left;
+    padding: 5px;
+    padding-left: 10px;
 }
+
 
 /* Styles the login button */
 #login button
 {
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
     border-radius: 3px;
-    width: 100%;
-    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Makes middle line in time line */
