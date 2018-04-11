@@ -34,7 +34,6 @@ body {
     cursor: pointer;
     text-shadow: 2px 2px #001427;
     background-color: #BF0603;
-    transition: background-color .2s;
 }
 
 /* Styles the login button */
