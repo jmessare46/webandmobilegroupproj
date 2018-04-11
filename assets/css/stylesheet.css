@@ -234,4 +234,16 @@ div.right
   * Styles the schedule page.
   */
 
- 
+   div.classTimes {
+   	padding: 15px;
+   	margin: 20px;
+   	background-color: black;
+   	color: white;
+   }
+   
+   
+   div.pTag {
+   	
+   
+   }
+  
