@@ -43,6 +43,9 @@ include $path . 'assets/inc/header.php';
 		Email:<br>
 		<input type="text" name="email">
 		<br>
+		Description:<br>
+		<input type="text" name="desc">
+		<br>
 		<br>
 		<input type="submit" value="Submit">
 	</form>
