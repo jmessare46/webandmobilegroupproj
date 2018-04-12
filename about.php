@@ -39,7 +39,7 @@ include $path.'assets/inc/header.php';
  <!-- Our Instructors -->
  <div class="instructors">
      <div class="bio">
-         <h3>School Owner Bio</h3>
+         <h2>School Owner Bio</h2>
 
          <p>
              Master Donald Green (aka Moy Don) is a Master at Wing Chun (Ving Tsun) Kung-Fu. He started his journey in the
@@ -76,8 +76,11 @@ include $path.'assets/inc/header.php';
              Record Archives suite 208.
          </p>
      </div><br>
-
+<hr>
+	 <div class="instructor1">
      <div class="bio">
+	 <img src="assets/images/#" alt="" class="img" />
+	 </div>
          <h3>Adam Dunn - Assistant Instructor</h3>
          <p>
              Adam first became involved with Ving Tsun in 1998. His lack of prior experience lead to rather superficial
@@ -88,9 +91,12 @@ include $path.'assets/inc/header.php';
              extremely proud to be awarded his gold sash and the title of Sifu in 2011. Adam continues to act in the
              role of senior instructor until such time as he chooses to take on students of his own.
          </p>
-     </div><br>
-
+     </div>
+<hr>
+     <div class="instructor2">
      <div class="bio">
+	  <img src="assets/images/#" alt="" class="img" />
+	 </div>
          <h3>Sifu Nathan Melenbacker - Assistant Instructor</h3>
          <p>
              Nate has over 30 years of experience in the martial arts, starting with Karate styles (Isshin-ryu, Kobudo,
