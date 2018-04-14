@@ -7,34 +7,80 @@
  */
 
 $path = './';
-$page = 'About Us';
+$page = '';
 include $path.'assets/inc/header.php';
 ?>
-
+ <section id="container">
 <h1 id="title"><?php echo $page ?></h1>
+  <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
 
+  <!-- Notes For Omar 
 <p>
-<!-- Notes For Omar -->
-    Page content That's needed </br>
-<!-- this page should contain the following -->	
+    ///////Page content That's needed </br>
+<!-- this page should contain the following 	
 	• About Us</br>
 •	Instructor Biographies</br>
 •	School’s Philosophy</br>
 •	Class Times and Schedules</br>
 •	Brief summary of what the classes are like</br>
 </p>
-
-
  <h1>School’s Philosophy</h1>
  <p>
      This is coming...<br><br>
 
      Kung Fu is great you should learn it - Omar
  </p><br>
+ 
+ -->
 
- <a href="assets/images/Rules_for_Junior_Members.pdf" download="Rules For Junior Members (K-12)">Rules for Junior Members K - 12</a><br>
- <a href="assets/images/Rules_of_the_Kwoon.pdf" download="Rules for the Kwoon">Rules for the Kwoon (School)</a><br>
- <a href="assets/images/Statement%20of%20Commitment.jpeg" download="Statement of Commitment">Statement of Commitment</a><br><br>
+
+
+  <!-- about MoyDon headers starts here -->
+<div class="about" >
+
+<h1>About Moy Don Wing Chun Kung Fu</h1><br>
+	<div id="moyoverview">
+		
+		<p> This is section will introduce Moy don wing chun kunfu adfdsfadfdsfsdfsdfsdfsdk fjasldfjasdlfjklkdjflasdjkflsdakfjasdlfjasdlfkasjdflskdjflsdkfjsladkfjasldkfjasdlfkjasdlfkjsdf
+			sdfsdklfjsdflsdkjflakjdlfkjlkjalkdjflkjkkkdkkdkdkkdk  can we please finish with this group shit!! it's due in like a week and our page looks terrible
+			
+			
+			Master Donald Green (aka Moy Don) is a Master at Wing Chun (Ving Tsun) Kung-Fu. He started his journey in the Martial Arts at the age of 6 yrs. old for three years he learned 
+			Chito Ryu Karate , Ju Jit Su, Judo, Greco Roman and Free Style Wrestling, Boxing, and Kick Boxing. During this time also Master Green competed in many point tournaments winning 
+			several and also started in full contact no rules fighting Brown to name a few. This took its toll on Master Green and he took Grandmaster Moy Yat’s advice and trained with his student now Grandmaster Dunn Wah (Sunny) Tang in Toronto, Canada. He earned his Gold Sash or mastery of the system under Grandmaster Tang in 1993. He also competed for team Canada and continued fighting all over the world Canadian Championships, European Championships and many five star ranked tournaments world wide including three full contact Muay Thai matches in Thailand winning all three. He then returned to Grandmaster Moy Yat and became his disciple in a Bise ceremony.
+			He stayed with Grandmaster Moy Yat until his death and achieved mastery of the system through him before 
+		</p>
+
+	</div><br>
+
+	<div id="logo">
+		<img src="assets/images/MoyDonLogo.jpg"  style="width:100%; height:100%;"/>
+	</div> 
+</div><br><br><br><br>
+ <!-- about MoyDon ends here -->
+ 
+ 
+ <div id="mission">
+	<table>
+	
+		<tr>
+			<td>
+				<h3>Our Mission</h3>
+					<p>What is our mission! our mission for now is to finish creating this web page</p>
+			</td>
+			<td>
+				<h3>Our Core Values </h3>
+					<p> our core values are nothing! but to teach kids and adult to defend themselves </p>
+			</td>
+			<td>
+				<h3>Our Promise</h3>
+					<p> What is our mission! our mission for now is to finish creating this web page </p>
+			</td>
+		</tr>
+
+	</table>
+
+</div>
 
  <!-- Our Instructors -->
  <div class="instructors">
@@ -78,8 +124,8 @@ include $path.'assets/inc/header.php';
      </div><br>
 <hr>
 	 <div class="instructor1">
-     <div class="bio">
-	 <img src="assets/images/#" alt="" class="img" />
+     <div class="img1">
+	 <img src="assets/images/salah.jpg" alt="" class="img" />
 	 </div>
          <h3>Adam Dunn - Assistant Instructor</h3>
          <p>
@@ -94,8 +140,8 @@ include $path.'assets/inc/header.php';
      </div>
 <hr>
      <div class="instructor2">
-     <div class="bio">
-	  <img src="assets/images/#" alt="" class="img" />
+     <div class="img2">
+	  <img src="assets/images/salah.jpg" alt="" class="img" />
 	 </div>
          <h3>Sifu Nathan Melenbacker - Assistant Instructor</h3>
          <p>
@@ -106,6 +152,15 @@ include $path.'assets/inc/header.php';
          </p>
      </div><br>
  </div>
-
+ 
+ <!-- downloads by Joseph Messare 
+ 
+ //will make this available later!! 
+ //
+ <a href="assets/images/Rules_for_Junior_Members.pdf" download="Rules For Junior Members (K-12)">Rules for Junior Members K - 12</a><br>
+ <a href="assets/images/Rules_of_the_Kwoon.pdf" download="Rules for the Kwoon">Rules for the Kwoon (School)</a><br>
+ <a href="assets/images/Statement%20of%20Commitment.jpeg" download="Statement of Commitment">Statement of Commitment</a><br><br>
+--->
+</section>
 </body>
 </html>
