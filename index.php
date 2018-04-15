@@ -32,7 +32,7 @@ include $path . 'assets/inc/header.php';
         <div id="nslide" onclick="nextSlide(1)">&#8594;</div>
         <div id="bslide" onclick="nextSlide(-1)">&#8592;</div>
     </div>
-</div><br>
+</div><br><br>
 
 <div>
     <h2>Recieve Training In: </h2>
@@ -45,7 +45,7 @@ include $path . 'assets/inc/header.php';
     </ul>
 </div><br>
 
-<div>
+<div onload="slideshow();">
     <h2>How Wing Chun differs from other styles:</h2>
     <p>
         Not sport oriented it is about protecting your life on the street with modern techniques not technique that was
@@ -59,6 +59,12 @@ include $path . 'assets/inc/header.php';
         yourself not a portion of it because you are unable to execute the movements due to health or advanced age. The
         whole art of Wing Chun was able to be performed by late Grandmaster Yip Man a few weeks before his death from
         advanced cancer. He was still able to perform all his system of fighting.
+
+        A system you can teach young and old
+
+        Health or unhealthy
+
+        You can start this system at any time and use it the rest of your life
     </p>
 </div>
 

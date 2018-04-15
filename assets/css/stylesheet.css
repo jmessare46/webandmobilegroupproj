@@ -132,27 +132,11 @@ text-shadow: 2px 2px #FF0000;
 	 background:red;
  }
 
- /*Styles the about Page Ends here */
+ /* Styles the about Page Ends here */
 
  body {
      background-color: #474e5d;
      font-family: Helvetica, sans-serif;
- }
-
- 
- /* The actual timeline (the vertical ruler) */
- .timeline {
-     position: relative;
-     max-width: 1200px;
-     margin: 0 auto;
- }
- 
- /* The actual timeline (the vertical ruler) */
- .timeline::after {
-     content: '';
-     position: absolute;
-     width: 6px;
-     background-color: white;
  }
 
  /*
@@ -171,65 +155,19 @@ text-shadow: 2px 2px #FF0000;
   * Styles the history page.
   */
 
-/*
- * Styles the login page.
- */
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-/* Styles the form container */
-#loginBox
-{
-    background-color: red;
-    width: 80%;
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
     position: absolute;
-    top: 30%;
-    left: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-}
-
-/* Styles the member login header */
-#loginBox h1
-{
-    text-align: center;
-}
-
-/* Styles the login form */
-#login
-{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 50px;
-    width: 50%;
-}
-
-/* Styles the input sections of user and password */
-#login input
-{
-    padding: 10px;
-    width: 90%;
-    margin-bottom: 10px;
-}
-
-/* Styles the user and password labels */
-#login label
-{
-    float: left;
-    padding: 5px;
-    padding-left: 10px;
-}
-
-
-/* Styles the login button */
-#login button
-{
-    padding: 10px;
-    margin: 15px;
-    border-radius: 3px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 6px;
+    background-color: white;
 }
 
 /* Makes middle line in time line */
@@ -303,9 +241,131 @@ div.right
     border-radius: 0 10px 10px 10px;
 }
 
+
+
+/*
+ * Styles the login page.
+ */
+
+/* Styles the form container */
+#loginBox
+{
+    background-color: red;
+    width: 80%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+/* Styles the member login header */
+#loginBox h1
+{
+    text-align: center;
+}
+
+/* Styles the login form */
+#login
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 50px;
+    width: 50%;
+}
+
+/* Styles the input sections of user and password */
+#login input
+{
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+/* Styles the user and password labels */
+#login label
+{
+    float: left;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+
+/* Styles the login button */
+#login button
+{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 3px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
  /*
   * Styles the home page.
   */
+
+/* Formats the slide show container */
+#slideshow
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Formats the slide show images */
+#slideshow img
+{
+    height: 500px;
+    width: 700px;
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Styles the slide buttons */
+#nslide, #bslide
+{
+    background-color: lightgray;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    opacity: .6;
+}
+
+/* Floats the right button to the right */
+#nslide
+{
+    float: right;
+}
+
+/* Floats the left button to the left */
+#bslide
+{
+    float: left;
+}
+
+/* Styles the slide buttons */
+#nslide:hover, #bslide:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Styles the slide container */
+#slides
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 500px;
+}
+
 
 
  /*
