@@ -18,6 +18,8 @@ include $path . 'assets/inc/header.php';
 	<p>Progression in Wing Chun is denoted through various colored sashes. Moy Don will teach all the way 
 	up to Master level, the gold sash. Expectations for each sash are detailed below.</p>
 	
+	<br>
+	
 <h2>Green Sash</h2>
 
 	<h3>FOOT AND LEG STRIKES</h3>
@@ -87,7 +89,7 @@ include $path . 'assets/inc/header.php';
 			<li>PERFORMING ATTACK DOUBLE LOP DA CIRCLE STEP SWEEP</li>
 			<li>TUI MA FOOTWORK</li>
 			
-		<ul>
+		</ul>
 		
 		<ul class="sashExpectations">	
 			<li>BASIC SELF DEFENSE AGAINST KNIFE ATTACKS</li>
