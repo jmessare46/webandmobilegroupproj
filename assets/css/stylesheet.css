@@ -453,7 +453,9 @@ div.right
    
    
    div.pTag {
-   	
+   	padding: 15px;
+	margin: 20px;
+   	color: white;
    
    }
   
