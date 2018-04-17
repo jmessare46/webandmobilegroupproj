@@ -81,10 +81,3 @@ include $path.'assets/inc/header.php';
 	<hr>
  </body>
 </html>
-
-
-
-
-
-
-
