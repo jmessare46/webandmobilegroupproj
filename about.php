@@ -85,7 +85,7 @@ include $path.'assets/inc/header.php';
  <!-- Our Instructors -->
  <div class="instructors">
      <div class="bio">
-         <h2>School Owner Bio</h2>
+         <h3>School Owner Bio</h3>
 
          <p>
              Master Donald Green (aka Moy Don) is a Master at Wing Chun (Ving Tsun) Kung-Fu. He started his journey in the
@@ -122,11 +122,8 @@ include $path.'assets/inc/header.php';
              Record Archives suite 208.
          </p>
      </div><br>
-<hr>
-	 <div class="instructor1">
-     <div class="img1">
-	 <img src="assets/images/salah.jpg" alt="" class="img" />
-	 </div>
+
+     <div class="bio">
          <h3>Adam Dunn - Assistant Instructor</h3>
          <p>
              Adam first became involved with Ving Tsun in 1998. His lack of prior experience lead to rather superficial
@@ -137,12 +134,9 @@ include $path.'assets/inc/header.php';
              extremely proud to be awarded his gold sash and the title of Sifu in 2011. Adam continues to act in the
              role of senior instructor until such time as he chooses to take on students of his own.
          </p>
-     </div>
-<hr>
-     <div class="instructor2">
-     <div class="img2">
-	  <img src="assets/images/salah.jpg" alt="" class="img" />
-	 </div>
+     </div><br>
+
+     <div class="bio">
          <h3>Sifu Nathan Melenbacker - Assistant Instructor</h3>
          <p>
              Nate has over 30 years of experience in the martial arts, starting with Karate styles (Isshin-ryu, Kobudo,
@@ -160,7 +154,7 @@ include $path.'assets/inc/header.php';
  <a href="assets/images/Rules_for_Junior_Members.pdf" download="Rules For Junior Members (K-12)">Rules for Junior Members K - 12</a><br>
  <a href="assets/images/Rules_of_the_Kwoon.pdf" download="Rules for the Kwoon">Rules for the Kwoon (School)</a><br>
  <a href="assets/images/Statement%20of%20Commitment.jpeg" download="Statement of Commitment">Statement of Commitment</a><br><br>
---->
+-->
 </section>
 </body>
 </html>
