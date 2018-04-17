@@ -1,3 +1,4 @@
+/* Fonts for site: https://fonts.google.com/selection?category=Sans+Serif,Display,Handwriting,Monospace&selection.family=Josefin+Sans|Noto+Sans:400,700 */
 *
 {
     padding: 0;
@@ -5,8 +6,12 @@
 }
 
 body {
-    background-color: #7EBDC2;
-    font-family: Helvetica, sans-serif;
+    background-color: #DEEEEF;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .title
@@ -20,12 +25,15 @@ body {
     display: flex;
     width: 100%;
     background-color: #001427;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #navBar a{
     display: inline-flex;
     padding: 10px;
-    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 28px;
     text-decoration: none;
     color: white;
 }
@@ -34,18 +42,12 @@ body {
     cursor: pointer;
     text-shadow: 2px 2px #001427;
     background-color: #BF0603;
-    transition: background-color 1s;
+    transition: background-color .3s;
 }
-
-#loginLink{
-    background-color: #BF0603;
-}
-
 
 /* Styles the login button */
 #loginLink{
-    margin-left: 27%;
-    background-color: #BF0603;
+    margin-left: 15%;
 }
 
  /* Makes the mouse turn into a pointer when hovering over the menu
@@ -123,7 +125,7 @@ text-shadow: 2px 2px #FF0000;
 
 .instructors{
 	 padding: 15px;
-	 font: sans-serif;
+	 font-family: sans-serif;
 	 background-color:#80bdc3;
 	 text-align:justify;
  }
@@ -133,11 +135,6 @@ text-shadow: 2px 2px #FF0000;
  }
 
  /* Styles the about Page Ends here */
-
- body {
-     background-color: #474e5d;
-     font-family: Helvetica, sans-serif;
- }
  
  /* The actual timeline (the vertical ruler) */
  .timeline {
