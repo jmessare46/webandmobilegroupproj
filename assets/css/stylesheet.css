@@ -164,6 +164,58 @@ text-shadow: 2px 2px #FF0000;
  /*
   * Styles the curriculum page.
   */
+  
+.sash{
+	padding: 10px;
+	border: 1px solid white;
+	margin-bottom: 10px;
+	overflow: hidden;
+	display: inline-block;
+	clear: both;
+	float: left;
+}
+
+.subLearn{
+	overflow: hidden;
+	display: inline-block;
+	clear: both;
+}
+
+.sashExpectations{
+	overflow: hidden;
+	display: inline-block;
+	clear: both;
+}
+#greenStripe{
+	padding: 10px;	
+	background-color: green;
+}
+
+#redStripe{
+	padding: 10px;
+	background-color: red;
+}
+
+#whiteStripe{
+	padding: 10px;
+	background-color: white;
+}
+
+#brownStripe{
+	padding: 10px;
+	background-color: brown;
+}
+
+#blackStripe{
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+#goldStripe{
+	padding: 10px;
+	background-color: gold;
+}
  
 
  /*
