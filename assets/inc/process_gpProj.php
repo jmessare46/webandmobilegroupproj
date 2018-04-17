@@ -5,7 +5,7 @@
 	$emailCU = $_POST['email'];
 	$desc = $_POST['desc'];
 	$destination_email="kmj1556@rit.edu";
-	$email_subject="Don Contact Info";
+	$email_subject="Moy Don Contact Info";
 	$email_body =  "$fname $lname wants to contact you.\n";
 	$email_body .= "They said $desc\n";
 	$email_body .= "Their email is $emailCU and their phone number is $pnumber\n";
