@@ -18,10 +18,13 @@ include $path . 'assets/inc/header.php';
 	<p>Progression in Wing Chun is denoted through various colored sashes. Moy Don will teach all the way 
 	up to Master level, the gold sash. Expectations for each sash are detailed below.</p>
 	
-<h2>Green Sash</h2>
+	<br>
 
-	<h3>FOOT AND LEG STRIKES</h3>
-
+<div class="sash">	
+<h2 id="greenStripe">Green Sash</h2>
+	<br>
+	<h3 class="subLearn">FOOT AND LEG STRIKES</h3>
+		<br>
 		<ul class="sashExpectations">
 	
 			<li>FRONT POKING KICK</li>
@@ -41,9 +44,10 @@ include $path . 'assets/inc/header.php';
 			<li>FRONT ANGLE TO SIDE THRUSTING KNEE KICKS</li>
 	
 		</ul>
+		<br>
  
-	<h3>CLOSING DRILLS</h3>
-
+	<h3 class="subLearn">CLOSING DRILLS</h3>
+		<br>
 		<ul class="sashExpectations">
 	
 			<li>PAK DA</li>
@@ -57,14 +61,15 @@ include $path . 'assets/inc/header.php';
 			<li>KICKING BAG DRILLS</li>
 			<li>BASIC SELF DEFENSE AGAINST HAND STRIKING , COMBINATIONS, AND KICKS</li>
 			<li>CHUM KIU - SEARCHING THE BRIDGE FORM AND TRANSLATIONS</li>
-			<li>BEGINNING OF ROLLING AND CHANGING OF CHUNG CHI SAO - DOUBLE STICKING HANDS</li>
-	
+			<li>BEGINNING OF ROLLING AND CHANGING OF CHUNG CHI SAO - DOUBLE STICKING HANDS</li>	
 		</ul>
-	
-<h2>Red Sash</h2>
+</div>
 
-	<h3>CHUNG CHI SAO - ATTACKS AND DRILLS</h3>
-
+<div class="sash">
+<h2 id="redStripe">Red Sash</h2>
+	<br>
+	<h3 class="subLearn">CHUNG CHI SAO - ATTACKS AND DRILLS</h3>
+		<br>
 		<ul class="sashExpectations">
 
 			<li>PAK DA</li>
@@ -88,18 +93,20 @@ include $path . 'assets/inc/header.php';
 			<li>TUI MA FOOTWORK</li>
 			
 		</ul>
-		
+		<br>	
 		<ul class="sashExpectations">	
 			<li>BASIC SELF DEFENSE AGAINST KNIFE ATTACKS</li>
 			<li>BIU GEE - THRUSTING FINGERS OR HAND FORM AND TRANSLATION</li>
 			<li>GERT JONG</li>
 			<li>CHI GERT DRILLS</li>
 		</ul>
-		
-<h2>White Sash</h2>
-	
-	<h3>HAND DRILLS - AGAINST HIGH STRAIGHT HANDSTRIKES</h3>
-	
+</div>
+
+<div class="sash">		
+<h2 id="whiteStripe">White Sash</h2>
+	<br>
+	<h3 class="subLearn">HAND DRILLS - AGAINST HIGH STRAIGHT HANDSTRIKES</h3>
+		<br>
 		<ul class="sashExpectations">
 	
 			<li>PAK SAU - SLAPPING HAND</li>
@@ -119,9 +126,9 @@ include $path . 'assets/inc/header.php';
 			<li>PAK SAU / BIU SAU TO A PAK DA ATTACK</li>
 			
 		</ul>
-		
-	<h3>HAND DRILLS - AGAINST HIGH OR LOW HANDS USING DOUBLE BLOCKS</h3>
-	
+	<br>	
+	<h3 class="subLearn">HAND DRILLS - AGAINST HIGH OR LOW HANDS USING DOUBLE BLOCKS</h3>
+	<br>
 		<ul class="sashExpectations">
 		
 			<li>GARN SAU- SPLITTING BLOCK HAND</li>
@@ -129,9 +136,9 @@ include $path . 'assets/inc/header.php';
 			<li>GARN SAU TO KWAN SAU</li>
 			
 		</ul>
-		
-	<h3>HAND DRILLS - AGAINST LOW STRIKES</h3>
-		
+	<br>	
+	<h3 class="subLearn">HAND DRILLS - AGAINST LOW STRIKES</h3>
+	<br>	
 		<ul class="sashExpectations">
 		
 			<li>GUM DA AGAINST THRUSTING OR STRAIGHT LOW STRIKE - PALM PUSH DOWN AND PUNCH</li>
@@ -141,9 +148,9 @@ include $path . 'assets/inc/header.php';
 			<li>DAI BONG SAU - LOW WING ARM</li>
 		
 		</ul>
-		
-	<h3>STANCES</h3>
-	
+	<br>	
+	<h3 class="subLearn">STANCES</h3>
+	<br>
 		<ul class="sashExpectations">
 		
 			<li>YAT JI KIM YEUNG MA- GRABBING GOAT STANCE OR BASIC STANCE</li>
@@ -151,9 +158,9 @@ include $path . 'assets/inc/header.php';
 			<li>BACK HORSE STANCES LEFT AND RIGHT</li>
 			
 		</ul>	
-			
-	<h3>PUNCHING</h3>
-	
+	<br>		
+	<h3 class="subLearn">PUNCHING</h3>
+	<br>
 		<ul class="sashExpectations">
 		
 			<li>YAT JI KUEN - CENTER LINE FIST</li>
@@ -161,9 +168,9 @@ include $path . 'assets/inc/header.php';
 			<li>ADVANCING DOUBLE PUNCH OR COMBINATION PUNCHING</li>
 			
 		</ul>	
-			
-	<h3>FOOTWORK</h3>
-	
+	<br>		
+	<h3 class="subLearn">FOOTWORK</h3>
+	<br>
 		<ul class="sashExpectations">
 		
 			<li>PLUCKING STEPS</li>
@@ -172,24 +179,27 @@ include $path . 'assets/inc/header.php';
 			<li>ANGLE STEPS</li>
 			
 		</ul>	
-		
+	<br>	
 	<ul class="sashExpectations">
-	
 		<li>SIL NIM TAO - LITTLE IDEA FORM - WITH ALL TRANSLATIONS OF THE FORM</li>
 		<li>CHI DAN SAO - SINGLE ARM STICKING HANDS</li>
 		<li>BASIC SELF DEFENSE AGAINST CONTROL MOVEMENTS, HOLDS, AND TACKLING</li>
 		<li>ELBOW STRIKING UP, DOWN, AROUND, SIDE, THROUGH, BACK DRILL</li>
 	
 	</ul>
-	
-<h2>Brown Sash - Fight Level</h2>
 
+</div>
+
+<div class="sash">	
+<h2 id="brownStripe">Brown Sash - Fight Level</h2>
+	<br>
 	<p>IN ORDER TO ADVANCE PAST THIS LEVEL, ONE MUST SHOW PROFICIENCY IN FIGHTING DRILLS AND
 	SPARRING AND BASIC PHYSICAL FITNESS WHICH COULD BE WAIVED FOR AGE, HEALTH, OR TRAINING ON
 	YOUR OWN TIME.</p>
 	
-	<h3>FIGHTING DRILLS</h3>
-	
+	<br>
+	<h3 class="subLearn">FIGHTING DRILLS</h3>
+	<br>
 		<ul class="sashExpectations">
 		
 			<li>REFLEX DRILLS</li>
@@ -200,16 +210,17 @@ include $path . 'assets/inc/header.php';
 			<li>GORE SAO AND CQB DRILLS</li>
 		
 		</ul>
-		
-	<ul class="sashExpectations">	
+	<br>	
+	<ul class="sashExpectations">
 		
 		<li>MOCK YAN JONG - WOODEN DUMMY MAN FORM AND TRANSLATION WHICH INCLUDES THE USAGE OF MOVEMENTS IN SELF DEFENSE</li>
 		<li>BASIC SELF DEFENSE AGAINST GUN</li>
 		
 	</ul>
 	
-	<h3>BALANCE AND STRENGTH EXERCISES</h3>
-	
+	<br>
+	<h3 class="subLearn">BALANCE AND STRENGTH EXERCISES</h3>
+	<br>
 		<ul class="sashExpectations">
 	
 			<li>PUSH UPS DIAMOND, SHOULDER WIDTH KNUCKLE, WIDE WIDTH KNUCKLE</li>
@@ -222,14 +233,17 @@ include $path . 'assets/inc/header.php';
 			<li>BEAM KICKING</li>
 			
 		</ul>
-		
-		
-<h2>Black Sash - Teaching Level</h2>
+		<br>	
+</div>
 
+<div class="sash">		
+<h2 id="blackStripe">Black Sash - Teaching Level</h2>
+	<br>
 	<p>THIS LEVEL IS TEACHING LEVEL. YOU MUST BE PERFECT IN EXPLAINING ALL OF THE SYSTEMS UP TO THIS POINT. 
 	PEOPLE PASSING THIS LEVEL ARE CONSIDERED SIFU OR TEACHERS OF THE SYSTEM AND
 	CAN RUN CLASSES OR A SCHOOL UNDER A MASTER'S NAME AND GUIDANCE.</p>
 	
+	<br>
 	<ul class="sashExpectations">
 	
 		<li>LUK DIM BOON KWAN - 6 1/2 POINT POLE FORM AND TRANSLATION</li>
@@ -240,11 +254,14 @@ include $path . 'assets/inc/header.php';
 		<li>PROFICIENCY IN COMPLETE SYSTEM TEACHING AND USAGE UNTIL THIS POINT</li>
 	
 	</ul>
-	
-<h2>Gold Sash - Master Level</h2>
+</div>
 
-	<h3>MASTERED ALL SYSTEMS, INCLUDING FIGHTING ABILITIES. THIS INCLUDES THE FOLLOWING REQUIREMENTS:</h3>
+<div class="sash">	
+<h2 id="goldStripe">Gold Sash - Master Level</h2>
 	
+	<br>
+	<h3 class="subLearn">MASTERED ALL SYSTEMS, INCLUDING FIGHTING ABILITIES. THIS INCLUDES THE FOLLOWING REQUIREMENTS:</h3>
+	<br>
 		<ul class="sashExpectations">
 		
 			<li>BAAT JAAM DO - EIGHT WAY SLASHING/ CUTTING KNIVES OR SWORDS - FORM AND USAGE IN FIGHTING
@@ -276,6 +293,7 @@ include $path . 'assets/inc/header.php';
 		AND HAND TO HAND SCENARIOS, FIGHTING OFF MULTIPLE ATTACKERS ETC... ETC A WEEKEND OF PURE
 		HELL. THOSE WHO PASS WILL BE PROUD TO BE CALLED A MASTER AND HUMBLE ENOUGH TO JUST BE
 		CALLED TEACHER (SIFU) AND UNDERSTAND WHY.</p>
+</div>
 			
 </body>
 </html>
