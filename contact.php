@@ -25,7 +25,7 @@ include $path . 'assets/inc/header.php';
 	
 	<h2>Ready to Apply?</h2>
 	<p>Contact Us Here For More Info</p>
-	<form action="../../process_gpProj.php" method="POST">
+	<form action="assets/inc/process_gpProj.php" method="POST">
 		First Name: <br>
 		<input type="text" name="fname">
 		<br>
