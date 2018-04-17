@@ -20,10 +20,10 @@ include $path.'assets/inc/header.php';
 
 			<br>
 			<br>
-		<h2>Monday & Wednesday: 6:30 - 8:00 PM</h2>
+		<h2>Monday & Wednesday: 6:30 PM - 8:00 PM</h2>
 			<br>
 			<br>
-		<h2>Thursday: 8:00 AM - 9:00 AM</h2>
+		<h2>Tuesday & Thursday: 8:00 AM - 9:30 AM</h2>
 			<br>
 			<br>
 		<h2>Saturday: 11:00 AM - 12:30 PM</h2>
