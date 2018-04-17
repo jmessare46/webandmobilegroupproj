@@ -45,7 +45,7 @@ include $path.'assets/inc/header.php';
 	  	require $path.'assets/inc/dbInfo.inc';
 		if ($mysqli) {
 		  //IF we are adding a new user
-		  //if( !empty($_GET['name']) && !empty($_GET['event']) ){
+		    if( !empty($_GET['name']) && !empty($_GET['event']) ){
 			/*
 				we are using client entered data - therefore we HAVE TO USE a prepared statement
 				1)prepare my query
