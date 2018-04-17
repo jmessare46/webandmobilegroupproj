@@ -65,7 +65,7 @@ include $path.'assets/inc/header.php';
 				$records[] = $rowHolder;
 			}
 		  }
-		}
+
 	?>
 		<div class="event">
 			<ul>
