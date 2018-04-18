@@ -20,7 +20,7 @@ include $path . 'assets/inc/header.php';
 <!-- Slide show of Martial Arts School -->
 <div id="slideshow">
     <div id="slides">
-        <img src="assets/images/studentpicture.jpg" alt="Students of Master Green" class="slides"/>
+        <img src="assets/images/studentpicture.jpg" alt="Students of Master Green" class="slides" id="current"/>
 
         <img src="assets/images/awardceremony.jpg" alt="Award Ceremony" class="slides"/>
 
