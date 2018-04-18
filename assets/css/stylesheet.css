@@ -45,9 +45,11 @@ h1, h2, h3{
     transition: background-color .3s;
 }
 
-/* Styles the login button */
-#loginLink{
-    margin-left: 15%;
+/* Styles the login button to stay to the right */
+#loginLink
+{
+    position: absolute;
+    right: 0;
 }
 
  /* Makes the mouse turn into a pointer when hovering over the menu
@@ -219,15 +221,25 @@ text-shadow: 2px 2px #FF0000;
   * Styles the history page.
   */
 
+/* Styles the pictures on the timeline */
+.left img
+{
+    width: 20%;
+    float: right;
+
+}
+
 /* The actual timeline (the vertical ruler) */
-.timeline {
+.timeline
+{
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 /* The actual timeline (the vertical ruler) */
-.timeline::after {
+.timeline::after
+{
     content: '';
     position: absolute;
     width: 6px;
@@ -267,13 +279,11 @@ text-shadow: 2px 2px #FF0000;
 /* Styling for each historical event */
 div.left, div.right
 {
-    width: 45%;
     display: block;
     background: lightcoral;
     padding: 10px;
     margin: 10px;
     margin-top: 20px;
-    clear: both;
     border-radius: 10px;
 }
 
@@ -291,17 +301,47 @@ div.left p, div.right p
     padding-left: 10px;
 }
 
-/* Floats the div to the left */
+/* Floats the image to the right */
+.timelinecontainer img
+{
+    width: 40%;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+/* Floats the left picture in the timeline to the left */
+.leftpic
+{
+    float: left;
+}
+
+/* Floats the right picutre in the timeline to the right */
+.rightpic
+{
+    float: right;
+}
+
+/* Sizes the text boxes in the timeline */
 div.left
 {
     float: left;
+    width: 45%;
     border-radius: 10px 0 10px 10px;
+}
+
+/* Makes the container that has the text and picture a certain height */
+.timelinecontainer
+{
+    clear: both;
+    height: 500px;
 }
 
 /* Floats the div to the right */
 div.right
 {
     float: right;
+    width: 45%;
     border-radius: 0 10px 10px 10px;
 }
 
@@ -368,6 +408,26 @@ div.right
     margin-right: auto;
 }
 
+/* Styles the logout button */
+#logout
+{
+    float: right;
+    background-color: lightgray;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Makes the logout button react to being hovered over */
+#logout:hover
+{
+    background-color: gray;
+    cursor: pointer;
+}
+
  /*
   * Styles the home page.
   */
@@ -400,6 +460,7 @@ div.right
     font-size: 30px;
     position: relative;
     opacity: .6;
+    bottom: 270px;
 }
 
 /* Floats the right button to the right */
@@ -430,6 +491,11 @@ div.right
     height: 500px;
 }
 
+/* Makes first slide display */
+img#current
+{
+    display: block;
+}
 
 
  /*

@@ -10,7 +10,7 @@
 if (isset( $_POST['submit'] ))
 {
     $path = './';
-    require $path . 'assets/sql/dbInfo.inc';
+    require $path . 'assets/inc/dbInfo.inc';
     $db = new mysqli("localhost","jwm2957", "necknews","jwm2957");
 
     $uname = $_POST['uname'];

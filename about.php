@@ -138,6 +138,7 @@ include $path.'assets/inc/header.php';
 
      <div class="bio">
          <h3>Sifu Nathan Melenbacker - Assistant Instructor</h3>
+         <img src="assets/images/natemelenbacker.jpeg" alt="Sifu Nathan Melenbacker" />
          <p>
              Nate has over 30 years of experience in the martial arts, starting with Karate styles (Isshin-ryu, Kobudo,
              Kyokushin) and switching to Ving Tsun after meeting Sifu Don Green in 1992.  An Intelligence Specialist and

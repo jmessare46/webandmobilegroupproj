@@ -12,7 +12,7 @@ $page = 'Members Page';
 include $path . 'assets/inc/header.php';
 ?>
 
-<a href="logout.php">Logout</a>
+<a id="logout" href="logout.php">Logout</a>
 <h1 class="title"><?php echo $page ?></h1>
 
 <p>
