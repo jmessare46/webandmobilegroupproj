@@ -45,6 +45,9 @@ include $path . 'assets/inc/header.php';
     </ul>
 </div><br>
 
+<video controls="controls" width="800" height="600"
+       name="Video Name" src="assets/videos/introVideo.mov"></video>
+
 <div onload="slideshow();">
     <h2>How Wing Chun differs from other styles:</h2>
     <p>
