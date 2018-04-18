@@ -19,6 +19,19 @@ h1, h2, h3{
     margin-bottom: 10px;
 }
 
+/*General Link Stylings*/
+a{
+    color: #BF0603;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+    font-style: italic
+}
+
+
 /* Styles the header */
 
 #navBar{
@@ -34,6 +47,7 @@ h1, h2, h3{
     font-size: 26px;
     text-decoration: none;
     color: white;
+    font-style: normal;
 }
 
 #navBar a:hover{
@@ -532,15 +546,15 @@ img#current
    div.classTimes {
    	padding: 15px;
    	margin: 20px;
-   	background-color: black;
-   	color: white;
+   	background-color: white;
+   	color: black;
    }
    
    
    div.pTag {
    	padding: 15px;
 	margin: 20px;
-   	color: white;
+   	color: black;
    
    }
    
