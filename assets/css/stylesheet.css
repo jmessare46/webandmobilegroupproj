@@ -524,4 +524,16 @@ img#current
    
    
    }
+   /* Contact Us CSS */
+input#desc {
+	padding: 1em 0em 1em 0em;
+}
+
+div.contactUs {
+	padding: 0.5em 0em 0.5em 0em;
+}
+
+div#submit {
+	text-align: center;
+}
   
