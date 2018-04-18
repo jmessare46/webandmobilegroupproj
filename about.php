@@ -12,7 +12,6 @@ include $path.'assets/inc/header.php';
 ?>
  <section id="container">
 <h1 id="title"><?php echo $page ?></h1>
-  <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
 
   <!-- Notes For Omar 
 <p>
@@ -147,6 +146,12 @@ include $path.'assets/inc/header.php';
          </p>
      </div><br>
  </div>
+
+ <video controls="controls" width="800" height="600"
+        name="Video Name" src="assets/videos/FAQ1.mov"></video>
+
+ <video controls="controls" width="800" height="600"
+        name="Video Name" src="assets/videos/FAQ2.mov"></video>
  
  <!-- downloads by Joseph Messare 
  
