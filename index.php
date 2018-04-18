@@ -12,9 +12,9 @@ include $path . 'assets/inc/header.php';
 ?>
 <br>
 <div id="indexWrapper">
-    <h2>
+    <h1>
         Moy Don Wing Chun Kung Fu
-    </h2><br>
+    </h1><br>
 
 <!-- Slide show of Martial Arts School -->
     <div id="slideshow">
@@ -42,7 +42,7 @@ include $path . 'assets/inc/header.php';
             <li>Continuous Action Sparring</li>
             <li>Traditional Wing Chun Forms and Weapons</li>
         </ul>
-    </div><br>
+    </div><br><br>
 
     <div onload="slideshow();">
         <h2>How Wing Chun differs from other styles:</h2>

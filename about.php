@@ -12,7 +12,6 @@ include $path.'assets/inc/header.php';
 ?>
  <section id="container">
 <h1 id="title"><?php echo $page ?></h1>
-  <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
 
   <!-- Notes For Omar 
 <p>
