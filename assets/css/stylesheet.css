@@ -1,4 +1,4 @@
-/* Fonts for site: https://fonts.google.com/selection?category=Sans+Serif,Display,Handwriting,Monospace&selection.family=Josefin+Sans|Noto+Sans:400,700 */
+/* Fonts for site: https://fonts.google.com/?category=Sans+Serif,Display,Handwriting,Monospace&selection.family=Josefin+Sans|Montserrat:900|Noto+Sans&thickness=8 */
 *
 {
     padding: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .title
@@ -19,7 +19,7 @@ h1, h2, h3{
     margin-bottom: 10px;
 }
 
-/* Styles the header page */
+/* Styles the header */
 
 #navBar{
     display: flex;
@@ -30,10 +30,8 @@ h1, h2, h3{
 
 #navBar a{
     display: inline-flex;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 28px;
+    padding: 15px;
+    font-size: 26px;
     text-decoration: none;
     color: white;
 }
@@ -54,7 +52,32 @@ h1, h2, h3{
 
  /* Makes the mouse turn into a pointer when hovering over the menu
     items and changes the divs background color */
+/* Styles the Index Page */
+#indexWrapper{
+    margin: 2% 5% 2% 5%;
+    padding: 25px 25px 25px 25px;
+    background-color: #fff;
+}
 
+#indexWrapper h1{
+    text-align: center;
+}
+
+#indexWrapper h2{
+    padding-bottom: 10px;
+}
+
+#indexWrapper p{
+    margin: 10px 20px 10px 20px;
+}
+
+#indexWrapper ul{
+    margin-top: 10px;
+}
+
+#indexWrapper li{
+    margin-left: 5%;
+}
 /*
  * Styles the about page.
  */
@@ -81,11 +104,10 @@ h1, h2, h3{
 }
 
 .about h1{
-	font-family: 'Cinzel Decorative';
 	font-size: 30px; 
 	text-align:center; 
 	font-weight:lighter; 
-	color:#999; 
+	color:#000; 
 	margin-left:50px;  
 	border-bottom: 1px solid #dedede;	
 }
