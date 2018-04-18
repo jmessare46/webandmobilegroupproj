@@ -14,7 +14,7 @@
     <title><?php echo $page;?></title>
     <link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/css/stylesheet.css"/>
     <script rel="script" type="text/javascript" src="<?php echo $path;?>assets/js/functions.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat:900|Noto+Sans" rel="stylesheet">
 </head>
 <body>
 
