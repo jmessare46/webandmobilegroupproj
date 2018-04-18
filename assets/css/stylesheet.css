@@ -541,11 +541,13 @@ img#current
    	padding: 15px;
 	margin: 20px;
    	color: white;
+    text-align: right;
    
    }
-   
-   div.events {
-   
-   
+   div.A {
+       color: white;
+       text-align: right;
+        text-decoration: crimson;
+
    }
   
