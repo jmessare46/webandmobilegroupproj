@@ -10,9 +10,6 @@ $path = './';
 $page = 'Schedule';
 include $path.'assets/inc/header.php';
 ?>
-<html>
-<body>
-
 
 <div class="classTimes">
 
@@ -45,7 +42,7 @@ include $path.'assets/inc/header.php';
 	  	require $path.'assets/inc/dbInfo.inc';
 		if ($mysqli) {
 		  //IF we are adding a new user
-		    if( !empty($_GET['name']) && !empty($_GET['event']) ){
+		    if( !empty($_GET['eventTitle']) && !empty($_GET['eventDesc']) ){
 			/*
 				we are using client entered data - therefore we HAVE TO USE a prepared statement
 				1)prepare my query
@@ -53,31 +50,31 @@ include $path.'assets/inc/header.php';
 				3)execute
 				4)close
 			*/
-			$stmt=$mysqli->prepare("insert into events (eventTitle, eventDesc ) values (?, ?)");
+			$stmt=$mysqli->prepare("INSERT INTO events (eventTitle, eventDesc ) VALUES (?, ?)");
 			$stmt->bind_param("ss",$_GET['eventTitle'],$_GET['eventDesc']);
 			$stmt->execute();
 			$stmt->close();
 		  }
 		  //get contents of table and send back...
-		  $res=$mysqli->query('select date, eventTitle, eventDesc from events');
+		  $res=$mysqli->query('SELECT date, eventTitle, eventDesc FROM events');
 		  if($res){
 			while($rowHolder = mysqli_fetch_array($res,MYSQLI_ASSOC)){
 				$records[] = $rowHolder;
 			}
 		  }
-
+		}
 	?>
 		<div class="event">
-			<ul>
+
 			<?php
-				//var_dump($records);
-				foreach($records as $this_row){
-					echo '<li>'.$this_row['date'] . " " . $this_row['eventTitle']." " . $this_row['eventDesc'].'</li>';
-				}
+					//var_dump($records);
+					foreach($records as $this_row){
+						echo '<li>'.$this_row['date'] . " " . $this_row['eventTitle']." " . $this_row['eventDesc'].'</li>';
+					}
 			?>
-			</ul>
+
+			</div>
 		</div>
-	</div>
-	<hr>
- </body>
+		<hr>
+	</body>
 </html>
