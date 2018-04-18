@@ -39,7 +39,7 @@ include $path.'assets/inc/header.php';
 	<div class="events">
 	<?php
 	    $path = './';
-	  	require $path.'assets/inc/dbInfo.inc';
+	  	require $path.'assets/sql/dbInfo.inc';
 		if ($mysqli) {
 		  //IF we are adding a new user
 		    if( !empty($_GET['eventTitle']) && !empty($_GET['eventDesc']) ){
