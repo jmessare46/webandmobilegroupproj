@@ -2,7 +2,7 @@
 /**
  * Kung Fu site Schedule page.
  *
- * @version 4/2/18
+ * @version 4/19/18
  * @author Rachael Simmonds
  */
 
@@ -10,9 +10,6 @@ $path = './';
 $page = 'Schedule';
 include $path.'assets/inc/header.php';
 ?>
-<html>
-<body>
-
 
 <div class="classTimes">
 
@@ -34,57 +31,44 @@ include $path.'assets/inc/header.php';
 		<div class="pTag">
 			<p>For those who would like private lessons, </p>
 			<p>you are able to schedule a time on the CONTACT US tab. </p>
-
+            <div class="A">
 			<a href="contact.php">Contact Us</a>
+			</div>
 		</div>
 </div>
 
 	<div class="events">
 	<?php
 	    $path = './';
-	  	require $path.'assets/inc/dbInfo.inc';
+	  	require $path.'../../../dbInfo.php';
 		if ($mysqli) {
-		  //IF we are adding a new user
-		  //if( !empty($_GET['name']) && !empty($_GET['event']) ){
-			/*
-				we are using client entered data - therefore we HAVE TO USE a prepared statement
-				1)prepare my query
-				2)bind
-				3)execute
-				4)close
-			*/
-			$stmt=$mysqli->prepare("insert into events (eventTitle, eventDesc ) values (?, ?)");
-			$stmt->bind_param("ss",$_GET['eventTitle'],$_GET['eventDesc']);
-			$stmt->execute();
-			$stmt->close();
-		  }
+
 		  //get contents of table and send back...
-		  $res=$mysqli->query('select date, eventTitle, eventDesc from events');
+		  $res=$mysqli->query('SELECT date, eventTitle, eventDesc FROM events');
 		  if($res){
 			while($rowHolder = mysqli_fetch_array($res,MYSQLI_ASSOC)){
 				$records[] = $rowHolder;
-			}
-		  }
+			}// end of while
+		  }// end of if
+			//var_dump($records);
+		}// end of if-mysqli
+		else {
+			echo "<h1> Error Connecting to Database</h1>";
+		}
+
 
 	?>
 		<div class="event">
-			<ul>
+
 			<?php
-				//var_dump($records);
-				foreach($records as $this_row){
-					echo '<li>'.$this_row['date'] . " " . $this_row['eventTitle']." " . $this_row['eventDesc'].'</li>';
-				}
+					//var_dump($records);
+					foreach($records as $this_row){
+						echo '<li>'.$this_row['date'] . " " . $this_row['eventTitle']." " . $this_row['eventDesc'].'</li>';
+					}
 			?>
-			</ul>
+
+			</div>
 		</div>
-	</div>
-	<hr>
- </body>
+		<hr>
+	</body>
 </html>
-
-
-
-
-
-
-
