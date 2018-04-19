@@ -71,16 +71,17 @@ include $path.'assets/inc/header.php';
 	
 		<tr>
 			<td>
-				<h3>Our Mission</h3>
-					<p>What is our mission! our mission for now is to finish creating this web page</p>
-			</td>
-			<td>
-				<h3>Our Core Values </h3>
-					<p> our core values are nothing! but to teach kids and adult to defend themselves </p>
-			</td>
-			<td>
-				<h3>Our Promise</h3>
-					<p> What is our mission! our mission for now is to finish creating this web page </p>
+				<h3>Our Mission</h3> 
+					<p><span>P</span>ass on <em>IP man Wing Chung</em>   style and further their teachings.</p> 
+ 			</td> 
+ 			<td> 
+				<h3>Our Promise</h3> 
+					<p><span>W</span>e pledge to create a supportive, passionate, safe Environment that, which will 
+					create men and women capable of defending themselves others and to develop and further their character make them the best selves they can possibly be.</p> 
+ 			</td> 
+ 			<td> 
+				<h3>Our Core Values </h3> 
+					<p><span>T</span>each authentic martial arts that aren’t diluted for generations to come.</p> 
 			</td>
 		</tr>
 
@@ -100,7 +101,7 @@ include $path.'assets/inc/header.php';
              would train in several other forms of combat. Green trained Tiger Claw on the weekends and other forms of Martial
              Arts such as Chito Ryu Karate, Ju Jit Su, Judo, Greco Roman and Free Style Wrestling, Boxing, and Kick Boxing on other days.
              During this time, Master Green competed in many point tournaments, winning several, and also started doing full-contact 
-	     no rules fighting. He also took several seminars in Wing Chun, but could not find a teacher (Sifu) close
+			 no rules fighting. He also took several seminars in Wing Chun, but could not find a teacher (Sifu) close
              enough to take lessons from.</p> 
 
 	     <p>When Master Green arrived in his first duty station in the Navy, he was able to take
