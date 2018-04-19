@@ -649,6 +649,7 @@ img#current
   */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    div.classTimes {
    	padding: 15px;
    	margin: 20px;
@@ -672,6 +673,8 @@ img#current
    }
   
 =======
+=======
+>>>>>>> ac55e23ffbd70ab10920187500135cf4c6e57029
 div.classTimes
 {
     padding: 15px;
@@ -685,6 +688,13 @@ div.pTag
     padding: 15px;
     margin: 20px;
     color: white;
+}
+
+div.A 
+{
+    color: white;
+    text-align: right;
+    text-decoration: crimson;
 }
 
 /*
@@ -719,4 +729,7 @@ div.pTag
     }
 
 }
+<<<<<<< HEAD
 >>>>>>> master
+=======
+>>>>>>> ac55e23ffbd70ab10920187500135cf4c6e57029
