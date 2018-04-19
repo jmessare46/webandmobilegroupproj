@@ -28,7 +28,9 @@ h1, h2, h3{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-#navBar a{
+/* Styles the links in the navigation bar */
+#navBar a
+{
     display: inline-flex;
     padding: 15px;
     font-size: 26px;
@@ -198,39 +200,46 @@ span{
   * Styles the curriculum page.
   */
   
-.sash{
+.sash
+{
 	padding: 10px;
 	border: 1px solid black;
 	margin: 10px;	
-//	display: inline-block;
+	display: inline-block;
 	clear: both;
 	float: left;
 	width: 90%;
 }
 
-.subLearn{
+.subLearn
+{
 	overflow: hidden;
 	display: inline-block;
 	clear: both;
 }
 
-.sashExpectations{
+.sashExpectations
+{
 	list-style-type: square;
 	list-style-position: inside;
 	display: inline-block;
 	clear: both;
 }
-#greenStripe{
+
+#greenStripe
+{
 	padding: 10px;	
 	background-color: green;
 }
 
-#redStripe{
+#redStripe
+{
 	padding: 10px;
 	background-color: red;
 }
 
-#whiteStripe{
+#whiteStripe
+{
 	padding: 10px;
 	background-color: white;
 }
@@ -252,9 +261,9 @@ span{
 }
  
 
- /*
-  * Styles the history page.
-  */
+/*
+ * Styles the history page.
+ */
 
 /* Styles the pictures on the timeline */
 .left img
@@ -463,9 +472,9 @@ div.right
     cursor: pointer;
 }
 
- /*
-  * Styles the home page.
-  */
+/*
+ * Styles the home page.
+ */
 
 /* Formats the slide show container */
 #slideshow
@@ -538,27 +547,46 @@ img#current
   */
 
 
+
  /*
   * Styles the schedule page.
   */
 
-   div.classTimes {
-   	padding: 15px;
-   	margin: 20px;
-   	background-color: black;
-   	color: white;
-   }
+div.classTimes
+{
+    padding: 15px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
    
    
-   div.pTag {
-   	padding: 15px;
-	margin: 20px;
-   	color: white;
-   
-   }
-   
-   div.events {
-   
-   
-   }
-  
+div.pTag
+{
+    padding: 15px;
+    margin: 20px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 1000px)
+{
+    /* Makes the text in the nav bar get smaller */
+    #navBar a
+    {
+        padding: 11px;
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (max-width: 750px)
+{
+    /* Makes the text in the nav bar get smaller */
+    #navBar a
+    {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+}
