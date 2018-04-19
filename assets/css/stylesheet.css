@@ -1,4 +1,4 @@
-/* Fonts for site: https://fonts.google.com/?category=Sans+Serif,Display,Handwriting,Monospace&selection.family=Josefin+Sans|Montserrat:900|Noto+Sans&thickness=8 */
+/* Fonts for site: https://fonts.google.com/selection?category=Sans+Serif,Display,Handwriting,Monospace&selection.family=Josefin+Sans|Noto+Sans:400,700 */
 *
 {
     padding: 0;
@@ -11,13 +11,26 @@ body {
 }
 
 h1, h2, h3{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .title
 {
     margin-bottom: 10px;
 }
+
+/*General Link Stylings*/
+a{
+    color: #BF0603;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+    font-style: italic
+}
+
 
 /* Styles the header */
 
@@ -28,12 +41,17 @@ h1, h2, h3{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-#navBar a{
+/* Styles the links in the navigation bar */
+#navBar a
+{
     display: inline-flex;
-    padding: 15px;
-    font-size: 26px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 28px;
     text-decoration: none;
     color: white;
+    font-style: normal;
 }
 
 #navBar a:hover{
@@ -52,37 +70,15 @@ h1, h2, h3{
 
  /* Makes the mouse turn into a pointer when hovering over the menu
     items and changes the divs background color */
-/* Styles the Index Page */
-#indexWrapper{
-    margin: 2% 5% 2% 5%;
-    padding: 25px 25px 25px 25px;
-    background-color: #fff;
-}
-
-#indexWrapper h1{
-    text-align: center;
-}
-
-#indexWrapper h2{
-    padding-bottom: 10px;
-}
-
-#indexWrapper p{
-    margin: 10px 20px 10px 20px;
-}
-
-#indexWrapper ul{
-    margin-top: 10px;
-}
 
 #indexWrapper li{
     margin-left: 5%;
 }
-/*
- * Styles the about page.
- */
+
+/*############################################# Styles About page starts here. ######################## */
  #container{
 	width:900px;
+	height:2070px;
 	background-color: white;
 	margin: 0 auto 80px;
 	margin-top: -8px;
@@ -104,16 +100,17 @@ h1, h2, h3{
 }
 
 .about h1{
+	font-family: 'Cinzel Decorative';
 	font-size: 30px; 
 	text-align:center; 
 	font-weight:lighter; 
-	color:#000; 
+	color:#999; 
 	margin-left:50px;  
 	border-bottom: 1px solid #dedede;	
 }
 
 .about p{
-	font-family:'Times New Roman', Times, serif;
+	font-family:monospace;
 	color:#000;
 	font-size:smaller; 
 	padding:15px; 
@@ -135,30 +132,48 @@ h1, h2, h3{
 	width:100%;
 	height:230px; 
 	background-color:#f5f6f6;
-	padding-top:15%;
+	padding-top:inherit;
+	padding:10px;
 }
 
 #mission td{
-	padding:20px;
+	padding:15px;
+	width:10%;
 }
 
 #mission h3{
 text-align:center;
-text-shadow: 2px 2px #FF0000;
+text-shadow: 2px 2px red;
+}
+
+span{
+	
+	color:crimson;
+	font-size:1.5em;
 }
 
 .instructors{
-	 padding: 15px;
-	 font-family: sans-serif;
-	 background-color:#80bdc3;
-	 text-align:justify;
+	padding: 15px;
+	font-family: monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    text-align:justify;
  }
- 
- .instructors instructor1{
-	 background:red;
+ .bio .intructor1 .intructor2{
+	 float:left;
  }
+.bio #insPic{
+	float: left;
+	width:300px;
+    height:300px;
+	padding-right:50px;
+}
 
- /* Styles the about Page Ends here */
+ /*############################################# Styles About page Ends here. ######################## */
+ 
  
  /* The actual timeline (the vertical ruler) */
  .timeline {
@@ -174,51 +189,150 @@ text-shadow: 2px 2px #FF0000;
      width: 6px;
      background-color: white;
  }
+ 
+/*############################################# Styles the contact page starts here. ######################## */
+ #wrapper{
+	width:900px;
+	background-color: white;
+	margin: 0 auto 80px;
+	margin-top: 15%;
+	padding: 20px 80px 50px 80px;
+	 
+ }
+  #banner {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+}
+  /*Css for form structure*/
+  .formStyle{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;;
+}
+/*css for "Contact us Header */
+.formStyle h1{
+    background: #65796b;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+/*Css for form inputs*/
+.formStyle input[type="text"],
+.formStyle input[type="number"],
+.formStyle input[type="email"],
+.formStyle input[type="search"],
+.formStyle textarea,
+.formStyle select 
+{
+    width: 93%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #32ab46;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+/*Css for Submit Button */
+.formStyle input[type="submit"],
+.formStyle input[type="button"]{
 
- /*
-  * Styles the contact page.
-  */
+    width: 100%;
+    padding: 3%;
+    background: #65796b;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+}
+.formStyle input[type="submit"]:hover,
+.formStyle input[type="button"]:hover{
+    background: green;
+}
+/*############################################# Styles the contact page Ends here. ######################## */
 	   
-   
+#contactus
+{
+    background-color: lightgray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#contactus input, #contactus textarea
+{
+    padding: 10px;
+    width: 35%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input#submit
+{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
  /*
   * Styles the curriculum page.
   */
   
-.sash{
+.sash
+{
 	padding: 10px;
 	border: 1px solid black;
 	margin: 10px;	
-//	display: inline-block;
+	display: inline-block;
 	clear: both;
 	float: left;
 	width: 90%;
 }
 
-.subLearn{
+.subLearn
+{
 	overflow: hidden;
 	display: inline-block;
 	clear: both;
 }
 
-.sashExpectations{
+.sashExpectations
+{
 	list-style-type: square;
 	list-style-position: inside;
 	display: inline-block;
 	clear: both;
+	margin-bottom: 15px;
 }
-#greenStripe{
+
+#greenStripe
+{
 	padding: 10px;	
 	background-color: green;
 }
 
-#redStripe{
+#redStripe
+{
 	padding: 10px;
 	background-color: red;
 }
 
-#whiteStripe{
+#whiteStripe
+{
 	padding: 10px;
 	background-color: white;
 }
@@ -238,11 +352,14 @@ text-shadow: 2px 2px #FF0000;
 	padding: 10px;
 	background-color: gold;
 }
- 
 
- /*
-  * Styles the history page.
-  */
+#curHead{
+	padding-left: 10px;
+} 
+
+/*
+ * Styles the history page.
+ */
 
 /* Styles the pictures on the timeline */
 .left img
@@ -451,9 +568,9 @@ div.right
     cursor: pointer;
 }
 
- /*
-  * Styles the home page.
-  */
+/*
+ * Styles the home page.
+ */
 
 /* Formats the slide show container */
 #slideshow
@@ -526,10 +643,12 @@ img#current
   */
 
 
+
  /*
   * Styles the schedule page.
   */
 
+<<<<<<< HEAD
    div.classTimes {
    	padding: 15px;
    	margin: 20px;
@@ -622,3 +741,59 @@ img#fb {
 	float: right;
 }
   
+=======
+div.classTimes
+{
+    padding: 15px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+div.pTag
+{
+    padding: 15px;
+    margin: 20px;
+    color: white;
+}
+
+div.A 
+{
+    color: white;
+    text-align: right;
+    text-decoration: crimson;
+}
+
+/*
+ * Styles the members page.
+ */
+
+/* Styles the videos on the members page */
+#videos video
+{
+    align-items: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    /* Makes the text in the nav bar get smaller */
+    #navBar a
+    {
+        padding: 11px;
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (max-width: 750px)
+{
+    /* Makes the text in the nav bar get smaller */
+    #navBar a
+    {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+}
+>>>>>>> master
