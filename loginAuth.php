@@ -18,7 +18,7 @@ else
 }*/
 session_start();
 $path = './';
-require $path . 'assets/inc/dbInfo.inc';
+require $path . 'assets/inc/dbInfo.php';
 
 // Records user name and password submissions
 $uname = $_POST['uname'];

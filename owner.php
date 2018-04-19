@@ -8,7 +8,7 @@
 
 session_start();
 $path = './';
-require $path . 'assets/inc/dbInfo.inc';
+require $path . 'assets/inc/dbInfo.php';
 
 // Check if the passwords are the same
 // If there is uname, pass, pass2 and both pass and pass2 match
