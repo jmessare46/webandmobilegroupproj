@@ -150,7 +150,7 @@
       <workItem from="1522885124781" duration="3270000" />
       <workItem from="1523970629026" duration="74000" />
       <workItem from="1524061517455" duration="77000" />
-      <workItem from="1524084934971" duration="1019000" />
+      <workItem from="1524084934971" duration="1280000" />
     </task>
     <task id="LOCAL-00001" summary="Changed id of title to class">
       <created>1522693322440</created>
@@ -177,7 +177,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10298000" />
+    <option name="totallyTimeSpent" value="10559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="617" y="16" width="727" height="788" extended-state="0" />

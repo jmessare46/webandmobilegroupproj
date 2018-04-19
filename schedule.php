@@ -2,7 +2,7 @@
 /**
  * Kung Fu site Schedule page.
  *
- * @version 4/2/18
+ * @version 4/19/18
  * @author Rachael Simmonds
  */
 
@@ -40,30 +40,23 @@ include $path.'assets/inc/header.php';
 	<div class="events">
 	<?php
 	    $path = './';
-	  	require $path.'assets/sql/dbInfo.inc';
+	  	require $path.'../../../dbInfo.inc';
 		if ($mysqli) {
-		  //IF we are adding a new user
-		    if( !empty($_GET['eventTitle']) && !empty($_GET['eventDesc']) ){
-			/*
-				we are using client entered data - therefore we HAVE TO USE a prepared statement
-				1)prepare my query
-				2)bind
-				3)execute
-				4)close
-			*/
-			$stmt=$mysqli->prepare("INSERT INTO events (eventTitle, eventDesc ) VALUES (?, ?)");
-			$stmt->bind_param("ss",$_GET['eventTitle'],$_GET['eventDesc']);
-			$stmt->execute();
-			$stmt->close();
-		  }
+
 		  //get contents of table and send back...
 		  $res=$mysqli->query('SELECT date, eventTitle, eventDesc FROM events');
 		  if($res){
 			while($rowHolder = mysqli_fetch_array($res,MYSQLI_ASSOC)){
 				$records[] = $rowHolder;
-			}
-		  }
+			}// end of while
+		  }// end of if
+			//var_dump($records);
+		}// end of if-mysqli
+		else {
+			echo "<h1> Error Connecting to Database</h1>";
 		}
+
+
 	?>
 		<div class="event">
 
