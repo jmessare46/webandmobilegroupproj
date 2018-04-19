@@ -193,7 +193,31 @@ span{
   * Styles the contact page.
   */
 	   
-   
+#contactus
+{
+    background-color: lightgray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#contactus input, #contactus textarea
+{
+    padding: 10px;
+    width: 35%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input#submit
+{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
  /*
