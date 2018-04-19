@@ -1,3 +1,4 @@
+/* Fonts for site: https://fonts.google.com/selection?category=Sans+Serif,Display,Handwriting,Monospace&selection.family=Josefin+Sans|Noto+Sans:400,700 */
 *
 {
     padding: 0;
@@ -5,8 +6,12 @@
 }
 
 body {
-    background-color: #7EBDC2;
-    font-family: Helvetica, sans-serif;
+    background-color: #DEEEEF;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .title
@@ -14,48 +19,66 @@ body {
     margin-bottom: 10px;
 }
 
-/* Styles the header page */
+/*General Link Stylings*/
+a{
+    color: #BF0603;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+    font-style: italic
+}
+
+
+/* Styles the header */
 
 #navBar{
     display: flex;
     width: 100%;
     background-color: #001427;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-#navBar a{
+/* Styles the links in the navigation bar */
+#navBar a
+{
     display: inline-flex;
     padding: 10px;
-    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 28px;
     text-decoration: none;
     color: white;
+    font-style: normal;
 }
 
 #navBar a:hover{
     cursor: pointer;
     text-shadow: 2px 2px #001427;
     background-color: #BF0603;
-    transition: background-color 1s;
+    transition: background-color .3s;
 }
 
-#loginLink{
-    background-color: #BF0603;
-}
-
-
-/* Styles the login button */
-#loginLink{
-    margin-left: 27%;
-    background-color: #BF0603;
+/* Styles the login button to stay to the right */
+#loginLink
+{
+    position: absolute;
+    right: 0;
 }
 
  /* Makes the mouse turn into a pointer when hovering over the menu
     items and changes the divs background color */
 
-/*
- * Styles the about page.
- */
+#indexWrapper li{
+    margin-left: 5%;
+}
+
+/*############################################# Styles About page starts here. ######################## */
  #container{
 	width:900px;
+	height:2070px;
 	background-color: white;
 	margin: 0 auto 80px;
 	margin-top: -8px;
@@ -87,7 +110,7 @@ body {
 }
 
 .about p{
-	font-family:'Times New Roman', Times, serif;
+	font-family:monospace;
 	color:#000;
 	font-size:smaller; 
 	padding:15px; 
@@ -109,35 +132,48 @@ body {
 	width:100%;
 	height:230px; 
 	background-color:#f5f6f6;
-	padding-top:15%;
+	padding-top:inherit;
+	padding:10px;
 }
 
 #mission td{
-	padding:20px;
+	padding:15px;
+	width:10%;
 }
 
 #mission h3{
 text-align:center;
-text-shadow: 2px 2px #FF0000;
+text-shadow: 2px 2px red;
+}
+
+span{
+	
+	color:crimson;
+	font-size:1.5em;
 }
 
 .instructors{
-	 padding: 15px;
-	 family-font: sans-serif;
-	 background-color:#80bdc3;
-	 text-align:justify;
+	padding: 15px;
+	font-family: monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    text-align:justify;
  }
+ .bio .intructor1 .intructor2{
+	 float:left;
+ }
+.bio #insPic{
+	float: left;
+	width:300px;
+    height:300px;
+	padding-right:50px;
+}
+
+ /*############################################# Styles About page Ends here. ######################## */
  
- .instructors instructor1{
-	 background:red;
- }
-
- /* Styles the about Page Ends here */
-
- body {
-     background-color: #474e5d;
-     font-family: Helvetica, sans-serif;
- }
  
  /* The actual timeline (the vertical ruler) */
  .timeline {
@@ -153,50 +189,150 @@ text-shadow: 2px 2px #FF0000;
      width: 6px;
      background-color: white;
  }
+ 
+/*############################################# Styles the contact page starts here. ######################## */
+ #wrapper{
+	width:900px;
+	background-color: white;
+	margin: 0 auto 80px;
+	margin-top: 15%;
+	padding: 20px 80px 50px 80px;
+	 
+ }
+  #banner {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+}
+  /*Css for form structure*/
+  .formStyle{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;;
+}
+/*css for "Contact us Header */
+.formStyle h1{
+    background: #65796b;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+/*Css for form inputs*/
+.formStyle input[type="text"],
+.formStyle input[type="number"],
+.formStyle input[type="email"],
+.formStyle input[type="search"],
+.formStyle textarea,
+.formStyle select 
+{
+    width: 93%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #32ab46;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+/*Css for Submit Button */
+.formStyle input[type="submit"],
+.formStyle input[type="button"]{
 
- /*
-  * Styles the contact page.
-  */
+    width: 100%;
+    padding: 3%;
+    background: #65796b;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+}
+.formStyle input[type="submit"]:hover,
+.formStyle input[type="button"]:hover{
+    background: green;
+}
+/*############################################# Styles the contact page Ends here. ######################## */
 	   
-   
+#contactus
+{
+    background-color: lightgray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#contactus input, #contactus textarea
+{
+    padding: 10px;
+    width: 35%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input#submit
+{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
  /*
   * Styles the curriculum page.
   */
   
-.sash{
+.sash
+{
 	padding: 10px;
-	border: 1px solid white;
-	margin-bottom: 10px;
-	overflow: hidden;
+	border: 1px solid black;
+	margin: 10px;	
 	display: inline-block;
 	clear: both;
 	float: left;
+	width: 90%;
 }
 
-.subLearn{
+.subLearn
+{
 	overflow: hidden;
 	display: inline-block;
 	clear: both;
 }
 
-.sashExpectations{
-	overflow: hidden;
+.sashExpectations
+{
+	list-style-type: square;
+	list-style-position: inside;
 	display: inline-block;
 	clear: both;
+	margin-bottom: 15px;
 }
-#greenStripe{
+
+#greenStripe
+{
 	padding: 10px;	
 	background-color: green;
 }
 
-#redStripe{
+#redStripe
+{
 	padding: 10px;
 	background-color: red;
 }
 
-#whiteStripe{
+#whiteStripe
+{
 	padding: 10px;
 	background-color: white;
 }
@@ -216,21 +352,34 @@ text-shadow: 2px 2px #FF0000;
 	padding: 10px;
 	background-color: gold;
 }
- 
 
- /*
-  * Styles the history page.
-  */
+#curHead{
+	padding-left: 10px;
+} 
+
+/*
+ * Styles the history page.
+ */
+
+/* Styles the pictures on the timeline */
+.left img
+{
+    width: 20%;
+    float: right;
+
+}
 
 /* The actual timeline (the vertical ruler) */
-.timeline {
+.timeline
+{
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 /* The actual timeline (the vertical ruler) */
-.timeline::after {
+.timeline::after
+{
     content: '';
     position: absolute;
     width: 6px;
@@ -270,13 +419,11 @@ text-shadow: 2px 2px #FF0000;
 /* Styling for each historical event */
 div.left, div.right
 {
-    width: 45%;
     display: block;
     background: lightcoral;
     padding: 10px;
     margin: 10px;
     margin-top: 20px;
-    clear: both;
     border-radius: 10px;
 }
 
@@ -294,17 +441,47 @@ div.left p, div.right p
     padding-left: 10px;
 }
 
-/* Floats the div to the left */
+/* Floats the image to the right */
+.timelinecontainer img
+{
+    width: 40%;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+/* Floats the left picture in the timeline to the left */
+.leftpic
+{
+    float: left;
+}
+
+/* Floats the right picutre in the timeline to the right */
+.rightpic
+{
+    float: right;
+}
+
+/* Sizes the text boxes in the timeline */
 div.left
 {
     float: left;
+    width: 45%;
     border-radius: 10px 0 10px 10px;
+}
+
+/* Makes the container that has the text and picture a certain height */
+.timelinecontainer
+{
+    clear: both;
+    height: 500px;
 }
 
 /* Floats the div to the right */
 div.right
 {
     float: right;
+    width: 45%;
     border-radius: 0 10px 10px 10px;
 }
 
@@ -371,9 +548,29 @@ div.right
     margin-right: auto;
 }
 
- /*
-  * Styles the home page.
-  */
+/* Styles the logout button */
+#logout
+{
+    float: right;
+    background-color: lightgray;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Makes the logout button react to being hovered over */
+#logout:hover
+{
+    background-color: gray;
+    cursor: pointer;
+}
+
+/*
+ * Styles the home page.
+ */
 
 /* Formats the slide show container */
 #slideshow
@@ -403,6 +600,7 @@ div.right
     font-size: 30px;
     position: relative;
     opacity: .6;
+    bottom: 270px;
 }
 
 /* Floats the right button to the right */
@@ -433,6 +631,11 @@ div.right
     height: 500px;
 }
 
+/* Makes first slide display */
+img#current
+{
+    display: block;
+}
 
 
  /*
@@ -440,10 +643,12 @@ div.right
   */
 
 
+
  /*
   * Styles the schedule page.
   */
 
+<<<<<<< HEAD
    div.classTimes {
    	padding: 15px;
    	margin: 20px;
@@ -458,4 +663,137 @@ div.right
    	color: white;
    
    }
+   
+   div.events {
+   
+   
+   }
+   /* Contact Us CSS */
+   /*editting the text inputs */
+input#desc {
+	padding: 1em 0em 1em 0em;
+	width: 250px;
+}
+
+input#submit {
+	height: 2em;
+	width: 3em;
+	font-size: 20px;
+	text-decoration: none;
+	border: none;
+	background-color: #001427;
+	color: #DEEEEF;
+}
+
+input#submit:hover{
+	cursor: pointer;
+	color: #001427;
+	background-color: #DEEEEF;
+}
+
+input.text {
+	width: 250px;
+}
+div#contact {
+	margin: auto;
+	width: 500px;
+	border: 3px solid none/* blue */;
+}
+/* editting the div with in contact us */
+div.contactUs {
+	padding: 0.5em 0em 0.5em 0em;
+	text-align: center;
+}
+
+div#fname {
+	padding:0em 182px 0em 0em;
+}
+
+div#lname {
+	padding:0em 182px 0em 0em;
+}
+
+div#pnum {
+	padding:0em 137px 0em 0em;
+}
+
+div#eMail {
+	padding:0em 224px 0em 0em;
+}
+
+div#txtDesc {
+	padding:0em 178px 0em 0em;
+}
+div#submit {
+	text-align: center;
+}
+
+div#contactTitle {
+	text-align: center;
+}
+.asterick {
+	color: red;
+}
+/* facebook logo */
+img#fb {
+	height: 50px;
+	width: auto;
+	float: right;
+}
   
+=======
+div.classTimes
+{
+    padding: 15px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+div.pTag
+{
+    padding: 15px;
+    margin: 20px;
+    color: white;
+}
+
+div.A 
+{
+    color: white;
+    text-align: right;
+    text-decoration: crimson;
+}
+
+/*
+ * Styles the members page.
+ */
+
+/* Styles the videos on the members page */
+#videos video
+{
+    align-items: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    /* Makes the text in the nav bar get smaller */
+    #navBar a
+    {
+        padding: 11px;
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (max-width: 750px)
+{
+    /* Makes the text in the nav bar get smaller */
+    #navBar a
+    {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+}
+>>>>>>> master

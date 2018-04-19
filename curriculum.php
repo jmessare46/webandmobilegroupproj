@@ -14,223 +14,234 @@ include $path . 'assets/inc/header.php';
 
 <h1 class="title"><?php echo $page ?></h1>
 
-<h2>Progression</h2>
-	<p>Progression in Wing Chun is denoted through various colored sashes. Moy Don will teach all the way 
-	up to Master level, the gold sash. Expectations for each sash are detailed below.</p>
-	
+<div id="curHead">
+	<h2>Progression</h2>
+		<p>Progression in Wing Chun is denoted through various colored sashes. Moy Don will teach all the way 
+		up to Master level, the gold sash. Expectations for each sash are detailed below.</p>
+</div>
 	<br>
 
 <div class="sash">	
 <h2 id="greenStripe">Green Sash</h2>
 	<br>
-	<h3 class="subLearn">FOOT AND LEG STRIKES</h3>
+	<h3 class="subLearn">Foot and Leg Strikes</h3>
 		<br>
 		<ul class="sashExpectations">
 	
-			<li>FRONT POKING KICK</li>
-			<li>FRONT STOMPING KICK</li>
-			<li>FRONT PUSH KICK</li>
-			<li>ANGLE FRONT KICK</li>
-			<li>SIDE KICK DEFENSIVE</li>
-			<li>SIDE KICK OFFENSIVE</li>
-			<li>SIDE KICK SKIPPING IN</li>
-			<li>SIDE KNEE</li>
-			<li>FRONT KNEE</li>
-			<li>CHIN KICK FRONT</li>
-			<li>CHIN KICK SIDE</li>
-			<li>INSIDE FOOT SWEEP</li>
-			<li>OUTSIDE FOOT SWEEP</li>
-			<li>LOW TO HIGH REPEATING ANGLE FRONT KICK</li>
-			<li>FRONT ANGLE TO SIDE THRUSTING KNEE KICKS</li>
+			<li>Front Poking Kick</li>
+			<li>Front Stomping Kick</li>
+			<li>Front Push Kick</li>
+			<li>Angled Front Kick</li>
+			<li>Defensive Side Kick</li>
+			<li>Offensive Side Kick</li>
+			<li>Skipping In Side Kick</li>
+			<li>Side Knee</li>
+			<li>Front Knee</li>
+			<li>Chin Kick Front</li>
+			<li>Chin Kick Side</li>
+			<li>Inside Foot Sweep</li>
+			<li>Outside Foot Sweep</li>
+			<li>Low to High Repeating Angle Front Kick</li>
+			<li>Front Angle to Side Thrusting Knee Kicks</li>
 	
 		</ul>
 		<br>
  
-	<h3 class="subLearn">CLOSING DRILLS</h3>
+	<h3 class="subLearn">Closing Drills</h3>
 		<br>
 		<ul class="sashExpectations">
 	
-			<li>PAK DA</li>
-			<li>TAN DA</li>
-			<li>LOP DA WITH CIRCLE STEP</li>
-			<li>BIU JEE TO SKIP IN SIDE KICK</li>
-			<li>LOW ANGLE FRONT KICK TO KNEE TO PAK DA</li>
-			<li>LOW POKING KICK TO GROIN TO PAK DA</li>
-			<li>LOP DA / TAN LOP DA DRILL</li>
-			<li>FOCUS GLOVE DRILLS</li>
-			<li>KICKING BAG DRILLS</li>
-			<li>BASIC SELF DEFENSE AGAINST HAND STRIKING , COMBINATIONS, AND KICKS</li>
-			<li>CHUM KIU - SEARCHING THE BRIDGE FORM AND TRANSLATIONS</li>
-			<li>BEGINNING OF ROLLING AND CHANGING OF CHUNG CHI SAO - DOUBLE STICKING HANDS</li>	
+			<li>Pak Da</li>
+			<li>Tan Da</li>
+			<li>Lop Da with Circle Step</li>
+			<li>Biu Jee to Skip in Side Kick</li>
+			<li>Low Angle Front Kick to Knee to Pak Da</li>
+			<li>Low Poking Kick to Groin to Pak Da</li>
+			<li>Lop Da / Tan Lop Da Drill</li>
+			<li>Focus Glove Drills</li>
+			<li>Kicking Bag Drills</li>
+			<li>Basic Self Defense Against Hand Striking, Combinations, and Kicks</li>
+			<li>Chum Kiu - Searching the Bridge Form and Translations</li>
+			<li>Beginning of Rolling and Changing of Chung Chi Sao - Double Sticking Hands</li>	
 		</ul>
 </div>
 
 <div class="sash">
 <h2 id="redStripe">Red Sash</h2>
 	<br>
-	<h3 class="subLearn">CHUNG CHI SAO - ATTACKS AND DRILLS</h3>
+	<h3 class="subLearn">Chung Chi Sao - Attacks and Drills</h3>
 		<br>
 		<ul class="sashExpectations">
 
-			<li>PAK DA</li>
-			<li>LOP DA</li>
-			<li>DA OR DIM</li>
-			<li>TAN DA OUTSIDE</li> 
-			<li>TAN DA INSIDE</li>
-			<li>SHIFTING PUNCH</li>
-			<li>GARN DA</li>
-			<li>GARN SAO</li>
-			<li>KWAN SAU</li>
-			<li>BONG SAO PRESS</li>
-			<li>BIU SAO</li>
-			<li>JUM SAO - DROPPING ELBOW</li>
-			<li>ALL STRIKES OFF OF CHANGE</li>
-			<li>PAI JARN ELBOW TRAP</li>
-			<li>ALL BIU JEE FORM ATTACKS</li>
-			<li>JUT DA</li>
-			<li>PERFORMING ATTACK DOUBLE TOOK SAU ELBOW LIFTING ARM AND KICK</li>
-			<li>PERFORMING ATTACK DOUBLE LOP DA CIRCLE STEP SWEEP</li>
-			<li>TUI MA FOOTWORK</li>
+			<li>Pak Da</li>
+			<li>Lop Da</li>
+			<li>Da Or Dim</li>
+			<li>Tan Da Outside</li>
+			<li>Tan Da Inside</li>
+			<li>Shifting Punch</li>
+			<li>Garn Da</li>
+			<li>Garn Sao</li>
+			<li>Kwan Sao</li>
+			<li>Bong Sao Press</li>
+			<li>Biu Sao</li>
+			<li>Jum Sao - Dropping Elbow</li>
+			<li>All Strikes off of Change</li>
+			<li>Pai Jarn Elbow Trap</li>
+			<li>All Biu Jee Form Attacks</li>
+			<li>Jut Da</li>
+			<li>Performing Attack Double Took Sau Elbow Lifting Arm and Kick</li>
+			<li>Performing Attack Double Lop Da Circle Step Sweep</li>
+			<li>Tui Ma Footwork</li>
 			
 		</ul>
-		<br>	
+		<br>
+
+	<h3 class="subLearn">Other Requirements</h3>
+	<br>	
 		<ul class="sashExpectations">	
-			<li>BASIC SELF DEFENSE AGAINST KNIFE ATTACKS</li>
-			<li>BIU GEE - THRUSTING FINGERS OR HAND FORM AND TRANSLATION</li>
-			<li>GERT JONG</li>
-			<li>CHI GERT DRILLS</li>
+			<li>Basic Self Defense Against Knife Attacks</li>
+			<li>Biu Gee - Thrusting Fingers or Hand Form and Translation</li>
+			<li>Gert Jong</li>
+			<li>Chi Gert Drills</li>
 		</ul>
 </div>
 
 <div class="sash">		
 <h2 id="whiteStripe">White Sash</h2>
 	<br>
-	<h3 class="subLearn">HAND DRILLS - AGAINST HIGH STRAIGHT HANDSTRIKES</h3>
+	<h3 class="subLearn">Hand Drills - Against High Straight Handstrikes</h3>
 		<br>
 		<ul class="sashExpectations">
 	
-			<li>PAK SAU - SLAPPING HAND</li>
-			<li>PAK SAU WITH SHIFT</li>
-			<li>PAK DA - SLAPPING HAND WITH PUNCH</li>
-			<li>TAN DA TO THE INSIDE GATE- PALM UP HAND WITH PUNCH</li>
-			<li>TAN DA TO THE OUTSIDE GATE</li>
-			<li>LOP DA - PULL PUNCH</li>
-			<li>BONG SAU - WING UP HAND</li>
-			<li>BONG / LOP DA - WING UP HAND TO PULL PUNCH</li>
-			<li>BONG/ LOP DA TO TAN DA</li>
-			<li>WRONG WAY BONG SAU</li>
-			<li>WRONG WAY BONG SAU TO PAK DA</li>
-			<li>WRONG WAY BONG SAU TO TAN DA</li>
-			<li>PAK SAU / BIU SAU</li>
-			<li>PAK SAU / BIU SAU TO A TAN DA ATTACK</li>
-			<li>PAK SAU / BIU SAU TO A PAK DA ATTACK</li>
+			<li>Pak Sau - Slapping Hand</li>
+			<li>Pak Sau with Shift</li>
+			<li>Pak Da - Slapping Hand with Punch</li>
+			<li>Tan Da to the Inside Gate - Palm Up Hand with Punch</li>
+			<li>Tan Da to the Outside Gate</li>
+			<li>Lop Da - Pull Punch</li>
+			<li>Bong Sau - Wing Up Hand</li>
+			<li>Bong / Lop Da - Wing Up Hand to Pull Punch</li>
+			<li>Bong / Lop Da to Tan Da</li>
+			<li>Wrong Way Bong Sau</li>
+			<li>Wrong Way Bong Sau to Pak Da</li>
+			<li>Wrong Way Bong Sau to Tan Da</li>
+			<li>Pak Sau / Biu Sau</li>
+			<li>Pak Sau / Biu Sau to a Tan Da Attack</li>
+			<li>Pak Sau / Biu Sau to a Pak Da Attack</li>
 			
 		</ul>
 	<br>	
-	<h3 class="subLearn">HAND DRILLS - AGAINST HIGH OR LOW HANDS USING DOUBLE BLOCKS</h3>
+	<h3 class="subLearn">Hand Drills - Against High or Low Hands Using Double Blocks</h3>
 	<br>
 		<ul class="sashExpectations">
 		
-			<li>GARN SAU- SPLITTING BLOCK HAND</li>
-			<li>KWAN SAU- ROTATING POLE ARMS</li>
-			<li>GARN SAU TO KWAN SAU</li>
+			<li>Garn Sau - Splitting Block Hand</li>
+			<li>Kwan Sau - Rotating Pole Arms</li>
+			<li>Garn Sau to Kwan Sau</li>
 			
 		</ul>
 	<br>	
-	<h3 class="subLearn">HAND DRILLS - AGAINST LOW STRIKES</h3>
+	<h3 class="subLearn">Hand Drills - Against Low Strikes</h3>
 	<br>	
 		<ul class="sashExpectations">
 		
-			<li>GUM DA AGAINST THRUSTING OR STRAIGHT LOW STRIKE - PALM PUSH DOWN AND PUNCH</li>
-			<li>GUM DA AGAINST A LOW UPPER CUT</li>
-			<li>GARN DA INSIDE GATE - SPLITTING HAND AND PUNCH</li>
-			<li>GARN DA OUTSIDE GATE</li>
-			<li>DAI BONG SAU - LOW WING ARM</li>
+			<li>Gum Da Against Thrusting or Straight Low Strike - Palm Push Down and Punch</li>
+			<li>Gum Da Against a Low Uppercut</li>
+			<li>Garn Da Inside Gate - Splitting Hand and Punch</li>
+			<li>Garn Da Outside Gate</li>
+			<li>Dai Bong Sau - Low Wing Arm</li>
 		
 		</ul>
 	<br>	
-	<h3 class="subLearn">STANCES</h3>
+
+	<h3 class="subLearn">Hand Drills - Against Hook Strikes</h3>
+	<br>
+		<ul class="sashExpectations">
+
+			<li>Go Bong Da - High Wing Arm and Punch</li>
+			<li>Ging Da - Hook Hand and Punch</li>
+		</ul>
+	<br>
+
+	<h3 class="subLearn">Stances</h3>
 	<br>
 		<ul class="sashExpectations">
 		
-			<li>YAT JI KIM YEUNG MA- GRABBING GOAT STANCE OR BASIC STANCE</li>
-			<li>SIDE FACING STANCES LEFT AND RIGHT</li>
-			<li>BACK HORSE STANCES LEFT AND RIGHT</li>
+			<li>Yat Ji Kim Yeung Ma - Grabbing Goat Stance or Basic Stance</li>
+			<li>Side Facing Stances Left and Right</li>
+			<li>Back Horse Stances Left and Right</li>
 			
 		</ul>	
 	<br>		
-	<h3 class="subLearn">PUNCHING</h3>
+	<h3 class="subLearn">Punching</h3>
 	<br>
 		<ul class="sashExpectations">
 		
-			<li>YAT JI KUEN - CENTER LINE FIST</li>
-			<li>SHIFTING PUNCH</li>
-			<li>ADVANCING DOUBLE PUNCH OR COMBINATION PUNCHING</li>
+			<li>Yat Ji Kuen - Center Line Fist</li>
+			<li>Shifting Punch</li>
+			<li>Advancing Double Punch or Combination Punching</li>
 			
 		</ul>	
 	<br>		
-	<h3 class="subLearn">FOOTWORK</h3>
+	<h3 class="subLearn">Footwork</h3>
 	<br>
 		<ul class="sashExpectations">
 		
-			<li>PLUCKING STEPS</li>
-			<li>CIRCLE STEPS</li>
-			<li>SHIFTING</li>
-			<li>ANGLE STEPS</li>
+			<li>Plucking Steps</li>
+			<li>Circle Steps</li>
+			<li>Shifting</li>
+			<li>Angle Steps</li>
 			
 		</ul>	
-	<br>	
-	<ul class="sashExpectations">
-		<li>SIL NIM TAO - LITTLE IDEA FORM - WITH ALL TRANSLATIONS OF THE FORM</li>
-		<li>CHI DAN SAO - SINGLE ARM STICKING HANDS</li>
-		<li>BASIC SELF DEFENSE AGAINST CONTROL MOVEMENTS, HOLDS, AND TACKLING</li>
-		<li>ELBOW STRIKING UP, DOWN, AROUND, SIDE, THROUGH, BACK DRILL</li>
+	<br>
+
+	<h3 class="subLearn">Other Requirements</h3>
+	<br>
 	
-	</ul>
+		<ul class="sashExpectations">
+			<li>Sil Tim Nao - Little Idea Form - With all Translations of the Form</li>
+			<li>Chi Dan Sao - Single Arm Sticking Hands</li>
+			<li>Basic Self Defense Against Control Movements, Holds, and Tackling</li>
+			<li>Elbow Striking Up, Down, Around, Side, Through, and Back Drill</li>
+		
+		</ul>
 
 </div>
 
 <div class="sash">	
 <h2 id="brownStripe">Brown Sash - Fight Level</h2>
 	<br>
-	<p>IN ORDER TO ADVANCE PAST THIS LEVEL, ONE MUST SHOW PROFICIENCY IN FIGHTING DRILLS AND
-	SPARRING AND BASIC PHYSICAL FITNESS WHICH COULD BE WAIVED FOR AGE, HEALTH, OR TRAINING ON
-	YOUR OWN TIME.</p>
+	<p>In order to advance past this level, one must show proficiency in fighting drills, sparring, and basic physical fitness. This can be waived for age, health, or training on your own time.</p>
 	
 	<br>
-	<h3 class="subLearn">FIGHTING DRILLS</h3>
+	<h3 class="subLearn">Fighting Drills</h3>
 	<br>
 		<ul class="sashExpectations">
 		
-			<li>REFLEX DRILLS</li>
-			<li>SET SPARRING</li>
-			<li>CONTINUOUS ACTION SPARRING</li>
-			<li>THE TERMINATOR DRILL</li>
-			<li>HAND AND BODY CONDITIONING</li>
-			<li>GORE SAO AND CQB DRILLS</li>
+			<li>Reflex Drills</li>
+			<li>Set Sparring</li>
+			<li>Continuous Action Sparring</li>
+			<li>The Terminator Drill</li>
+			<li>Hand and Body Conditioning</li>
+			<li>Gore Sao and CQB Drills</li>
+			<li>Mock Yan Jong - Wooden Dummy Man Form and Translation, which includes usage of movements in self defense</li>
+			<li>Basic Self Defense Against a Gun</li>
 		
 		</ul>
-	<br>	
-	<ul class="sashExpectations">
-		
-		<li>MOCK YAN JONG - WOODEN DUMMY MAN FORM AND TRANSLATION WHICH INCLUDES THE USAGE OF MOVEMENTS IN SELF DEFENSE</li>
-		<li>BASIC SELF DEFENSE AGAINST GUN</li>
-		
-	</ul>
 	
 	<br>
-	<h3 class="subLearn">BALANCE AND STRENGTH EXERCISES</h3>
+	<h3 class="subLearn">Balance and Strength Exercises Begin</h3>
 	<br>
 		<ul class="sashExpectations">
 	
-			<li>PUSH UPS DIAMOND, SHOULDER WIDTH KNUCKLE, WIDE WIDTH KNUCKLE</li>
-			<li>BALANCE DRILL FRONT, SIDE, BACK, FRONT</li>
-			<li>BREAK FALLS</li>
-			<li>SHOULDER ROLLS FRONT, BACK, SIDE</li>
-			<li>SIT UPS AND CRUNCHES</li>
-			<li>DEEP KNEE BENDS</li>
-			<li>BAG STRIKING</li>
-			<li>BEAM KICKING</li>
+			<li>Pushups - Diamond, Shoulder Width Knuckle, and Wide Width Knuckle</li>
+			<li>Balance Drills - Front, Side, Back, and Front</li>
+			<li>Break Falls</li>
+			<li>Shoulder Rolls - Front, Back, and Side</li>
+			<li>Sit Ups and Crunches</li>
+			<li>Deep Knee Bends</li>
+			<li>Bag Striking</li>
+			<li>Beam Kicking</li>
 			
 		</ul>
 		<br>	
@@ -239,19 +250,21 @@ include $path . 'assets/inc/header.php';
 <div class="sash">		
 <h2 id="blackStripe">Black Sash - Teaching Level</h2>
 	<br>
-	<p>THIS LEVEL IS TEACHING LEVEL. YOU MUST BE PERFECT IN EXPLAINING ALL OF THE SYSTEMS UP TO THIS POINT. 
-	PEOPLE PASSING THIS LEVEL ARE CONSIDERED SIFU OR TEACHERS OF THE SYSTEM AND
-	CAN RUN CLASSES OR A SCHOOL UNDER A MASTER'S NAME AND GUIDANCE.</p>
+	<p>This level is teaching level. You must be perfect in explaining the entire system up to this point. Anyone passing this level is considered Sifu (or teacher) of the system and can run classes or a school under a master's name and guidance.</p>
 	
 	<br>
+
+	<h3 class="subLearn">Sifu Requirements</h3>
+	<br>
+
 	<ul class="sashExpectations">
 	
-		<li>LUK DIM BOON KWAN - 6 1/2 POINT POLE FORM AND TRANSLATION</li>
-		<li>USAGE OF POLE IN COMBATIVE TECHNIQUES</li>
-		<li>CHI KWAN OR STICKING POLE</li>
-		<li>TEACHING CLASSES IN SCHOOL AND GRADED IN HOW YOU CAN EXPLAIN SYSTEM</li>
-		<li>BASIC SELF DEFENSE AGAINST CLUB AND BAT</li>
-		<li>PROFICIENCY IN COMPLETE SYSTEM TEACHING AND USAGE UNTIL THIS POINT</li>
+		<li>Luk Dim Boon Kwan - 6 1/2 Point Pole Form and Translation</li>
+		<li>Usage of Pole in Combative Techniques</li>
+		<li>Chi Kwan or Sticking Pole</li>
+		<li>Teaching Classes in School and Grading - you will be graded in how well you can explain systems.</li>
+		<li>Basic Self Defense Against Club and Bat</li>
+		<li>Proficiency in Complete System Teaching and Usage Up to this Point</li>
 	
 	</ul>
 </div>
@@ -260,39 +273,37 @@ include $path . 'assets/inc/header.php';
 <h2 id="goldStripe">Gold Sash - Master Level</h2>
 	
 	<br>
-	<h3 class="subLearn">MASTERED ALL SYSTEMS, INCLUDING FIGHTING ABILITIES. THIS INCLUDES THE FOLLOWING REQUIREMENTS:</h3>
+	<h3 class="subLearn">Mastered all systems, including fighting abilities. This has the following requirements:</h3>
 	<br>
 		<ul class="sashExpectations">
 		
-			<li>BAAT JAAM DO - EIGHT WAY SLASHING/ CUTTING KNIVES OR SWORDS - FORM AND USAGE IN FIGHTING
-			BASIC SELF DEFENSE AGAINST ADVANCED WEAPONRY SUCH AS SWINGING WEAPONS AND DISTANCE</li>
+			<li>Baat Jaam Do - Eight Way Slashing / Cutting Knives or Swords - Form and Usage in Fighting</li>
+	
+			<li>Basic Self Defense Against Advanced Weaponry, such as Swinging Weapons and Distance</li>
 			
-			<li>WEAPONS, INCLUDING DUAL WEAPONS USED IN PAIRS</li>
+			<li>Weapons, Including Dual Weapons Used in Pairs</li>
 			
-			<li>CONTINUOUS SPARRING AGAINST MULTIPLE OPPONENTS ONE AFTER ANOTHER OR CIRCLE OF IRON</li>
-			
-			<li>DRILL AND ONSLAUGHT DRILLS</li>
-			
-			<li>A FULL WEEKEND OF TESTING OF ALL TYPES OF MENTAL, ORAL, WRITTEN, PHYSICAL, AND SPIRITUAL CHALLENGES</li>
-			
-			<li>YOU WILL FULLY UNDERSTAND BOTH THE INTERNAL AND EXTERNAL NATURE OF VING TSUN (WING CHUN)</li>
-			
-			<li>PERFECT KNOWLEDGE OF THE ART, ITS ORIGIN, HISTORY, LINEAGE, EXPLANATION, AND UTILIZATION OF
-			ALL TECHNIQUES.</li>
-			
-			<li>PERFECT MASTERY OF YOURSELF AND THE ART</li>
-			
-			<li>ONE MUST SHOW DISCIPLINE , HUMILITY, CONFIDENCE, COMPASSION, CONTROL, AND HUMANITY</li>
-			
-		</ul>
+			<li>Continuous Sparring Against Multiple Opponents, One after Another, or the Circle of Iron</li>
+
+			<li>Drill and Onslaught Drills</li>
 		
-		<p>ADVANCED PHYSICAL FITNESS FOR THOSE UNDER FORTY OR THOSE ABLE TO BY A DOCTORS RELEASE
-		JOIN WHO IS OVER FORTY. THIS INCLUDES LONG DISTANCE RUNNING, MANY DIFFERENT SPRINTS,
-		SPARRING, DRILLS, EXERCISES AND ALL UNDER DURESS AND HIGH STRESS INCLUDING A GAUNTLET
-		THAT WILL TEST YOUR ABILITY TO HANDLE HIGH STRESS SITUATIONS, DEFENSE AGAINST ALL WEAPONS
-		AND HAND TO HAND SCENARIOS, FIGHTING OFF MULTIPLE ATTACKERS ETC... ETC A WEEKEND OF PURE
-		HELL. THOSE WHO PASS WILL BE PROUD TO BE CALLED A MASTER AND HUMBLE ENOUGH TO JUST BE
-		CALLED TEACHER (SIFU) AND UNDERSTAND WHY.</p>
+			<li>A Full Weekend of Testing of All Types of Mental, Oral, Written, Physical, and Spiritual Challenges</li>
+
+			<li>You will fully understand both the internal and external nature of Wing Chun</li>
+			
+			<li>Perfect knowledge of the art, its origin, history, lineage, explanation, and utilization of all techniques.</li>
+			
+			<li>Perfect mastery of yourself and the art</li>
+			
+			<li>One must show discipline, humility, confidence, compassion, control, and humanity</li>
+			<br>	
+		</ul>
+
+		<p>Advanced physical fitness for those under forty or those over forty who are able to join by a doctor's release. This includes long distance running,
+		many different sprints, sparring, drills, and other various exercises. All of these are to be done  under duress and high stress including a gauntlet
+		that will test your ability to handle these kinds of situations. Defense against all weapons as well as hand to hand scenarios and fighting off multiple 
+		attackers will also be tested. This is a weekend of pure hell. Those who pass will be proud to be called a master and humble enough to be simply called 
+		Sifu (teacher) and understand why.</p>
 </div>
 			
 </body>

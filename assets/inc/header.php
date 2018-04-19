@@ -14,6 +14,7 @@
     <title><?php echo $page;?></title>
     <link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/css/stylesheet.css"/>
     <script rel="script" type="text/javascript" src="<?php echo $path;?>assets/js/functions.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat:900|Noto+Sans" rel="stylesheet">
 </head>
 <body>
 
@@ -26,6 +27,24 @@
     <a href="curriculum.php">Curriculum</a>
     <a href="schedule.php">Classes & Events</a>
     <div id="loginLink">
-        <a href="login.php">Members</a>
+        <a href="login.php"><?php
+            if(session_id() == '' || !isset($_SESSION))
+            {
+                // Session isn't started
+                session_start();
+                session_name("Login");
+            }
+
+            // If user is logged in echos Members if not echos Login
+            if(isset($_SESSION['uname']))
+            {
+                echo "Members";
+            }
+            else
+            {
+                echo "Login";
+            }
+        ?>
+        </a>
     </div>
 </nav><br>
