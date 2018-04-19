@@ -583,8 +583,7 @@ div.classTimes
     background-color: black;
     color: white;
 }
-   
-   
+
 div.pTag
 {
     padding: 15px;
@@ -592,6 +591,16 @@ div.pTag
     color: white;
 }
 
+/*
+ * Styles the members page.
+ */
+
+/* Styles the videos on the members page */
+#videos video
+{
+    align-items: center;
+    padding: 10px;
+}
 
 @media only screen and (max-width: 1000px)
 {
