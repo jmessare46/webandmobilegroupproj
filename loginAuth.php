@@ -7,49 +7,39 @@
  */
 
 // If login is clicked
-if (isset( $_POST['submit'] ))
+/*if (isset( $_POST['submit'] ))
 {
-    session_start();
-    $path = './';
-    require $path . 'assets/inc/dbInfo.inc';
-    $db = new mysqli("localhost","jwm2957", "necknews","jwm2957");
 
-    $uname = $_POST['uname'];
-    $pass = $_POST['psw'];
-
-    $queryString = "SELECT * FROM members WHERE uname = '$uname'";
-
-    $result = $db->query($queryString);
-    if ($result)
-    {
-        // Gets results from database
-        $user = $result->fetch_assoc();
-
-        // Checks to make sure username and password match the database record
-        if($user['uname'] == $uname && $user['pass'] == $pass)
-        {
-            session_name("Login");
-            $_SESSION['uname'] = $user;
-            $_SESSION['pass'] = $pass;
-
-            // Sends authenticated user to members page
-            header( "Location: member.php" );
-        }
-        else
-        {
-            // Redirects to login page
-            header( "Location: login.php" );
-        }
-    }
-    else
-    {
-        // Redirects to login page
-        header( "Location: login.php" );
-    }
 }
 else
 {
     // Redirects to login page
     header( "Location: login.php" );
-}
-?>
+}*/
+session_start();
+$path = './';
+require $path . 'assets/inc/dbInfo.inc';
+
+// Records user name and password submissions
+$uname = $_POST['uname'];
+$pass = $_POST['psw'];
+
+// Prepares the query for the DB
+$stmt = $mysqli->prepare("SELECT pass FROM members WHERE uname = ?");
+$stmt->bind( "s", $_POST['uname']);
+
+// Go, do it
+$stmt->execute();
+
+// Need the results from that select
+$stmt->bind_result($res);
+$stmt->fetch();
+
+// Verify that the correct password is given
+if(password_verify($_POST['pass'], $res))
+{
+    $_SESSION['login'] = true;
+    $_SESSION['name'] = $_POST['uname'];
+
+    header('Location: member.php');
+}?>
