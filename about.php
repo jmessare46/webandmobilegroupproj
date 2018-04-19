@@ -41,7 +41,7 @@ include $path.'assets/inc/header.php';
 <h1>About Moy Don Wing Chun Kung Fu</h1><br>
 	<div id="moyoverview">
 		
-		<p> Moy Don Wing Chun 
+		<p> Moy Don Wing Chun!! do we have a content for this section! watch Ip Man on netflix before you take any moy don wing chun kung fu classes! kung fu is the best! wax-on-wax off! 
 		</p>
 
 	</div><br>
@@ -62,12 +62,12 @@ include $path.'assets/inc/header.php';
 					<p><span>P</span>ass on <em>IP man Wing Chung</em>   style and further their teachings.</p>
 			</td>
 			<td>
-				<h3>Our Core Values </h3>
-					<p><span>T</span>each authentic martial arts that aren’t diluted for generations to come.</p>
-			</td>
-			<td>
 				<h3>Our Promise</h3>
 					<p><span>W</span>e pledge to create a supportive, passionate, safe Environment that, which will create men and women capable of defending themselves others and to develop and further their character make them the best selves they can possibly be.</p>
+			</td>
+			<td>
+				<h3>Our Core Values </h3>
+					<p><span>T</span>each authentic martial arts that aren’t diluted for generations to come.</p>
 			</td>
 		</tr>
 
@@ -115,7 +115,7 @@ include $path.'assets/inc/header.php';
              Record Archives suite 208.
          </p><br>
 
-		  <div id="instructor1">
+		  <div class="instructor1">
 		   <h3>Adam Dunn - Assistant Instructor</h3>
 		 <img src="assets/images/natemelenbacker.jpeg" alt="Nate" id="insPic"/><br>
 		 <p>Adam first became involved with Ving Tsun in 1998. His lack of prior experience lead to rather superficial desires and expectations from the art. It soon became obvious that Ving Tsun was not what he had been seeking, but the efficiency, efficacy, and logic of the art resonated so strongly with him that he never
@@ -123,11 +123,12 @@ include $path.'assets/inc/header.php';
           ceremony to date was performed in 2005, and it was at this time that Adam became a disciple. He was
           extremely proud to be awarded his gold sash and the title of Sifu in 2011. Adam continues to act in the
           role of senior instructor until such time as he chooses to take on students of his own. </p>
-		 </div>
-		 <hr>
+		 </div><br><br><br><br><br>
+		 <hr><br>
 		 <div class="instructor2">
 			<h3>Sifu Nathan Melenbacker - Assistant Instructor</h3>
-				 <p><img src="assets/images/natemelenbacker.jpeg" id ="insPic"alt="Nate"/>    Nate has over 30 years of experience in the martial arts, starting with Karate styles (Isshin-ryu, Kobudo, Kyokushin) and switching to Ving Tsun after meeting Sifu Don Green in 1992.  An Intelligence Specialist and Gulf War Navy Veteran, Nate achieved Gold Sash level along with his training partner, Sifu Adam Dunn, in 2011.</p>
+				 <img src="assets/images/natemelenbacker.jpeg" id ="insPic"alt="Nate"/><br>
+				 <p>Nate has over 30 years of experience in the martial arts, starting with Karate styles (Isshin-ryu, Kobudo, Kyokushin) and switching to Ving Tsun after meeting Sifu Don Green in 1992.  An Intelligence Specialist and Gulf War Navy Veteran, Nate achieved Gold Sash level along with his training partner, Sifu Adam Dunn, in 2011.</p>
 			  </div>
 		</div>
 		

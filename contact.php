@@ -14,7 +14,22 @@ include $path . 'assets/inc/header.php';
 <h1 class="title"><?php echo $page ?></h1>
 
 <body>
+ <img src="assets/images/contact-us.png" id="banner" alt="Contact us Banner"/>
 	
+ <section id="wrapper">
+  <div class="formStyle">
+	<h1>Contact Us</h1>
+		<form action="assets/inc/process_gpProj.php" method="POST">
+			<input type="text" name="name" placeholder="Your Name" required />
+			<input type="number" name="number" placeholder="Phone Number" required />
+			<input type="email" name="email" placeholder="Email Address" required />
+			<textarea name="msg" placeholder="Type your Message"></textarea>
+			<input type="submit" value="Send" />
+		</form>
+  </div>
+ </section>
+	
+	<!-- Kenan stuff
 	<p>
 		Phone: 123-456-7890
 	</p>
@@ -44,6 +59,7 @@ include $path . 'assets/inc/header.php';
 		<br>
 		<input type="submit" value="Submit">
 	</form>
+	-->
 
 </body>
 </html>
