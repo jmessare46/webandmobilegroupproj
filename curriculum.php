@@ -14,10 +14,11 @@ include $path . 'assets/inc/header.php';
 
 <h1 class="title"><?php echo $page ?></h1>
 
-<h2>Progression</h2>
-	<p>Progression in Wing Chun is denoted through various colored sashes. Moy Don will teach all the way 
-	up to Master level, the gold sash. Expectations for each sash are detailed below.</p>
-	
+<div id="curHead">
+	<h2>Progression</h2>
+		<p>Progression in Wing Chun is denoted through various colored sashes. Moy Don will teach all the way 
+		up to Master level, the gold sash. Expectations for each sash are detailed below.</p>
+</div>
 	<br>
 
 <div class="sash">	
@@ -75,7 +76,7 @@ include $path . 'assets/inc/header.php';
 			<li>Pak Da</li>
 			<li>Lop Da</li>
 			<li>Da Or Dim</li>
-			<li>Tan Da Outside</li> 
+			<li>Tan Da Outside</li>
 			<li>Tan Da Inside</li>
 			<li>Shifting Punch</li>
 			<li>Garn Da</li>
@@ -93,7 +94,10 @@ include $path . 'assets/inc/header.php';
 			<li>Tui Ma Footwork</li>
 			
 		</ul>
-		<br>	
+		<br>
+
+	<h3 class="subLearn">Other Requirements</h3>
+	<br>	
 		<ul class="sashExpectations">	
 			<li>Basic Self Defense Against Knife Attacks</li>
 			<li>Biu Gee - Thrusting Fingers or Hand Form and Translation</li>
@@ -189,14 +193,18 @@ include $path . 'assets/inc/header.php';
 			<li>Angle Steps</li>
 			
 		</ul>	
-	<br>	
-	<ul class="sashExpectations">
-		<li>Sil Tim Nao - Little Idea Form - With all Translations of the Form</li>
-		<li>Chi Dan Sao - Single Arm Sticking Hands</li>
-		<li>Basic Self Defense Against Control Movements, Holds, and Tackling</li>
-		<li>Elbow Striking Up, Down, Around, Side, Through, and Back Drill</li>
+	<br>
+
+	<h3 class="subLearn">Other Requirements</h3>
+	<br>
 	
-	</ul>
+		<ul class="sashExpectations">
+			<li>Sil Tim Nao - Little Idea Form - With all Translations of the Form</li>
+			<li>Chi Dan Sao - Single Arm Sticking Hands</li>
+			<li>Basic Self Defense Against Control Movements, Holds, and Tackling</li>
+			<li>Elbow Striking Up, Down, Around, Side, Through, and Back Drill</li>
+		
+		</ul>
 
 </div>
 
@@ -216,15 +224,10 @@ include $path . 'assets/inc/header.php';
 			<li>The Terminator Drill</li>
 			<li>Hand and Body Conditioning</li>
 			<li>Gore Sao and CQB Drills</li>
+			<li>Mock Yan Jong - Wooden Dummy Man Form and Translation, which includes usage of movements in self defense</li>
+			<li>Basic Self Defense Against a Gun</li>
 		
 		</ul>
-	<br>	
-	<ul class="sashExpectations">
-		
-		<li>Mock Yan Jong - Wooden Dummy Man Form and Translation, which includes usage of movements in self defense</li>
-		<li>Basic Self Defense Against a Gun</li>
-		
-	</ul>
 	
 	<br>
 	<h3 class="subLearn">Balance and Strength Exercises Begin</h3>
@@ -250,6 +253,10 @@ include $path . 'assets/inc/header.php';
 	<p>This level is teaching level. You must be perfect in explaining the entire system up to this point. Anyone passing this level is considered Sifu (or teacher) of the system and can run classes or a school under a master's name and guidance.</p>
 	
 	<br>
+
+	<h3 class="subLearn">Sifu Requirements</h3>
+	<br>
+
 	<ul class="sashExpectations">
 	
 		<li>Luk Dim Boon Kwan - 6 1/2 Point Pole Form and Translation</li>
@@ -278,7 +285,7 @@ include $path . 'assets/inc/header.php';
 			
 			<li>Continuous Sparring Against Multiple Opponents, One after Another, or the Circle of Iron</li>
 
-			<li>Drill and Onslaught Drills<li>
+			<li>Drill and Onslaught Drills</li>
 		
 			<li>A Full Weekend of Testing of All Types of Mental, Oral, Written, Physical, and Spiritual Challenges</li>
 
@@ -289,7 +296,7 @@ include $path . 'assets/inc/header.php';
 			<li>Perfect mastery of yourself and the art</li>
 			
 			<li>One must show discipline, humility, confidence, compassion, control, and humanity</li>
-			
+			<br>	
 		</ul>
 
 		<p>Advanced physical fitness for those under forty or those over forty who are able to join by a doctor's release. This includes long distance running,

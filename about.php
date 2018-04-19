@@ -12,6 +12,7 @@ include $path.'assets/inc/header.php';
 ?>
  <section id="container">
 <h1 id="title"><?php echo $page ?></h1>
+  <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
 
   <!-- Notes For Omar 
 <p>
@@ -40,14 +41,7 @@ include $path.'assets/inc/header.php';
 <h1>About Moy Don Wing Chun Kung Fu</h1><br>
 	<div id="moyoverview">
 		
-		<p> This is section will introduce Moy don wing chun kunfu adfdsfadfdsfsdfsdfsdfsdk fjasldfjasdlfjklkdjflasdjkflsdakfjasdlfjasdlfkasjdflskdjflsdkfjsladkfjasldkfjasdlfkjasdlfkjsdf
-			sdfsdklfjsdflsdkjflakjdlfkjlkjalkdjflkjkkkdkkdkdkkdk  can we please finish with this group shit!! it's due in like a week and our page looks terrible
-			
-			
-			Master Donald Green (aka Moy Don) is a Master at Wing Chun (Ving Tsun) Kung-Fu. He started his journey in the Martial Arts at the age of 6 yrs. old for three years he learned 
-			Chito Ryu Karate , Ju Jit Su, Judo, Greco Roman and Free Style Wrestling, Boxing, and Kick Boxing. During this time also Master Green competed in many point tournaments winning 
-			several and also started in full contact no rules fighting Brown to name a few. This took its toll on Master Green and he took Grandmaster Moy Yat’s advice and trained with his student now Grandmaster Dunn Wah (Sunny) Tang in Toronto, Canada. He earned his Gold Sash or mastery of the system under Grandmaster Tang in 1993. He also competed for team Canada and continued fighting all over the world Canadian Championships, European Championships and many five star ranked tournaments world wide including three full contact Muay Thai matches in Thailand winning all three. He then returned to Grandmaster Moy Yat and became his disciple in a Bise ceremony.
-			He stayed with Grandmaster Moy Yat until his death and achieved mastery of the system through him before 
+		<p> Moy Don Wing Chun!! do we have a content for this section! watch Ip Man on netflix before you take any moy don wing chun kung fu classes! kung fu is the best! wax-on-wax off! 
 		</p>
 
 	</div><br>
@@ -65,15 +59,15 @@ include $path.'assets/inc/header.php';
 		<tr>
 			<td>
 				<h3>Our Mission</h3>
-					<p>What is our mission! our mission for now is to finish creating this web page</p>
-			</td>
-			<td>
-				<h3>Our Core Values </h3>
-					<p> our core values are nothing! but to teach kids and adult to defend themselves </p>
+					<p><span>P</span>ass on <em>IP man Wing Chung</em>   style and further their teachings.</p>
 			</td>
 			<td>
 				<h3>Our Promise</h3>
-					<p> What is our mission! our mission for now is to finish creating this web page </p>
+					<p><span>W</span>e pledge to create a supportive, passionate, safe Environment that, which will create men and women capable of defending themselves others and to develop and further their character make them the best selves they can possibly be.</p>
+			</td>
+			<td>
+				<h3>Our Core Values </h3>
+					<p><span>T</span>each authentic martial arts that aren’t diluted for generations to come.</p>
 			</td>
 		</tr>
 
@@ -119,39 +113,26 @@ include $path.'assets/inc/header.php';
              Martial Arts Hall of Fame and received several rewards for teaching Martial Arts. He has been teaching in
              Rochester, N.Y. on and off from 1993. He now owns a school (Kwoon) in Rochester on 80 Rockwell Place near the
              Record Archives suite 208.
-         </p>
-     </div><br>
+         </p><br>
 
-     <div class="bio">
-         <h3>Adam Dunn - Assistant Instructor</h3>
-         <p>
-             Adam first became involved with Ving Tsun in 1998. His lack of prior experience lead to rather superficial
-             desires and expectations from the art. It soon became obvious that Ving Tsun was not what he had been
-             seeking, but the efficiency, efficacy, and logic of the art resonated so strongly with him that he never
-             left.  Despite a two year hiatus, he began acting as a junior instructor in 2003. Sifu Green’s only Bai Si
-             ceremony to date was performed in 2005, and it was at this time that Adam became a disciple. He was
-             extremely proud to be awarded his gold sash and the title of Sifu in 2011. Adam continues to act in the
-             role of senior instructor until such time as he chooses to take on students of his own.
-         </p>
-     </div><br>
-
-     <div class="bio">
-         <h3>Sifu Nathan Melenbacker - Assistant Instructor</h3>
-         <img src="assets/images/natemelenbacker.jpeg" alt="Sifu Nathan Melenbacker" />
-         <p>
-             Nate has over 30 years of experience in the martial arts, starting with Karate styles (Isshin-ryu, Kobudo,
-             Kyokushin) and switching to Ving Tsun after meeting Sifu Don Green in 1992.  An Intelligence Specialist and
-             Gulf War Navy Veteran, Nate achieved Gold Sash level along with his training partner, Sifu Adam Dunn, in
-             2011.
-         </p>
-     </div><br>
+		  <div class="instructor1">
+		   <h3>Adam Dunn - Assistant Instructor</h3>
+		 <img src="assets/images/natemelenbacker.jpeg" alt="Nate" id="insPic"/><br>
+		 <p>Adam first became involved with Ving Tsun in 1998. His lack of prior experience lead to rather superficial desires and expectations from the art. It soon became obvious that Ving Tsun was not what he had been seeking, but the efficiency, efficacy, and logic of the art resonated so strongly with him that he never
+         left.  Despite a two year hiatus, he began acting as a junior instructor in 2003. Sifu Green’s only Bai Si
+          ceremony to date was performed in 2005, and it was at this time that Adam became a disciple. He was
+          extremely proud to be awarded his gold sash and the title of Sifu in 2011. Adam continues to act in the
+          role of senior instructor until such time as he chooses to take on students of his own. </p>
+		 </div><br><br><br><br><br>
+		 <hr><br>
+		 <div class="instructor2">
+			<h3>Sifu Nathan Melenbacker - Assistant Instructor</h3>
+				 <img src="assets/images/natemelenbacker.jpeg" id ="insPic"alt="Nate"/><br>
+				 <p>Nate has over 30 years of experience in the martial arts, starting with Karate styles (Isshin-ryu, Kobudo, Kyokushin) and switching to Ving Tsun after meeting Sifu Don Green in 1992.  An Intelligence Specialist and Gulf War Navy Veteran, Nate achieved Gold Sash level along with his training partner, Sifu Adam Dunn, in 2011.</p>
+			  </div>
+		</div>
+		
  </div>
-
- <video controls="controls" width="800" height="600"
-        name="Video Name" src="assets/videos/FAQ1.mov"></video>
-
- <video controls="controls" width="800" height="600"
-        name="Video Name" src="assets/videos/FAQ2.mov"></video>
  
  <!-- downloads by Joseph Messare 
  
