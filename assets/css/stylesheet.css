@@ -33,7 +33,6 @@ a:hover{
 
 /* Styles the header */
 
-
 #navBar{
     display: flex;
     width: 100%;
@@ -93,9 +92,11 @@ a:hover{
  /* Makes the mouse turn into a pointer when hovering over the menu
     items and changes the divs background color */
 
-/*
- * Styles the about page.
- */
+#indexWrapper li{
+    margin-left: 5%;
+}
+
+/*############################################# Styles About page starts here. ######################## */
  #container{
 	width:900px;
 	height:2070px;
