@@ -6,12 +6,14 @@
  * Time: 9:35 PM
  */
 
+session_start();
+session_name("Login");
 $path = './';
 $page = 'Login Page';
 include $path . 'assets/inc/header.php';
 
 // Checks to see if user is already logged in
-if ( isset($_SESSION['user']) && $_SESSION['user'] == "joe")
+if ( isset($_SESSION['uname']) )
 {
     header("Location: member.php");
 }
