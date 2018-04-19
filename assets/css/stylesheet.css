@@ -31,7 +31,6 @@ a:hover{
     font-style: italic
 }
 
-
 /* Styles the header */
 
 #navBar{
@@ -64,11 +63,9 @@ a:hover{
     right: 0;
 }
 
- /* Makes the mouse turn into a pointer when hovering over the menu
-    items and changes the divs background color */
 /* Styles the Index Page */
 #indexWrapper{
-    margin: 2% 5% 2% 5%;
+    margin: 0 5% 2% 5%;
     padding: 25px 25px 25px 25px;
     background-color: #fff;
 }
@@ -204,7 +201,7 @@ text-shadow: 2px 2px #FF0000;
 	padding: 10px;
 	border: 1px solid black;
 	margin: 10px;	
-//	display: inline-block;
+	display: inline-block;
 	clear: both;
 	float: left;
 	width: 90%;
@@ -381,7 +378,6 @@ div.right
     width: 45%;
     border-radius: 0 10px 10px 10px;
 }
-
 
 
 /*
