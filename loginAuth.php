@@ -9,6 +9,7 @@
 // If login is clicked
 if (isset( $_POST['submit'] ))
 {
+    session_start();
     $path = './';
     require $path . 'assets/inc/dbInfo.inc';
     $db = new mysqli("localhost","jwm2957", "necknews","jwm2957");
@@ -27,7 +28,7 @@ if (isset( $_POST['submit'] ))
         // Checks to make sure username and password match the database record
         if($user['uname'] == $uname && $user['pass'] == $pass)
         {
-            session_start();
+            session_name("Login");
             $_SESSION['uname'] = $user;
             $_SESSION['pass'] = $pass;
 
