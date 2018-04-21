@@ -136,6 +136,7 @@ include $path.'assets/inc/header.php';
 
      <div class="bio">
          <h3>Adam Dunn - Assistant Instructor</h3>
+         <img src="assets/images/InstructorAdam.jpeg" alt="Sifu Adam Dunn" />
          <p>
              Adam first became involved with Ving Tsun in 1998. His lack of prior experience led to superficial
              desires and expectations from the art. It soon became obvious that Ving Tsun was not what he had been
