@@ -31,7 +31,6 @@ a:hover{
     font-style: italic
 }
 
-
 /* Styles the header */
 
 #navBar{
@@ -46,8 +45,6 @@ a:hover{
 {
     display: inline-flex;
     padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
     font-size: 28px;
     text-decoration: none;
     color: white;
@@ -68,6 +65,28 @@ a:hover{
     right: 0;
 }
 
+/* Styles the Index Page */
+#indexWrapper{
+    margin: 0 5% 2% 5%;
+    padding: 25px 25px 25px 25px;
+    background-color: #fff;
+}
+
+#indexWrapper h1{
+    text-align: center;
+}
+
+#indexWrapper h2{
+    padding-bottom: 10px;
+}
+
+#indexWrapper p{
+    margin: 10px 20px 10px 20px;
+}
+
+#indexWrapper ul{
+    margin-top: 10px;
+}
  /* Makes the mouse turn into a pointer when hovering over the menu
     items and changes the divs background color */
 
@@ -76,6 +95,9 @@ a:hover{
 }
 
 /*############################################# Styles About page starts here. ######################## */
+/*
+ * Styles the about page.
+ */
  #container{
 	width:900px;
 	height:2070px;
@@ -172,6 +194,8 @@ span{
 	padding-right:50px;
 }
 
+ /* Styles the about Page Ends here */
+
  /*############################################# Styles About page Ends here. ######################## */
  
  
@@ -190,7 +214,10 @@ span{
      background-color: white;
  }
  
-/*############################################# Styles the contact page starts here. ######################## */
+
+ /*
+  ##################################### Styles the contact page starts here. #######################################
+  */
  #wrapper{
 	width:900px;
 	background-color: white;
@@ -205,7 +232,7 @@ span{
   left: 0px;
   right: 0px;
   width: 100%;
-  height: 300px;
+  height: 230px;
   z-index: -1;
 }
   /*Css for form structure*/
@@ -259,8 +286,7 @@ span{
 .formStyle input[type="button"]:hover{
     background: green;
 }
-/*############################################# Styles the contact page Ends here. ######################## */
-	   
+/* Kenan CSS
 #contactus
 {
     background-color: lightgray;
@@ -286,6 +312,10 @@ input#submit
     margin-left: auto;
     margin-right: auto;
 }
+*/
+/*############################################# Styles the contact page Ends here. ######################## */
+	   
+
 
 
  /*
@@ -361,14 +391,6 @@ input#submit
  * Styles the history page.
  */
 
-/* Styles the pictures on the timeline */
-.left img
-{
-    width: 20%;
-    float: right;
-
-}
-
 /* The actual timeline (the vertical ruler) */
 .timeline
 {
@@ -420,7 +442,7 @@ input#submit
 div.left, div.right
 {
     display: block;
-    background: lightcoral;
+    background: lightgrey;
     padding: 10px;
     margin: 10px;
     margin-top: 20px;
@@ -444,7 +466,6 @@ div.left p, div.right p
 /* Floats the image to the right */
 .timelinecontainer img
 {
-    width: 40%;
     margin: 10px;
     padding: 5px;
     position: relative;
@@ -474,7 +495,7 @@ div.left
 .timelinecontainer
 {
     clear: both;
-    height: 500px;
+    height: 300px;
 }
 
 /* Floats the div to the right */
@@ -484,7 +505,6 @@ div.right
     width: 45%;
     border-radius: 0 10px 10px 10px;
 }
-
 
 
 /*
@@ -572,6 +592,23 @@ div.right
  * Styles the home page.
  */
 
+/* Gives a white background to the homepage */
+#home
+{
+    background-color: white;
+    clear: both;
+    margin: 50px;
+    padding: 20px;
+}
+
+/* Styles the list on the home page */
+#training
+{
+    list-style-type: square;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
 /* Formats the slide show container */
 #slideshow
 {
@@ -648,7 +685,6 @@ img#current
   * Styles the schedule page.
   */
 
-<<<<<<< HEAD
    div.classTimes {
    	padding: 15px;
    	margin: 20px;
@@ -742,7 +778,6 @@ img#fb {
 	float: right;
 }
   
-=======
 div.classTimes
 {
     padding: 15px;
@@ -785,6 +820,12 @@ div.A
         font-size: 19px;
     }
 
+    /* Floats the image to the right */
+    .timelinecontainer img
+    {
+        width: 40%;
+    }
+
 }
 
 @media only screen and (max-width: 750px)
@@ -797,4 +838,3 @@ div.A
     }
 
 }
->>>>>>> master

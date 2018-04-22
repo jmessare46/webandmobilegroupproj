@@ -26,7 +26,7 @@ $pass = $_POST['psw'];
 
 // Prepares the query for the DB
 $stmt = $mysqli->prepare("SELECT pass FROM members WHERE uname = ?");
-$stmt->bind( "s", $_POST['uname']);
+$stmt->bind_param( "s", $_POST['uname']);
 
 // Go, do it
 $stmt->execute();
@@ -42,4 +42,10 @@ if(password_verify($_POST['pass'], $res))
     $_SESSION['name'] = $_POST['uname'];
 
     header('Location: member.php');
-}?>
+}
+else
+{
+    header('Location: login.php');
+}
+
+?>

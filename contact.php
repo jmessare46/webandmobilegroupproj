@@ -11,16 +11,40 @@ $page = 'Contact Us';
 include $path . 'assets/inc/header.php';
 ?>
 
+<<<<<<< HEAD
 <!-- <<<<<<< HEAD -->
+=======
+<body>
+<h1 class="title"><?php echo $page ?></h1>
+>>>>>>> master
 
+<body>
+ <img src="assets/images/contact-us.png" id="banner" alt="Contact us Banner"/>
+	
+ <section id="wrapper">
+  <div class="formStyle">
+	<h1>Contact Us</h1>
+		<form action="assets/inc/process_gpProj.php" method="POST">
+			<input type="text" name="name" placeholder="Your Name" required />
+			<input type="number" name="number" placeholder="Phone Number" required />
+			<input type="email" name="email" placeholder="Email Address" required />
+			<textarea name="msg" placeholder="Type your Message"></textarea>
+			<input type="submit" value="Send" />
+		</form>
+  </div>
+ </section>
+</body>
+</html>
+<!-- Kenan Stuff
 <body>
 <div id="contact">
 	<div id="contactTitle">
 	<a href="https://www.facebook.com/Moy-Don-Wing-Chun-Kung-Fu-1542972345772857/">
 	<img id="fb" src="assets/images/fbLogo.png" alt="Facebook Logo" title="Facebook Logo"></a>
-<h1 class="title"><?php echo $page ?></h1>
+<h1 class="title"><?php echo $page ?></h1> -->
 
-	<!--mastergreen86@gmail.com real email-->
+	<!--mastergreen86@gmail.com real email -->
+	<!-- Kenan form stuff!! we can take some thing from this form!!
 	<p>
 		Phone: 123-456-7891
 	</p>
@@ -57,6 +81,7 @@ include $path . 'assets/inc/header.php';
 		</div>
 	</form>
 </div>
+<<<<<<< HEAD
 <!--======= -->
 
 <!--
@@ -100,3 +125,10 @@ include $path . 'assets/inc/header.php';
 </body>
 
 </html> -->
+=======
+</body>
+
+</html>
+
+-->
+>>>>>>> master

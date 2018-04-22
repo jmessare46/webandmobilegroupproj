@@ -41,9 +41,22 @@ include $path.'assets/inc/header.php';
 <h1>About Moy Don Wing Chun Kung Fu</h1><br>
 	<div id="moyoverview">
 		
-		<p> Moy Don Wing Chun!! do we have a content for this section! watch Ip Man on netflix before you take any moy don wing chun kung fu classes! kung fu is the best! wax-on-wax off! 
-		</p>
+		<p>Master Donald Green (aka Moy Don) is a Master at Wing Chun (Ving Tsun) Kung-Fu. 
+		He started his journey in martial arts at the age of six. For three years, he learned 
+		Chito Ryu Karate, Ju Jit Su, Judo, Greco Roman and Free Style Wrestling, Boxing, and Kick 
+		Boxing. During this time, Master Green competed in many tournaments, winning 
+		several. He also started doing full-contact, no-rules fighting Brown. This 
+		took its toll on Master Green.</p> 
 
+		<p>He decided to take Grandmaster Moy Yat’s advice and trained with Yat's student, 
+		now Grandmaster, Dunn Wah (Sunny) Tang in Toronto, Canada. He earned his Gold Sash, or mastery of the 
+		system, under Grandmaster Tang in 1993. He also competed for Team Canada and continued fighting all 
+		over the world in the Canadian Championships, European Championships, and many other five star ranked tournaments 
+		world wide, including three full-contact Muay Thai matches in Thailand. He won all three. Green then 
+		returned to Grandmaster Moy Yat and became his disciple in a Bise ceremony.
+		He stayed with Grandmaster Moy Yat until Yat's death and achieved mastery of the system through him. 
+		</p>
+		
 	</div><br>
 
 	<div id="logo">
@@ -117,7 +130,7 @@ include $path.'assets/inc/header.php';
 
 		  <div class="instructor1">
 		   <h3>Adam Dunn - Assistant Instructor</h3>
-		 <img src="assets/images/natemelenbacker.jpeg" alt="Nate" id="insPic"/><br>
+		 <img src="assets/images/InstructorAdam.jpeg"" alt="Nate" id="insPic"/><br>
 		 <p>Adam first became involved with Ving Tsun in 1998. His lack of prior experience lead to rather superficial desires and expectations from the art. It soon became obvious that Ving Tsun was not what he had been seeking, but the efficiency, efficacy, and logic of the art resonated so strongly with him that he never
          left.  Despite a two year hiatus, he began acting as a junior instructor in 2003. Sifu Green’s only Bai Si
           ceremony to date was performed in 2005, and it was at this time that Adam became a disciple. He was
@@ -130,7 +143,39 @@ include $path.'assets/inc/header.php';
 				 <img src="assets/images/natemelenbacker.jpeg" id ="insPic"alt="Nate"/><br>
 				 <p>Nate has over 30 years of experience in the martial arts, starting with Karate styles (Isshin-ryu, Kobudo, Kyokushin) and switching to Ving Tsun after meeting Sifu Don Green in 1992.  An Intelligence Specialist and Gulf War Navy Veteran, Nate achieved Gold Sash level along with his training partner, Sifu Adam Dunn, in 2011.</p>
 			  </div>
-		</div>
+		</div><br><br><br><br>
+
+     <div>
+         <h3>Why invest in Wing Chun?</h3>
+         <audio controls>
+             <source src="assets/audio/costsofwingchun.m4a" type="audio/mp4">
+             Your browser does not support the audio element.
+         </audio>
+
+         <h3>Why pick Wing Chun?</h3>
+         <audio controls>
+             <source src="assets/audio/whywingchun.m4a" type="audio/mp4">
+             Your browser does not support the audio element.
+         </audio>
+
+         <h3>Is or can Wing Chun be used for sport?</h3>
+         <audio controls>
+             <source src="assets/audio/forsport.m4a" type="audio/mp4">
+             Your browser does not support the audio element.
+         </audio>
+
+         <h3>Does Wing Chun have ground fighting?</h3>
+         <audio controls>
+             <source src="assets/audio/groundfighting.m4a" type="audio/mp4">
+             Your browser does not support the audio element.
+         </audio>
+
+         <h3>Why train martial arts / Wing Chun for an extended period of time?</h3>
+         <audio controls>
+             <source src="assets/audio/whytrainsolong.m4a" type="audio/mp4">
+             Your browser does not support the audio element.
+         </audio>
+     </div>
 		
  </div>
  
