@@ -122,11 +122,9 @@ a:hover{
 }
 
 .about h1{
-	font-family: 'Cinzel Decorative';
 	font-size: 30px; 
 	text-align:center; 
 	font-weight:lighter; 
-	color:#999; 
 	margin-left:50px;  
 	border-bottom: 1px solid #dedede;	
 }
@@ -164,8 +162,7 @@ a:hover{
 }
 
 #mission h3{
-text-align:center;
-text-shadow: 2px 2px red;
+    text-align:center;
 }
 
 span{
@@ -688,8 +685,8 @@ img#current
    div.classTimes {
    	padding: 15px;
    	margin: 20px;
-   	background-color: black;
-   	color: white;
+   	background-color: white;
+   	color: black;
    }
    
    
@@ -775,14 +772,6 @@ img#fb {
 	height: 50px;
 	width: auto;
 	float: right;
-}
-  
-div.classTimes
-{
-    padding: 15px;
-    margin: 20px;
-    background-color: black;
-    color: white;
 }
 
 div.pTag

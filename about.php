@@ -130,7 +130,7 @@ include $path.'assets/inc/header.php';
 
 		  <div class="instructor1">
 		   <h3>Adam Dunn - Assistant Instructor</h3>
-		 <img src="assets/images/InstructorAdam.jpeg"" alt="Nate" id="insPic"/><br>
+		 <img src="assets/images/InstructorAdam.jpeg" alt="Nate" id="insPic"/><br>
 		 <p>Adam first became involved with Ving Tsun in 1998. His lack of prior experience lead to rather superficial desires and expectations from the art. It soon became obvious that Ving Tsun was not what he had been seeking, but the efficiency, efficacy, and logic of the art resonated so strongly with him that he never
          left.  Despite a two year hiatus, he began acting as a junior instructor in 2003. Sifu Green’s only Bai Si
           ceremony to date was performed in 2005, and it was at this time that Adam became a disciple. He was
