@@ -11,7 +11,7 @@ $page = 'Contact Us';
 include $path . 'assets/inc/header.php';
 ?>
 
-<<<<<<< HEAD
+<!-- <<<<<<< HEAD -->
 
 <body>
 <div id="contact">
@@ -29,27 +29,27 @@ include $path . 'assets/inc/header.php';
 	<form action="gpProj/process_gpProj.php" method="POST">
 		<div class="contactUs">
 		<div id="fname"><span class="asterick">*</span> First Name:</div>
-		<input class="text" type="text" name="fname">
+		<input class="text" type="text" name="fname" placeholder="Enter your first name here...">
 		</div>
 		
 		<div class="contactUs">
 		<div id="lname"><span class="asterick">*</span> Last Name:</div>
-		<input class="text" type="text" name="lname">
+		<input class="text" type="text" name="lname" placeholder="Enter your last name here...">
 		</div>
 		
 		<div class="contactUs">
 		<div id="pnum">Phone Number:</div>
-		<input class="text" type="text" name="pnumber">
+		<input class="text" type="text" name="pnumber" placeholder="Enter your phone number...">
 		</div>
 		
 		<div class="contactUs">
 		<div id="eMail"><span class="asterick">*</span> Email:</div>
-		<input class="text" type="text" name="email">
+		<input class="text" type="text" name="email" placeholder="Enter your email...">
 		</div>
 		
 		<div class="contactUs">
 		<div id="txtDesc"><span class="asterick">*</span> Description:</div>
-		<input id="desc" type="text" name="desc">
+		<input id="desc" type="text" name="desc" placeholder="Enter your questions or concerns here...">
 		</div>
 		
 		<div class="contactUs">
@@ -57,9 +57,9 @@ include $path . 'assets/inc/header.php';
 		</div>
 	</form>
 </div>
-=======
+<!--======= -->
 
-
+<!--
 <body>
 
 <div id="contactus">
@@ -99,4 +99,4 @@ include $path . 'assets/inc/header.php';
 >>>>>>> master
 </body>
 
-</html>
+</html> -->

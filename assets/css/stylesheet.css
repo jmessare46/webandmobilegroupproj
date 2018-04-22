@@ -673,6 +673,7 @@ img#current
 input#desc {
 	padding: 1em 0em 1em 0em;
 	width: 250px;
+	height: 150px;
 }
 
 input#submit {
