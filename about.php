@@ -143,7 +143,39 @@ include $path.'assets/inc/header.php';
 				 <img src="assets/images/natemelenbacker.jpeg" id ="insPic"alt="Nate"/><br>
 				 <p>Nate has over 30 years of experience in the martial arts, starting with Karate styles (Isshin-ryu, Kobudo, Kyokushin) and switching to Ving Tsun after meeting Sifu Don Green in 1992.  An Intelligence Specialist and Gulf War Navy Veteran, Nate achieved Gold Sash level along with his training partner, Sifu Adam Dunn, in 2011.</p>
 			  </div>
-		</div>
+		</div><br><br><br><br>
+
+     <div>
+         <h3>Why invest in Wing Chun?</h3>
+         <audio controls>
+             <source src="assets/audio/costsofwingchun.m4a" type="audio/mp4">
+             Your browser does not support the audio element.
+         </audio>
+
+         <h3>Why pick Wing Chun?</h3>
+         <audio controls>
+             <source src="assets/audio/whywingchun.m4a" type="audio/mp4">
+             Your browser does not support the audio element.
+         </audio>
+
+         <h3>Is or can Wing Chun be used for sport?</h3>
+         <audio controls>
+             <source src="assets/audio/forsport.m4a" type="audio/mp4">
+             Your browser does not support the audio element.
+         </audio>
+
+         <h3>Does Wing Chun have ground fighting?</h3>
+         <audio controls>
+             <source src="assets/audio/groundfighting.m4a" type="audio/mp4">
+             Your browser does not support the audio element.
+         </audio>
+
+         <h3>Why train martial arts / Wing Chun for an extended period of time?</h3>
+         <audio controls>
+             <source src="assets/audio/whytrainsolong.m4a" type="audio/mp4">
+             Your browser does not support the audio element.
+         </audio>
+     </div>
 		
  </div>
  
