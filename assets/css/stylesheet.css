@@ -388,6 +388,12 @@ input#submit
  * Styles the history page.
  */
 
+#history
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline
 {
@@ -439,7 +445,7 @@ input#submit
 div.left, div.right
 {
     display: block;
-    background: lightgrey;
+    background: rgba(255, 0, 0, 0.7);
     padding: 10px;
     margin: 10px;
     margin-top: 20px;
