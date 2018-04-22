@@ -50,38 +50,7 @@ include $path.'assets/inc/header.php';
 		</div>
 </div>
 
-	<div class="events">
-	<?php
-	    $path = './';
-	  	require $path.'../../../dbInfo.php';
-		if ($mysqli) {
 
-		  //get contents of table and send back...
-		  $res=$mysqli->query('SELECT date, eventTitle, eventDesc FROM events');
-		  if($res){
-			while($rowHolder = mysqli_fetch_array($res,MYSQLI_ASSOC)){
-				$records2[] = $rowHolder;
-			}// end of while
-		  }// end of if
-			//var_dump($records2);
-		}// end of if-mysqli
-		else {
-			echo "<h1> Error Connecting to Database</h1>";
-		}
-
-
-	?>
-		<div class="event">
-
-			<?php
-					//var_dump($records2);
-					foreach($records2 as $this_row){
-						echo '<h2>'.$this_row['date'] . " " . $this_row['eventTitle']." " . $this_row['eventDesc'].'</h2>';
-					}
-			?>
-
-			</div>
-		</div>
 		<hr>
 	</body>
 </html>
