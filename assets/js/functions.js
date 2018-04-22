@@ -38,3 +38,15 @@ function slideshow()
 
     slides[slideIndex].style.display = "block";
 }
+
+//function to show the sash requirements when clicked on
+function showSash(sashContentId){
+	var sashShow = document.getElementById(sashContentId);
+	if(!sashShow.style.display || sashShow.style.display === "none"){
+		sashShow.style.display = "inline";
+	}
+
+	else{
+		sashShow.style.display = "none";
+	}
+}
