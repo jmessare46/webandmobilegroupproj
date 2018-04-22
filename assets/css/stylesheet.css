@@ -770,6 +770,7 @@ div#contactTitle {
 }
 .asterick {
 	color: red;
+	padding-right: 2em;
 }
 /* facebook logo */
 img#fb {

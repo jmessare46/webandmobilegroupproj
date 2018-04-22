@@ -25,10 +25,10 @@ include $path . 'assets/inc/header.php';
   <div class="formStyle">
 	<h1>Contact Us</h1>
 		<form action="assets/inc/process_gpProj.php" method="POST">
-			<input type="text" name="name" placeholder="Your Name" required />
+			<span class="asterick">*</span><input type="text" name="name" placeholder="Your Name" required />
 			<input type="number" name="number" placeholder="Phone Number" required />
-			<input type="email" name="email" placeholder="Email Address" required />
-			<textarea name="msg" placeholder="Type your Message"></textarea>
+			<span class="asterick">*</span><input type="email" name="email" placeholder="Email Address" required />
+			<span class="asterick">*</span><textarea name="msg" placeholder="Type your Message" required></textarea>
 			<input type="submit" value="Send" />
 		</form>
   </div>
@@ -119,16 +119,3 @@ include $path . 'assets/inc/header.php';
         <input type="submit" value="Submit" id="submit"/>
     </form>
 </div><br>
-
-
->>>>>>> master
-</body>
-
-</html> -->
-=======
-</body>
-
-</html>
-
--->
->>>>>>> master
