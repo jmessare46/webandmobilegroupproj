@@ -21,6 +21,100 @@ include $path . 'assets/inc/header.php';
 </div>
 	<br>
 
+<div class="sash">
+    <h2 id="whiteStripe">White Sash</h2>
+    <br>
+    <h3 class="subLearn">Hand Drills - Against High Straight Handstrikes</h3>
+    <br>
+    <ul class="sashExpectations">
+
+        <li>Pak Sau - Slapping Hand</li>
+        <li>Pak Sau with Shift</li>
+        <li>Pak Da - Slapping Hand with Punch</li>
+        <li>Tan Da to the Inside Gate - Palm Up Hand with Punch</li>
+        <li>Tan Da to the Outside Gate</li>
+        <li>Lop Da - Pull Punch</li>
+        <li>Bong Sau - Wing Up Hand</li>
+        <li>Bong / Lop Da - Wing Up Hand to Pull Punch</li>
+        <li>Bong / Lop Da to Tan Da</li>
+        <li>Wrong Way Bong Sau</li>
+        <li>Wrong Way Bong Sau to Pak Da</li>
+        <li>Wrong Way Bong Sau to Tan Da</li>
+        <li>Pak Sau / Biu Sau</li>
+        <li>Pak Sau / Biu Sau to a Tan Da Attack</li>
+        <li>Pak Sau / Biu Sau to a Pak Da Attack</li>
+
+    </ul>
+    <br>
+    <h3 class="subLearn">Hand Drills - Against High or Low Hands Using Double Blocks</h3>
+    <br>
+    <ul class="sashExpectations">
+
+        <li>Garn Sau - Splitting Block Hand</li>
+        <li>Kwan Sau - Rotating Pole Arms</li>
+        <li>Garn Sau to Kwan Sau</li>
+
+    </ul>
+    <br>
+    <h3 class="subLearn">Hand Drills - Against Low Strikes</h3>
+    <br>
+    <ul class="sashExpectations">
+
+        <li>Gum Da Against Thrusting or Straight Low Strike - Palm Push Down and Punch</li>
+        <li>Gum Da Against a Low Uppercut</li>
+        <li>Garn Da Inside Gate - Splitting Hand and Punch</li>
+        <li>Garn Da Outside Gate</li>
+        <li>Dai Bong Sau - Low Wing Arm</li>
+        <li>Sil Tim Nao - Little Idea Form - With all Translations of the Form</li>
+        <li>Chi Dan Sao - Single Arm Sticking Hands</li>
+        <li>Basic Self Defense Against Control Movements, Holds, and Tackling</li>
+        <li>Elbow Striking Up, Down, Around, Side, Through, and Back Drill</li>
+
+    </ul>
+    <br>
+
+    <h3 class="subLearn">Hand Drills - Against Hook Strikes</h3>
+    <br>
+    <ul class="sashExpectations">
+
+        <li>Go Bong Da - High Wing Arm and Punch</li>
+        <li>Ging Da - Hook Hand and Punch</li>
+    </ul>
+    <br>
+
+    <h3 class="subLearn">Stances</h3>
+    <br>
+    <ul class="sashExpectations">
+
+        <li>Yat Ji Kim Yeung Ma - Grabbing Goat Stance or Basic Stance</li>
+        <li>Side Facing Stances Left and Right</li>
+        <li>Back Horse Stances Left and Right</li>
+
+    </ul>
+    <br>
+    <h3 class="subLearn">Punching</h3>
+    <br>
+    <ul class="sashExpectations">
+
+        <li>Yat Ji Kuen - Center Line Fist</li>
+        <li>Shifting Punch</li>
+        <li>Advancing Double Punch or Combination Punching</li>
+
+    </ul>
+    <br>
+    <h3 class="subLearn">Footwork</h3>
+    <br>
+    <ul class="sashExpectations">
+
+        <li>Plucking Steps</li>
+        <li>Circle Steps</li>
+        <li>Shifting</li>
+        <li>Angle Steps</li>
+
+    </ul>
+    <br>
+</div>
+
 <div class="sash">	
 <h2 id="greenStripe">Green Sash</h2>
 	<br>
@@ -92,120 +186,13 @@ include $path . 'assets/inc/header.php';
 			<li>Performing Attack Double Took Sau Elbow Lifting Arm and Kick</li>
 			<li>Performing Attack Double Lop Da Circle Step Sweep</li>
 			<li>Tui Ma Footwork</li>
+            <li>Basic Self Defense Against Knife Attacks</li>
+            <li>Biu Gee - Thrusting Fingers or Hand Form and Translation</li>
+            <li>Gert Jong</li>
+            <li>Chi Gert Drills</li>
 			
 		</ul>
 		<br>
-
-	<h3 class="subLearn">Other Requirements</h3>
-	<br>	
-		<ul class="sashExpectations">	
-			<li>Basic Self Defense Against Knife Attacks</li>
-			<li>Biu Gee - Thrusting Fingers or Hand Form and Translation</li>
-			<li>Gert Jong</li>
-			<li>Chi Gert Drills</li>
-		</ul>
-</div>
-
-<div class="sash">		
-<h2 id="whiteStripe">White Sash</h2>
-	<br>
-	<h3 class="subLearn">Hand Drills - Against High Straight Handstrikes</h3>
-		<br>
-		<ul class="sashExpectations">
-	
-			<li>Pak Sau - Slapping Hand</li>
-			<li>Pak Sau with Shift</li>
-			<li>Pak Da - Slapping Hand with Punch</li>
-			<li>Tan Da to the Inside Gate - Palm Up Hand with Punch</li>
-			<li>Tan Da to the Outside Gate</li>
-			<li>Lop Da - Pull Punch</li>
-			<li>Bong Sau - Wing Up Hand</li>
-			<li>Bong / Lop Da - Wing Up Hand to Pull Punch</li>
-			<li>Bong / Lop Da to Tan Da</li>
-			<li>Wrong Way Bong Sau</li>
-			<li>Wrong Way Bong Sau to Pak Da</li>
-			<li>Wrong Way Bong Sau to Tan Da</li>
-			<li>Pak Sau / Biu Sau</li>
-			<li>Pak Sau / Biu Sau to a Tan Da Attack</li>
-			<li>Pak Sau / Biu Sau to a Pak Da Attack</li>
-			
-		</ul>
-	<br>	
-	<h3 class="subLearn">Hand Drills - Against High or Low Hands Using Double Blocks</h3>
-	<br>
-		<ul class="sashExpectations">
-		
-			<li>Garn Sau - Splitting Block Hand</li>
-			<li>Kwan Sau - Rotating Pole Arms</li>
-			<li>Garn Sau to Kwan Sau</li>
-			
-		</ul>
-	<br>	
-	<h3 class="subLearn">Hand Drills - Against Low Strikes</h3>
-	<br>	
-		<ul class="sashExpectations">
-		
-			<li>Gum Da Against Thrusting or Straight Low Strike - Palm Push Down and Punch</li>
-			<li>Gum Da Against a Low Uppercut</li>
-			<li>Garn Da Inside Gate - Splitting Hand and Punch</li>
-			<li>Garn Da Outside Gate</li>
-			<li>Dai Bong Sau - Low Wing Arm</li>
-		
-		</ul>
-	<br>	
-
-	<h3 class="subLearn">Hand Drills - Against Hook Strikes</h3>
-	<br>
-		<ul class="sashExpectations">
-
-			<li>Go Bong Da - High Wing Arm and Punch</li>
-			<li>Ging Da - Hook Hand and Punch</li>
-		</ul>
-	<br>
-
-	<h3 class="subLearn">Stances</h3>
-	<br>
-		<ul class="sashExpectations">
-		
-			<li>Yat Ji Kim Yeung Ma - Grabbing Goat Stance or Basic Stance</li>
-			<li>Side Facing Stances Left and Right</li>
-			<li>Back Horse Stances Left and Right</li>
-			
-		</ul>	
-	<br>		
-	<h3 class="subLearn">Punching</h3>
-	<br>
-		<ul class="sashExpectations">
-		
-			<li>Yat Ji Kuen - Center Line Fist</li>
-			<li>Shifting Punch</li>
-			<li>Advancing Double Punch or Combination Punching</li>
-			
-		</ul>	
-	<br>		
-	<h3 class="subLearn">Footwork</h3>
-	<br>
-		<ul class="sashExpectations">
-		
-			<li>Plucking Steps</li>
-			<li>Circle Steps</li>
-			<li>Shifting</li>
-			<li>Angle Steps</li>
-			
-		</ul>	
-	<br>
-
-	<h3 class="subLearn">Other Requirements</h3>
-	<br>
-	
-		<ul class="sashExpectations">
-			<li>Sil Tim Nao - Little Idea Form - With all Translations of the Form</li>
-			<li>Chi Dan Sao - Single Arm Sticking Hands</li>
-			<li>Basic Self Defense Against Control Movements, Holds, and Tackling</li>
-			<li>Elbow Striking Up, Down, Around, Side, Through, and Back Drill</li>
-		
-		</ul>
-
 </div>
 
 <div class="sash">	
