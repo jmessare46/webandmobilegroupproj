@@ -215,15 +215,17 @@ span{
  /*
   ##################################### Styles the contact page starts here. #######################################
   */
- #wrapper{
+#wrapper
+{
 	width:900px;
 	background-color: white;
 	margin: 0 auto 80px;
 	margin-top: 15%;
 	padding: 20px 80px 50px 80px;
-	 
- }
-  #banner {
+}
+
+#banner
+{
   position: absolute;
   top: 55px;
   left: 0;
@@ -232,16 +234,20 @@ span{
   height: 230px;
   z-index: -1;
 }
-  /*Css for form structure*/
-  .formStyle{
+
+/* CSS for form structure*/
+.formStyle
+{
     font: 95% Arial, Helvetica, sans-serif;
     max-width: 700px;
     margin: 10px auto;
     padding: 16px;
-    background: #F7F7F7;;
+    background: #F7F7F7;
 }
-/*css for "Contact us Header */
-.formStyle h1{
+
+/* CSS for "Contact us Header */
+.formStyle h1
+{
     background: #65796b;
     padding: 20px 0;
     font-size: 140%;
@@ -250,7 +256,7 @@ span{
     color: #fff;
     margin: -16px -16px 16px -16px;
 }
-/*Css for form inputs*/
+/* CSS for form inputs*/
 .formStyle input[type="text"],
 .formStyle input[type="number"],
 .formStyle input[type="email"],
@@ -260,56 +266,57 @@ span{
 {
     width: 93%;
     background: #fff;
-    margin-bottom: 4%;
+    margin-bottom: 8%;
     border: 1px solid #32ab46;
     padding: 3%;
     color: #555;
     font: 95% Arial, Helvetica, sans-serif;
 }
-/*Css for Submit Button */
+/* CSS for Submit Button */
 .formStyle input[type="submit"],
-.formStyle input[type="button"]{
-
+.formStyle input[type="button"]
+{
     width: 100%;
     padding: 3%;
     background: #65796b;
-    border-bottom: 2px solid #30C29E;
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;    
     color: #fff;
 }
+
 .formStyle input[type="submit"]:hover,
-.formStyle input[type="button"]:hover{
+.formStyle input[type="button"]:hover
+{
     background: green;
 }
-/* Kenan CSS
-#contactus
+
+/* Styles the facebook link */
+#fb
 {
-    background-color: lightgray;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+    padding-right: 20px;
 }
 
-#contactus input, #contactus textarea
+/* Formats the google location */
+iframe
 {
-    padding: 10px;
-    width: 35%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-input#submit
-{
-    width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
-*/
+
+/* Formats the phone number sections */
+#callus
+{
+    background: white;
+    width: 25%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
 /*############################################# Styles the contact page Ends here. ######################## */
 	   
 
@@ -350,39 +357,69 @@ input#submit
 {
 	padding: 10px;	
 	background-color: green;
+	cursor: pointer;
 }
 
 #redStripe
 {
 	padding: 10px;
 	background-color: red;
+	cursor: pointer;
 }
 
 #whiteStripe
 {
 	padding: 10px;
 	background-color: white;
+	cursor: pointer;
 }
 
 #brownStripe{
 	padding: 10px;
 	background-color: brown;
+	cursor: pointer;
 }
 
 #blackStripe{
 	padding: 10px;
 	background-color: black;
 	color: white;
+	cursor: pointer;
 }
 
 #goldStripe{
 	padding: 10px;
 	background-color: gold;
+	cursor: pointer;
 }
 
 #curHead{
 	padding-left: 10px;
-} 
+}
+
+#whiteSashContent{
+	display: none;
+}
+
+#greenSashContent{
+	display: none;
+}
+
+#brownSashContent{
+	display: none;
+}
+
+#redSashContent{
+	display: none;
+}
+
+#goldSashContent{
+	display: none;
+}
+
+#blackSashContent{
+	display: none;
+}
 
 /*
  * Styles the history page.
@@ -695,18 +732,9 @@ img#current
    	color: black;
    }
    
+  
    
-   div.pTag {
-   	padding: 15px;
-	margin: 20px;
-   	color: white;
-   
-   }
-   
-   div.events {
-   
-   
-   }
+  
    /* Contact Us CSS */
    /*editting the text inputs */
 input#desc {
@@ -779,13 +807,7 @@ img#fb {
 	width: auto;
 	float: right;
 }
-
-div.pTag
-{
-    padding: 15px;
-    margin: 20px;
-    color: white;
-}
+  
 
 div.A 
 {

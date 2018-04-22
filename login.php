@@ -28,8 +28,5 @@ if ( isset($_SESSION['uname']) )
     <input type="password" placeholder="Enter Password" name="psw" required><br>
 
     <button type="submit" name="submit">Login</button>
-    <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label><br>
 </form>
 
