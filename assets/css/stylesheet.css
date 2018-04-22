@@ -95,6 +95,9 @@ a:hover{
 }
 
 /*############################################# Styles About page starts here. ######################## */
+/*
+ * Styles the about page.
+ */
  #container{
 	width:900px;
 	height:2070px;
@@ -190,6 +193,8 @@ span{
     height:300px;
 	padding-right:50px;
 }
+
+ /* Styles the about Page Ends here */
 
  /*############################################# Styles About page Ends here. ######################## */
  
