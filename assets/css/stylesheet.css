@@ -293,9 +293,30 @@ span{
     background: green;
 }
 
+/* Styles the facebook link */
 #fb
 {
     padding-right: 20px;
+}
+
+/* Formats the google location */
+iframe
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/* Formats the phone number sections */
+#callus
+{
+    background: white;
+    width: 25%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 /*############################################# Styles the contact page Ends here. ######################## */
