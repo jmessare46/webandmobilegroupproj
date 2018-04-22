@@ -592,6 +592,23 @@ div.right
  * Styles the home page.
  */
 
+/* Gives a white background to the homepage */
+#home
+{
+    background-color: white;
+    clear: both;
+    margin: 50px;
+    padding: 20px;
+}
+
+/* Styles the list on the home page */
+#training
+{
+    list-style-type: square;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
 /* Formats the slide show container */
 #slideshow
 {
