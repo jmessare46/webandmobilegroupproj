@@ -17,13 +17,110 @@ include $path . 'assets/inc/header.php';
 <div id="curHead">
 	<h2>Progression</h2>
 		<p>Progression in Wing Chun is denoted through various colored sashes. Moy Don will teach all the way 
-		up to Master level, the gold sash. Expectations for each sash are detailed below.</p>
+		up to Master level, the gold sash. Expectations for each sash are detailed below. Please click on each sash to display the details.</p>
 </div>
 	<br>
 
+<div class="sash">
+    <h2 id="whiteStripe" onclick="showSash('whiteSashContent')">White Sash</h2>
+    		
+    	<div id= "whiteSashContent">
+    		<h3 class="subLearn">Hand Drills - Against High Straight Handstrikes</h3>
+			<br>
+			<ul class="sashExpectations">
+
+			<li>Pak Sau - Slapping Hand</li>
+				<li>Pak Sau with Shift</li>
+				<li>Pak Da - Slapping Hand with Punch</li>
+				<li>Tan Da to the Inside Gate - Palm Up Hand with Punch</li>
+				<li>Tan Da to the Outside Gate</li>
+				<li>Lop Da - Pull Punch</li>
+				<li>Bong Sau - Wing Up Hand</li>
+				<li>Bong / Lop Da - Wing Up Hand to Pull Punch</li>
+				<li>Bong / Lop Da to Tan Da</li>
+				<li>Wrong Way Bong Sau</li>
+				<li>Wrong Way Bong Sau to Pak Da</li>
+				<li>Wrong Way Bong Sau to Tan Da</li>
+				<li>Pak Sau / Biu Sau</li>
+				<li>Pak Sau / Biu Sau to a Tan Da Attack</li>
+				<li>Pak Sau / Biu Sau to a Pak Da Attack</li>
+
+			</ul>
+		<br>
+		<h3 class="subLearn">Hand Drills - Against High or Low Hands Using Double Blocks</h3>
+			<br>
+			<ul class="sashExpectations">
+
+				<li>Garn Sau - Splitting Block Hand</li>
+				<li>Kwan Sau - Rotating Pole Arms</li>
+				<li>Garn Sau to Kwan Sau</li>
+
+			</ul>
+			<br>
+		<h3 class="subLearn">Hand Drills - Against Low Strikes</h3>
+			<br>
+			<ul class="sashExpectations">
+
+				<li>Gum Da Against Thrusting or Straight Low Strike - Palm Push Down and Punch</li>
+				<li>Gum Da Against a Low Uppercut</li>
+				<li>Garn Da Inside Gate - Splitting Hand and Punch</li>
+				<li>Garn Da Outside Gate</li>
+				<li>Dai Bong Sau - Low Wing Arm</li>
+				<li>Sil Tim Nao - Little Idea Form - With all Translations of the Form</li>
+				<li>Chi Dan Sao - Single Arm Sticking Hands</li>
+				<li>Basic Self Defense Against Control Movements, Holds, and Tackling</li>
+				<li>Elbow Striking Up, Down, Around, Side, Through, and Back Drill</li>
+
+			</ul>
+			<br>
+
+		<h3 class="subLearn">Hand Drills - Against Hook Strikes</h3>
+			<br>
+			<ul class="sashExpectations">
+
+				<li>Go Bong Da - High Wing Arm and Punch</li>
+				<li>Ging Da - Hook Hand and Punch</li>
+			</ul>
+			<br>
+
+		<h3 class="subLearn">Stances</h3>
+			<br>
+			<ul class="sashExpectations">
+
+				<li>Yat Ji Kim Yeung Ma - Grabbing Goat Stance or Basic Stance</li>
+				<li>Side Facing Stances Left and Right</li>
+				<li>Back Horse Stances Left and Right</li>
+
+			</ul>
+			<br>
+		<h3 class="subLearn">Punching</h3>
+			<br>
+			<ul class="sashExpectations">
+
+				<li>Yat Ji Kuen - Center Line Fist</li>
+				<li>Shifting Punch</li>
+				<li>Advancing Double Punch or Combination Punching</li>
+
+			</ul>
+			<br>
+		<h3 class="subLearn">Footwork</h3>
+			<br>
+			<ul class="sashExpectations">
+
+				<li>Plucking Steps</li>
+				<li>Circle Steps</li>
+				<li>Shifting</li>
+				<li>Angle Steps</li>
+
+			</ul>
+			<br>
+		</div>
+</div>
+
 <div class="sash">	
-<h2 id="greenStripe">Green Sash</h2>
-	<br>
+<h2 id="greenStripe" onclick="showSash('greenSashContent')">Green Sash</h2>
+	
+	<div id="greenSashContent">
 	<h3 class="subLearn">Foot and Leg Strikes</h3>
 		<br>
 		<ul class="sashExpectations">
@@ -64,11 +161,12 @@ include $path . 'assets/inc/header.php';
 			<li>Chum Kiu - Searching the Bridge Form and Translations</li>
 			<li>Beginning of Rolling and Changing of Chung Chi Sao - Double Sticking Hands</li>	
 		</ul>
+	</div>
 </div>
 
 <div class="sash">
-<h2 id="redStripe">Red Sash</h2>
-	<br>
+<h2 id="redStripe" onclick="showSash('redSashContent')">Red Sash</h2>
+	<div id = "redSashContent">
 	<h3 class="subLearn">Chung Chi Sao - Attacks and Drills</h3>
 		<br>
 		<ul class="sashExpectations">
@@ -92,126 +190,22 @@ include $path . 'assets/inc/header.php';
 			<li>Performing Attack Double Took Sau Elbow Lifting Arm and Kick</li>
 			<li>Performing Attack Double Lop Da Circle Step Sweep</li>
 			<li>Tui Ma Footwork</li>
+	       	  	<li>Basic Self Defense Against Knife Attacks</li>
+	          	<li>Biu Gee - Thrusting Fingers or Hand Form and Translation</li>
+	          	<li>Gert Jong</li>
+	          	<li>Chi Gert Drills</li>
 			
 		</ul>
 		<br>
-
-	<h3 class="subLearn">Other Requirements</h3>
-	<br>	
-		<ul class="sashExpectations">	
-			<li>Basic Self Defense Against Knife Attacks</li>
-			<li>Biu Gee - Thrusting Fingers or Hand Form and Translation</li>
-			<li>Gert Jong</li>
-			<li>Chi Gert Drills</li>
-		</ul>
-</div>
-
-<div class="sash">		
-<h2 id="whiteStripe">White Sash</h2>
-	<br>
-	<h3 class="subLearn">Hand Drills - Against High Straight Handstrikes</h3>
-		<br>
-		<ul class="sashExpectations">
-	
-			<li>Pak Sau - Slapping Hand</li>
-			<li>Pak Sau with Shift</li>
-			<li>Pak Da - Slapping Hand with Punch</li>
-			<li>Tan Da to the Inside Gate - Palm Up Hand with Punch</li>
-			<li>Tan Da to the Outside Gate</li>
-			<li>Lop Da - Pull Punch</li>
-			<li>Bong Sau - Wing Up Hand</li>
-			<li>Bong / Lop Da - Wing Up Hand to Pull Punch</li>
-			<li>Bong / Lop Da to Tan Da</li>
-			<li>Wrong Way Bong Sau</li>
-			<li>Wrong Way Bong Sau to Pak Da</li>
-			<li>Wrong Way Bong Sau to Tan Da</li>
-			<li>Pak Sau / Biu Sau</li>
-			<li>Pak Sau / Biu Sau to a Tan Da Attack</li>
-			<li>Pak Sau / Biu Sau to a Pak Da Attack</li>
-			
-		</ul>
-	<br>	
-	<h3 class="subLearn">Hand Drills - Against High or Low Hands Using Double Blocks</h3>
-	<br>
-		<ul class="sashExpectations">
-		
-			<li>Garn Sau - Splitting Block Hand</li>
-			<li>Kwan Sau - Rotating Pole Arms</li>
-			<li>Garn Sau to Kwan Sau</li>
-			
-		</ul>
-	<br>	
-	<h3 class="subLearn">Hand Drills - Against Low Strikes</h3>
-	<br>	
-		<ul class="sashExpectations">
-		
-			<li>Gum Da Against Thrusting or Straight Low Strike - Palm Push Down and Punch</li>
-			<li>Gum Da Against a Low Uppercut</li>
-			<li>Garn Da Inside Gate - Splitting Hand and Punch</li>
-			<li>Garn Da Outside Gate</li>
-			<li>Dai Bong Sau - Low Wing Arm</li>
-		
-		</ul>
-	<br>	
-
-	<h3 class="subLearn">Hand Drills - Against Hook Strikes</h3>
-	<br>
-		<ul class="sashExpectations">
-
-			<li>Go Bong Da - High Wing Arm and Punch</li>
-			<li>Ging Da - Hook Hand and Punch</li>
-		</ul>
-	<br>
-
-	<h3 class="subLearn">Stances</h3>
-	<br>
-		<ul class="sashExpectations">
-		
-			<li>Yat Ji Kim Yeung Ma - Grabbing Goat Stance or Basic Stance</li>
-			<li>Side Facing Stances Left and Right</li>
-			<li>Back Horse Stances Left and Right</li>
-			
-		</ul>	
-	<br>		
-	<h3 class="subLearn">Punching</h3>
-	<br>
-		<ul class="sashExpectations">
-		
-			<li>Yat Ji Kuen - Center Line Fist</li>
-			<li>Shifting Punch</li>
-			<li>Advancing Double Punch or Combination Punching</li>
-			
-		</ul>	
-	<br>		
-	<h3 class="subLearn">Footwork</h3>
-	<br>
-		<ul class="sashExpectations">
-		
-			<li>Plucking Steps</li>
-			<li>Circle Steps</li>
-			<li>Shifting</li>
-			<li>Angle Steps</li>
-			
-		</ul>	
-	<br>
-
-	<h3 class="subLearn">Other Requirements</h3>
-	<br>
-	
-		<ul class="sashExpectations">
-			<li>Sil Tim Nao - Little Idea Form - With all Translations of the Form</li>
-			<li>Chi Dan Sao - Single Arm Sticking Hands</li>
-			<li>Basic Self Defense Against Control Movements, Holds, and Tackling</li>
-			<li>Elbow Striking Up, Down, Around, Side, Through, and Back Drill</li>
-		
-		</ul>
-
+	</div>
 </div>
 
 <div class="sash">	
-<h2 id="brownStripe">Brown Sash - Fight Level</h2>
+<h2 id="brownStripe" onclick="showSash('brownSashContent')">Brown Sash - Fight Level</h2>
+	<div id = "brownSashContent">
 	<br>
-	<p>In order to advance past this level, one must show proficiency in fighting drills, sparring, and basic physical fitness. This can be waived for age, health, or training on your own time.</p>
+	<p>In order to advance past this level, one must show proficiency in fighting drills, sparring, 
+	and basic physical fitness. This can be waived for age, health, or training on your own time.</p>
 	
 	<br>
 	<h3 class="subLearn">Fighting Drills</h3>
@@ -245,33 +239,37 @@ include $path . 'assets/inc/header.php';
 			
 		</ul>
 		<br>	
+	</div>
 </div>
 
 <div class="sash">		
-<h2 id="blackStripe">Black Sash - Teaching Level</h2>
+<h2 id="blackStripe" onclick="showSash('blackSashContent')">Black Sash - Teaching Level</h2>
+	<div id="blackSashContent">
 	<br>
-	<p>This level is teaching level. You must be perfect in explaining the entire system up to this point. Anyone passing this level is considered Sifu (or teacher) of the system and can run classes or a school under a master's name and guidance.</p>
+	<p>This level is teaching level. You must be perfect in explaining the entire system up to this point.
+	Anyone passing this level is considered Sifu (or teacher) of the system and can run classes or a school under a master's name and guidance.</p>
 	
 	<br>
 
 	<h3 class="subLearn">Sifu Requirements</h3>
-	<br>
+		<br>
 
-	<ul class="sashExpectations">
-	
-		<li>Luk Dim Boon Kwan - 6 1/2 Point Pole Form and Translation</li>
-		<li>Usage of Pole in Combative Techniques</li>
-		<li>Chi Kwan or Sticking Pole</li>
-		<li>Teaching Classes in School and Grading - you will be graded in how well you can explain systems.</li>
-		<li>Basic Self Defense Against Club and Bat</li>
-		<li>Proficiency in Complete System Teaching and Usage Up to this Point</li>
-	
-	</ul>
+		<ul class="sashExpectations">
+		
+			<li>Luk Dim Boon Kwan - 6 1/2 Point Pole Form and Translation</li>
+			<li>Usage of Pole in Combative Techniques</li>
+			<li>Chi Kwan or Sticking Pole</li>
+			<li>Teaching Classes in School and Grading - you will be graded in how well you can explain systems.</li>
+			<li>Basic Self Defense Against Club and Bat</li>
+			<li>Proficiency in Complete System Teaching and Usage Up to this Point</li>
+		
+		</ul>
+	</div>
 </div>
 
 <div class="sash">	
-<h2 id="goldStripe">Gold Sash - Master Level</h2>
-	
+<h2 id="goldStripe" onclick="showSash('goldSashContent')">Gold Sash - Master Level</h2>
+	<div id="goldSashContent">
 	<br>
 	<h3 class="subLearn">Mastered all systems, including fighting abilities. This has the following requirements:</h3>
 	<br>
@@ -304,6 +302,8 @@ include $path . 'assets/inc/header.php';
 		that will test your ability to handle these kinds of situations. Defense against all weapons as well as hand to hand scenarios and fighting off multiple 
 		attackers will also be tested. This is a weekend of pure hell. Those who pass will be proud to be called a master and humble enough to be simply called 
 		Sifu (teacher) and understand why.</p>
+
+	</div>
 </div>
 			
 </body>

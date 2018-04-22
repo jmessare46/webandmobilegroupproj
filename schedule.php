@@ -53,7 +53,7 @@ include $path.'assets/inc/header.php';
 	<div class="events">
 	<?php
 	    $path = './';
-	  	require $path.'../../../dbInfo.inc';
+	  	require $path.'../../../dbInfo.php';
 		if ($mysqli) {
 
 		  //get contents of table and send back...
