@@ -724,7 +724,7 @@ img#current
 
 
  /*
-  * Styles the schedule page.
+  *************************************************** Styles the schedule page BEGIN. **********************************************
   */
 
    div.classTimes {
@@ -743,6 +743,27 @@ img#current
     text-align: right;
    
    }
+   
+   .button1{
+       
+       background-color: lavender;
+       border-radius: 5em;
+       padding: .5em;
+       margin: .5em;
+       float: left;
+       
+   }
+   .button1:hover{
+        background-color: skyblue;
+        box-shadow: 0 .8em 1em 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+   
+   /*
+     *************************************************** Styles the schedule page END. **********************************************
+     */
+
+   
+   
    div.A {
        color: white;
        text-align: right;
