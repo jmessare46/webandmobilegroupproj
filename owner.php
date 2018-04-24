@@ -7,28 +7,41 @@
  */
 
 session_start();
+session_name("Login");
 $path = './';
+$page = 'Owner Page';
+include $path . 'assets/inc/header.php';
 require $path . 'assets/inc/dbInfo.php';
+
+// Checks to see if user is already logged in
+if ( !isset($_SESSION['login']) || $_SESSION['login'] == false )
+{
+    header('Location: login.php');
+}
 
 // Check if the passwords are the same
 // If there is uname, pass, pass2 and both pass and pass2 match
 if( !empty($_POST['uname']) && !empty($_POST['pass']) && !empty($_POST['pass2']) && passMatch())
 {
     // Since data is coming from the database you need to use prepare statements
-    $smt = $mysqli->prepare("INSERT INTO 240Login (uname, pass) VALUES (?, ?)");
-    $smt->bind_param( "ss", $_POST['uname'], password_hash($_POST['pass'], PASSWORD_DEFAULT));
+    $smt = $mysqli->prepare("INSERT INTO members (uname, pass) VALUES (?, ?)");
+    $hash = password_hash($_POST['pass'], PASSWORD_DEFAULT);
+    $smt->bind_param( "ss", $_POST['uname'], $hash );
     $smt->execute();
     $smt->close();
 }
 
+// Checks to make sure the confirmation password and actual password match
 function passMatch()
 {
     if(strcmp($_POST['pass'], $_POST['pass2']) == 0)
     {
+        // Passwords matched
         return true;
     }
     else
     {
+        // Passwords didn't match
         return false;
     }
 }
@@ -59,7 +72,8 @@ function passMatch()
     </style>
 </head>
 <body>
-<form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+<a id="logout" href="logout.php">Logout</a>
+<form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" onsubmit="return validateNewUser();">
     <div>
         User Name:
         <input type="text" name="uname" size="30" />
