@@ -13,9 +13,17 @@ $page = 'Login Page';
 include $path . 'assets/inc/header.php';
 
 // Checks to see if user is already logged in
-if ( isset($_SESSION['uname']) )
+if ( isset($_SESSION['login']) && $_SESSION['login'] )
 {
-    header("Location: member.php");
+    // Checks to see if the owner is logging in
+    if( $_SESSION['name'] == "DGreen" )
+    {
+        header('Location: owner.php');
+    }
+    else
+    {
+        header('Location: member.php');
+    }
 }
 ?>
 
@@ -28,8 +36,5 @@ if ( isset($_SESSION['uname']) )
     <input type="password" placeholder="Enter Password" name="psw" required><br>
 
     <button type="submit" name="submit">Login</button>
-    <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label><br>
 </form>
 

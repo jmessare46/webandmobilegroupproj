@@ -293,9 +293,30 @@ span{
     background: green;
 }
 
+/* Styles the facebook link */
 #fb
 {
     padding-right: 20px;
+}
+
+/* Formats the google location */
+iframe
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/* Formats the phone number sections */
+#callus
+{
+    background: white;
+    width: 25%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 /*############################################# Styles the contact page Ends here. ######################## */
@@ -706,24 +727,19 @@ img#current
   * Styles the schedule page.
   */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
    div.classTimes {
    	padding: 15px;
    	margin: 20px;
-   	background-color: black;
-   	color: white;
+   	background-color: white;
+   	color: black;
    }
    
+  
    
    div.pTag {
    	padding: 15px;
 	margin: 20px;
    	color: white;
-<<<<<<< HEAD
     text-align: right;
    
    }
@@ -734,17 +750,6 @@ img#current
 
    }
   
-=======
-=======
->>>>>>> ac55e23ffbd70ab10920187500135cf4c6e57029
-=======
-   
-   }
-   
-   div.events {
-   
-   
-   }
    /* Contact Us CSS */
    /*editting the text inputs */
 input#desc {
@@ -817,8 +822,7 @@ img#fb {
 	width: auto;
 	float: right;
 }
-  
->>>>>>> master
+
 div.classTimes
 {
     padding: 15px;
@@ -879,7 +883,3 @@ div.A
     }
 
 }
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> ac55e23ffbd70ab10920187500135cf4c6e57029
