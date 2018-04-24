@@ -50,9 +50,10 @@ include $path.'assets/inc/header.php';
 	<div class="con">
 		<p>If you would like to schedule a private lesson,</p>
 		<p>please click the button below.</p>
-		<ul>
-		<li class="button1"><span><a href="contact.php">Contact Us</a></span></li>
-		</ul>
+
+	</div>
+	<div class="button1">
+				<li><span><a href="contact.php">Contact Us</a></span></li>
 	</div>
 
 	<div class="events">
@@ -60,6 +61,6 @@ include $path.'assets/inc/header.php';
 	</div>
 
 
-		<hr>
+
 	</body>
 </html>
