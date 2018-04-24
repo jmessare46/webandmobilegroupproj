@@ -758,7 +758,12 @@ img#current
     .button1:hover{
    	     background-color: skyblue;
    	     box-shadow: 0 .8em 1em 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-	}	
+	}
+	
+	.button1 li {
+	
+		display: none;
+	}
    /*
      *************************************************** Styles the schedule page END. **********************************************
      */
