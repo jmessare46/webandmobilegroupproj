@@ -14,8 +14,7 @@ include $path . 'assets/inc/header.php';
 <div id="callus">
     <h2>Want to get ahold of us sooner?</h2><br>
     <p>
-        <strong>Call Us: </strong><br>
-        (585) 451-9909
+        <strong>Call Us: </strong>(585) 451-9909
     </p>
 </div>
 
