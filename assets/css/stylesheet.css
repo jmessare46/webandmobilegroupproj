@@ -736,6 +736,19 @@ img#current
    
   
    
+   div.pTag {
+   	padding: 15px;
+	margin: 20px;
+   	color: white;
+    text-align: right;
+   
+   }
+   div.A {
+       color: white;
+       text-align: right;
+        text-decoration: crimson;
+
+   }
   
    /* Contact Us CSS */
    /*editting the text inputs */
@@ -809,7 +822,21 @@ img#fb {
 	width: auto;
 	float: right;
 }
-  
+
+div.classTimes
+{
+    padding: 15px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+div.pTag
+{
+    padding: 15px;
+    margin: 20px;
+    color: white;
+}
 
 div.A 
 {
