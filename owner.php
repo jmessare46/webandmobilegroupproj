@@ -72,24 +72,55 @@ function passMatch()
     </style>
 </head>
 <body>
-<a id="logout" href="logout.php">Logout</a>
-<form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" onsubmit="return validateNewUser();">
-    <div>
-        User Name:
-        <input type="text" name="uname" size="30" />
-    </div>
-    <div>
-        Password:
-        <input type="password" name="pass" size="30" />
-    </div>
-    <div>
-        Password (again):
-        <input type="password" name="pass2" size="30" />
-    </div>
-    <div class="clearfix">
-        <input type="reset" value="Reset Form" />
-        <input type="submit" value="Submit Form" />
-    </div>
-</form>
+<div id="makeuser">
+    <a id="logout" href="logout.php">Logout</a>
+    <h1>Add a Member</h2>
+    <form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" onsubmit="return validateNewUser();">
+        <div>
+            User Name:<br>
+            <input type="text" name="uname" size="30" />
+        </div>
+        <div>
+            Password:<br>
+            <input type="password" name="pass" size="30" />
+        </div>
+        <div>
+            Password (again):<br>
+            <input type="password" name="pass2" size="30" />
+        </div>
+        <div class="clearfix">
+            <input type="reset" value="Reset User" />
+            <input type="submit" value="Add User" />
+        </div>
+    </form><br>
+    
+    <h1>Change Class Time</h2>
+    <form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+        <div>
+            Select Class Day to Change:<br>
+            <select>
+                <option value="mon">Monday</option>
+                <option value="tue">Tuesday</option>
+                <option value="wed">Wednesday</option>
+                <option value="thu">Thursday</option>
+                <option value="fri">Friday</option>
+                <option value="sat">Saturday</option>
+                <option value="sun">Sunday</option>
+            </select>
+        </div>
+        <div>
+            Start Time:<br>
+            <input type="time" name="start" size="30" />
+        </div>
+        <div>
+            End Time:<br>
+            <input type="time" name="end" size="30" />
+        </div>
+        <div class="clearfix">
+            <input type="reset" value="Reset Time" />
+            <input type="submit" value="Change Time" />
+        </div>
+    </form>
+</div>
 </body>
 </html>
