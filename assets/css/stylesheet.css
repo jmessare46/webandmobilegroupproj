@@ -896,6 +896,7 @@ div.A
  *  Styles the owner page.
  */
 
+ /* Styles the owner input section background */
  #makeuser
  {
     background: white;
@@ -906,6 +907,7 @@ div.A
     padding: 10px;
  }
 
+ /* Makes the input sections a little bigger */
  #makeuser input
  {
      padding: 10px; 

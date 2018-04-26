@@ -19,11 +19,9 @@ if ( !isset($_SESSION['login']) || $_SESSION['login'] == false )
     header('Location: login.php');
 }
 
-// Check if the passwords are the same
-// If there is uname, pass, pass2 and both pass and pass2 match
+// Check if the passwords are the same if there is uname, pass, pass2 and both pass and pass2 match
 if( !empty($_POST['uname']) && !empty($_POST['pass']) && !empty($_POST['pass2']) && passMatch())
 {
-    // Since data is coming from the database you need to use prepare statements
     $smt = $mysqli->prepare("INSERT INTO members (uname, pass) VALUES (?, ?)");
     $hash = password_hash($_POST['pass'], PASSWORD_DEFAULT);
     $smt->bind_param( "ss", $_POST['uname'], $hash );
@@ -44,6 +42,16 @@ function passMatch()
         // Passwords didn't match
         return false;
     }
+}
+
+if(isset($_POST['day']) && isset($_POST['start']) && isset($_POST['end']))
+{
+    // Do something
+    $smt = $mysqli->prepare("INSERT INTO classTimes (day, start, end) VALUES (?, ?, ?)");
+    $hash = password_hash($_POST['pass'], PASSWORD_DEFAULT);
+    $smt->bind_param( "ss", $_POST['uname'], $hash );
+    $smt->execute();
+    $smt->close();
 }
 
 ?>
@@ -74,8 +82,8 @@ function passMatch()
 <body>
 <div id="makeuser">
     <a id="logout" href="logout.php">Logout</a>
-    <h1>Add a Member</h2>
-    <form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" onsubmit="return validateNewUser();">
+    <h1>Add a Member</h1>
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" onsubmit="return validateNewUser();">
         <div>
             User Name:<br>
             <input type="text" name="uname" size="30" />
@@ -85,7 +93,7 @@ function passMatch()
             <input type="password" name="pass" size="30" />
         </div>
         <div>
-            Password (again):<br>
+            Confirm Password:<br>
             <input type="password" name="pass2" size="30" />
         </div>
         <div class="clearfix">
@@ -94,11 +102,11 @@ function passMatch()
         </div>
     </form><br>
     
-    <h1>Change Class Time</h2>
-    <form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+    <h1>Change Class Time</h1>
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
         <div>
             Select Class Day to Change:<br>
-            <select>
+            <select name="day">
                 <option value="mon">Monday</option>
                 <option value="tue">Tuesday</option>
                 <option value="wed">Wednesday</option>
