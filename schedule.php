@@ -53,11 +53,11 @@ include $path.'assets/inc/header.php';
 
 	</div>
 	<div class="button1">
-				<li><span><a href="contact.php">Contact Us</a></span></li>
+				<span><a href="contact.php">Contact Us</a></span>
 	</div>
 
 	<div class="events">
-
+		<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQyeAArOAxuCmY64HjBmmBney6cxg1RiNaLnkB0UX15WYomLVMa8jLEoSZ5YF86e_U3GWNpzdQkx2xD/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 	</div>
 
 

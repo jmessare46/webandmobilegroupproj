@@ -50,3 +50,21 @@ function showSash(sashContentId){
 		sashShow.style.display = "none";
 	}
 }
+
+function showVideo(videoId, imageId, closeId){
+	var video = document.getElementById(videoId);
+	var image = document.getElementById(imageId);
+	if(!video.style.display || video.style.display === "none"){
+		video.style.display = "block";
+		image.style.display = "none";
+		document.getElementById(closeId).innerHTML = "Close Video<br>";
+		document.getElementById(closeId).style.display = "inline";
+	}
+}
+
+function closeVideo(videoId, imageId, closeId){
+	document.getElementById(videoId).style.display = "none";
+	document.getElementById(closeId).innerHTML = "";
+	document.getElementById(closeId).style.display = "none";
+	document.getElementById(imageId).style.display = "inline-block";
+}

@@ -758,7 +758,12 @@ img#current
     .button1:hover{
    	     background-color: skyblue;
    	     box-shadow: 0 .8em 1em 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-	}	
+	}
+	
+	.button1 li {
+	
+		display: none;
+	}
    /*
      *************************************************** Styles the schedule page END. **********************************************
      */
@@ -857,6 +862,29 @@ div.A
  * Styles the members page.
  */
 
+#video1, #video2, #video3, #video4, #video5, #video6{
+	display: none;
+}
+
+#closeVid1, #closeVid2, #closeVid3, #closeVid4, #closeVid5, #closeVid6{
+	cursor: pointer;
+	background-color: red;
+	display: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+#vidPic1, #vidPic2, #vidPic3, #vidPic4, #vidPic5, #vidPic6{
+	display: inline-block;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.vidDes{
+	text-align: center;
+}
 /* Styles the videos on the members page */
 #videos video
 {
