@@ -16,6 +16,7 @@ h1, h2, h3{
 
 .title
 {
+    margin-left: 15px;
     margin-bottom: 10px;
 }
 
@@ -285,7 +286,7 @@ article {
 /* CSS for "Contact us Header */
 .formStyle h1
 {
-    background: #65796b;
+    background: #001427;
     padding: 20px 0;
     font-size: 140%;
     font-weight: 300;
@@ -304,28 +305,43 @@ article {
     width: 93%;
     background: #fff;
     margin-bottom: 8%;
-    border: 1px solid #32ab46;
+    border: 1px solid #BF0603;
     padding: 3%;
     color: #555;
     font: 95% Arial, Helvetica, sans-serif;
 }
+
+/* Changes Input Boxes Borders When in Focus*/ 
+.formStyle input[type="text"]:focus,
+.formStyle input[type="number"]:focus,
+.formStyle input[type="email"]:foucs,
+.formStyle input[type="search"]:focus,
+.formStyle textarea:focus,
+.formStyle select:focus 
+{
+    border: 1px solid #001427;
+}
+
 /* CSS for Submit Button */
 .formStyle input[type="submit"],
 .formStyle input[type="button"]
 {
     width: 100%;
     padding: 3%;
-    background: #65796b;
+    font-size: 22px;
+    background: #001427;
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;    
     color: #fff;
+    -webkit-transition: background-color .7s;
+    transition: background-color .7s;
 }
 
 .formStyle input[type="submit"]:hover,
 .formStyle input[type="button"]:hover
 {
-    background: green;
+    background: #BF0603;
 }
 
 /* Styles the facebook link */
