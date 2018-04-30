@@ -94,13 +94,14 @@ a:hover{
     margin-left: 5%;
 }
 
+
 /*############################################# Styles About page starts here. ######################## */
 /*
  * Styles the about page.
  */
  #container{
-	width:900px;
-	height:2070px;
+	width:65%;
+	height:100%;
 	background-color: white;
 	margin: 0 auto 80px;
 	margin-top: -8px;
@@ -193,6 +194,41 @@ span{
 	padding-right:50px;
 }
 
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+
+}
+#FAQheader {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+.downloads {
+    float: left;
+    max-width: 50%;
+    margin: 0;
+    padding: 1em;
+}
+
+.downloads ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+.downloads ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
  /* Styles the about Page Ends here */
 
  /*############################################# Styles About page Ends here. ######################## */
