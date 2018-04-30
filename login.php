@@ -13,9 +13,17 @@ $page = 'Login Page';
 include $path . 'assets/inc/header.php';
 
 // Checks to see if user is already logged in
-if ( isset($_SESSION['uname']) )
+if ( isset($_SESSION['login']) && $_SESSION['login'] )
 {
-    header("Location: member.php");
+    // Checks to see if the owner is logging in
+    if( $_SESSION['name'] == "DGreen" )
+    {
+        header('Location: owner.php');
+    }
+    else
+    {
+        header('Location: member.php');
+    }
 }
 ?>
 

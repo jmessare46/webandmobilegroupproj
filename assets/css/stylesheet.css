@@ -724,28 +724,59 @@ img#current
 
 
  /*
-  * Styles the schedule page.
+  *************************************************** Styles the schedule page BEGIN. **********************************************
   */
 
    div.classTimes {
    	padding: 15px;
    	margin: 20px;
-   	background-color: black;
-   	color: white;
+   	background-color: white;
+   	color: black;
    }
    
+  
    
-   div.pTag {
+   div.con{
    	padding: 15px;
 	margin: 20px;
-   	color: white;
+   	color: black;
+    text-align: right;
    
    }
+
+
+   div.button1{
+   	    
+   	    width: 15%;
+   	    background-color: lavender;
+   	    border-radius: 5em;
+   	    padding: .5em;
+   	    margin: .5em;
+   	    float: right;
+   	}    
+	
+    .button1:hover{
+   	     background-color: skyblue;
+   	     box-shadow: 0 .8em 1em 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+	
+	.button1 li {
+	
+		display: none;
+	}
+   /*
+     *************************************************** Styles the schedule page END. **********************************************
+     */
+
    
-   div.events {
    
-   
+   div.A {
+       color: white;
+       text-align: right;
+        text-decoration: crimson;
+
    }
+  
    /* Contact Us CSS */
    /*editting the text inputs */
 input#desc {
@@ -820,21 +851,7 @@ img#fb {
 	width: auto;
 	float: right;
 }
-  
-div.classTimes
-{
-    padding: 15px;
-    margin: 20px;
-    background-color: black;
-    color: white;
-}
 
-div.pTag
-{
-    padding: 15px;
-    margin: 20px;
-    color: white;
-}
 
 div.A 
 {
@@ -847,12 +864,56 @@ div.A
  * Styles the members page.
  */
 
+#video1, #video2, #video3, #video4, #video5, #video6{
+	display: none;
+}
+
+#closeVid1, #closeVid2, #closeVid3, #closeVid4, #closeVid5, #closeVid6{
+	cursor: pointer;
+	background-color: red;
+	display: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+#vidPic1, #vidPic2, #vidPic3, #vidPic4, #vidPic5, #vidPic6{
+	display: inline-block;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.vidDes{
+	text-align: center;
+}
 /* Styles the videos on the members page */
 #videos video
 {
     align-items: center;
     padding: 10px;
 }
+
+/**
+ *  Styles the owner page.
+ */
+
+ /* Styles the owner input section background */
+ #makeuser
+ {
+    background: white;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+ }
+
+ /* Makes the input sections a little bigger */
+ #makeuser input
+ {
+     padding: 10px; 
+ }
 
 @media only screen and (max-width: 1000px)
 {

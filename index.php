@@ -56,13 +56,9 @@ include $path . 'assets/inc/header.php';
             become a target. You need a martial art that you will be able to use in its entirety for your whole life to defend
             yourself, not simply a portion of it because you are unable to execute the movements due to health or advanced age. The
             entire art of Wing Chun continued to be performed by the late Grandmaster Yip Man until a few weeks before his death from
-            advanced cancer. He was still able to perform every system of fighting.
-            <br>
-            A fighting system you can teach young and old.
-            <br>
-            Healthy or unhealthy.
-            <br>
-            You can start learning this system at any time and use it for the rest of your life.
+            advanced cancer. He was still able to perform every system of fighting. This is a fighting system that you
+            can teach both young and old, healthy or unhealthy. You can start Wing Chun at any time and use it for the
+            rest of your life.
         </p>
     </div>
 

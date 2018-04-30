@@ -6,16 +6,6 @@
  * Time: 9:47 PM
  */
 
-// If login is clicked
-/*if (isset( $_POST['submit'] ))
-{
-
-}
-else
-{
-    // Redirects to login page
-    header( "Location: login.php" );
-}*/
 session_start();
 $path = './';
 require $path . 'assets/inc/dbInfo.php';
@@ -26,7 +16,7 @@ $pass = $_POST['psw'];
 
 // Prepares the query for the DB
 $stmt = $mysqli->prepare("SELECT pass FROM members WHERE uname = ?");
-$stmt->bind_param( "s", $_POST['uname']);
+$stmt->bind_param( "s", $uname);
 
 // Go, do it
 $stmt->execute();
@@ -36,12 +26,20 @@ $stmt->bind_result($res);
 $stmt->fetch();
 
 // Verify that the correct password is given
-if(password_verify($_POST['pass'], $res))
+if(password_verify($pass, $res))
 {
     $_SESSION['login'] = true;
-    $_SESSION['name'] = $_POST['uname'];
-
-    header('Location: member.php');
+    $_SESSION['name'] = $uname;
+    
+    // Checks to see if the owner is logging in
+    if( $uname == "DGreen" )
+    {
+        header('Location: owner.php');
+    }
+    else
+    {
+        header('Location: member.php');
+    }
 }
 else
 {
