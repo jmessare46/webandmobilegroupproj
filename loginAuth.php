@@ -6,16 +6,6 @@
  * Time: 9:47 PM
  */
 
-// If login is clicked
-/*if (isset( $_POST['submit'] ))
-{
-
-}
-else
-{
-    // Redirects to login page
-    header( "Location: login.php" );
-}*/
 session_start();
 $path = './';
 require $path . 'assets/inc/dbInfo.php';

@@ -94,13 +94,14 @@ a:hover{
     margin-left: 5%;
 }
 
+
 /*############################################# Styles About page starts here. ######################## */
 /*
  * Styles the about page.
  */
  #container{
-	width:900px;
-	height:2070px;
+	width:65%;
+	height:100%;
 	background-color: white;
 	margin: 0 auto 80px;
 	margin-top: -8px;
@@ -191,6 +192,41 @@ span{
 	padding-right:50px;
 }
 
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+
+}
+#FAQheader {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+.downloads {
+    float: left;
+    max-width: 50%;
+    margin: 0;
+    padding: 1em;
+}
+
+.downloads ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+.downloads ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
  /* Styles the about Page Ends here */
 
  /*############################################# Styles About page Ends here. ######################## */
@@ -239,10 +275,11 @@ span{
 .formStyle
 {
     font: 95% Arial, Helvetica, sans-serif;
-    max-width: 700px;
-    margin: 10px auto;
+    max-width: 680px;
+    margin: 20px;
     padding: 16px;
     background: #F7F7F7;
+    float: left;
 }
 
 /* CSS for "Contact us Header */
@@ -304,17 +341,26 @@ iframe
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+    float: right;
+    max-width: 500px;
 }
 
-/* Formats the phone number sections */
-#callus
+/* facebook logo */
+img#fb {
+    height: 50px;
+    width: auto;
+    float: right;
+}
+
+/* Styles the facebook logo and call us sections */
+#heading
 {
-    background: white;
-    width: 25%;
-    float: left;
+    background-color: white;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
     padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
 }
 
 /*############################################# Styles the contact page Ends here. ######################## */
@@ -722,7 +768,7 @@ img#current
 
 
  /*
-  * Styles the schedule page.
+  *************************************************** Styles the schedule page BEGIN. **********************************************
   */
 
    div.classTimes {
@@ -734,97 +780,108 @@ img#current
    
   
    
-  
-   /* Contact Us CSS */
-   /*editting the text inputs */
-input#desc {
-	padding: 1em 0em 1em 0em;
-	width: 250px;
-}
-
-input#submit {
-	height: 2em;
-	width: 3em;
-	font-size: 20px;
-	text-decoration: none;
-	border: none;
-	background-color: #001427;
-	color: #DEEEEF;
-}
-
-input#submit:hover{
-	cursor: pointer;
-	color: #001427;
-	background-color: #DEEEEF;
-}
-
-input.text {
-	width: 250px;
-}
-div#contact {
-	margin: auto;
-	width: 500px;
-	border: 3px solid none/* blue */;
-}
-/* editting the div with in contact us */
-div.contactUs {
-	padding: 0.5em 0em 0.5em 0em;
-	text-align: center;
-}
-
-div#fname {
-	padding:0em 182px 0em 0em;
-}
-
-div#lname {
-	padding:0em 182px 0em 0em;
-}
-
-div#pnum {
-	padding:0em 137px 0em 0em;
-}
-
-div#eMail {
-	padding:0em 224px 0em 0em;
-}
-
-div#txtDesc {
-	padding:0em 178px 0em 0em;
-}
-div#submit {
-	text-align: center;
-}
-
-div#contactTitle {
-	text-align: center;
-}
-.asterick {
-	color: red;
-}
-/* facebook logo */
-img#fb {
-	height: 50px;
-	width: auto;
-	float: right;
-}
-  
-
-div.A 
-{
-    color: white;
+   div.con{
+   	padding: 15px;
+	margin: 20px;
+   	color: black;
     text-align: right;
-    text-decoration: crimson;
-}
+   
+   }
+
+
+   div.button1{
+   	    
+   	    width: 15%;
+   	    background-color: lavender;
+   	    border-radius: 5em;
+   	    padding: .5em;
+   	    margin: .5em;
+   	    float: right;
+   	}    
+	
+    .button1:hover{
+   	     background-color: skyblue;
+   	     box-shadow: 0 .8em 1em 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+	
+	.button1 li {
+	
+		display: none;
+	}
+   /*
+     *************************************************** Styles the schedule page END. **********************************************
+     */
+
 
 /*
  * Styles the members page.
  */
 
+#video1, #video2, #video3, #video4, #video5, #video6{
+	display: none;
+}
+
+#closeVid1, #closeVid2, #closeVid3, #closeVid4, #closeVid5, #closeVid6{
+	cursor: pointer;
+	background-color: red;
+	display: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+#vidPic1, #vidPic2, #vidPic3, #vidPic4, #vidPic5, #vidPic6{
+	display: inline-block;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.vidDes{
+	text-align: center;
+}
 /* Styles the videos on the members page */
 #videos video
 {
     align-items: center;
     padding: 10px;
+}
+
+/**
+ *  Styles the owner page.
+ */
+
+ /* Styles the owner input section background */
+ #makeuser
+ {
+    background: white;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+ }
+
+ /* Makes the input sections a little bigger */
+ #makeuser input
+ {
+     padding: 10px; 
+ }
+
+@media only screen and (max-width: 1300px) {
+
+    /**
+     * Styles the contact us page.
+     */
+    
+    /* Removes the float on the contact us divs */
+    .formStyle, iframe
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
 }
 
 @media only screen and (max-width: 1000px)
