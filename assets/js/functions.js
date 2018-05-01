@@ -88,3 +88,30 @@ function closeVideo(videoId, imageId, closeId){
 	document.getElementById(closeId).style.display = "none";
 	document.getElementById(imageId).style.display = "inline-block";
 }
+
+
+/* Contact Page validateForm Function */
+
+function validateForm(){
+    var isValid = true;
+    if(document.getElementById("name").value == ''){
+        document.getElementById("name").style.borderColor = "red";
+        document.getElementById("name").style.backgroundColor = "pink";
+        isValid = false;
+    }
+
+    if(document.getElementById("email").value == ''){
+        document.getElementById("email").style.borderColor = "red";
+        document.getElementById("email").style.backgroundColor = "pink";
+        isValid = false;
+    }
+
+    if(document.getElementById("message").value == ''){
+        document.getElementById("message").style.borderColor = "red";
+        document.getElementById("message").style.backgroundColor = "pink";
+        isValid = false;
+    }
+    return isValid;
+}
+
+/* End of validateForm Function */

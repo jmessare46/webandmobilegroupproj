@@ -24,11 +24,11 @@ include $path . 'assets/inc/header.php';
 <div id="contactus">
     <div class="formStyle">
         <h1>Contact Us</h1>
-        <form action="contactSubmit.php" method="POST">
-            <input type="text" name="name" placeholder="* Your Name" required/>
-            <input type="number" name="number" placeholder="Phone Number"/>
-            <input type="email" name="email" placeholder="* Email Address" required/>
-            <textarea name="message" placeholder="* Type your Message" required></textarea>
+        <form action="contactSubmit.php" onsubmit="return validateForm()" method="POST">
+            <input type="text" name="name" id="name" placeholder="* Your Name" required/>
+            <input type="number" name="number" id="number" placeholder="Phone Number Ex: 555-444-1234"/>
+            <input type="email" name="email" id="email" placeholder="* Email Address" required/>
+            <textarea name="message" id="message" placeholder="* Type your Message" required></textarea>
             <input type="submit" value="Submit" />
         </form>
     </div>
