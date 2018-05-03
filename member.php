@@ -27,6 +27,7 @@ include $path . 'assets/inc/header.php';
 
 	<div id = "closeVid1" onclick = "closeVideo('video1', 'vidPic1', 'closeVid1')"></div>
 
+
 	<figure id = "vidPic2">
 		<img src = "assets/images/vid2.jpg" onclick = "showVideo('video2', 'vidPic2', 'closeVid2')">
 		<figcaption class = "vidDes">Biu Gee Demonstration</figcaption>
@@ -37,6 +38,7 @@ include $path . 'assets/inc/header.php';
     	</div>
 
 	<div id = "closeVid2" onclick = "closeVideo('video2', 'vidPic2', 'closeVid2')"></div>
+
 
 	<figure id = "vidPic3">
 		<img src = "assets/images/vid3.jpg" onclick = "showVideo('video3', 'vidPic3', 'closeVid3')">
@@ -49,6 +51,7 @@ include $path . 'assets/inc/header.php';
 
 	<div id = "closeVid3" onclick = "closeVideo('video3', 'vidPic3', 'closeVid3')"></div>
 
+
 	<figure id = "vidPic4">
 		<img src = "assets/images/vid4.jpg" onclick = "showVideo('video4', 'vidPic4', 'closeVid4')">
 		<figcaption class = "vidDes">Chum Kiu Demonstration</figcaption>
@@ -59,6 +62,7 @@ include $path . 'assets/inc/header.php';
     	</div>
 
 	<div id = "closeVid4" onclick = "closeVideo('video4', 'vidPic4', 'closeVid4')"></div>
+
 
 	<figure id = "vidPic5">
 		<img src = "assets/images/vid5.jpg" onclick = "showVideo('video5', 'vidPic5', 'closeVid5')">
@@ -71,8 +75,9 @@ include $path . 'assets/inc/header.php';
 
 	<div id = "closeVid5" onclick = "closeVideo('video5', 'vidPic5', 'closeVid5')"></div>
 
+
 	<figure id = "vidPic6">
-		<img src = "assets/images/vid6.jpg" onclick = "showVideo('video6', 'vidPic6', 'closevid6')">
+		<img src = "assets/images/vid6.jpg" onclick = "showVideo('video6', 'vidPic6', 'closeVid6')">
 		<figcaption class = "vidDes">Mok Yan Jong Demonstration</figcaption>
 	</figure>
 
