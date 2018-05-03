@@ -15,9 +15,11 @@ include $path . 'assets/inc/header.php';
 <a id="logout" href="logout.php">Logout</a>
 <h1 class="title"><?php echo $page ?></h1>
 <div id="videos">
+
+	<p id = "memberHead">Click on a video to watch.</p>
 	
 	<figure id = "vidPic1">
-		<img src = "assets/images/vid1.jpg" onclick = "showVideo('video1', 'vidPic1', 'closeVid1')">
+		<img src = "assets/images/vid1.png" onclick = "showVideo('video1', 'vidPic1', 'closeVid1')">
     		<figcaption class = "vidDes">Gun Defense Demonstration</figcaption>
 	</figure>
 
@@ -29,7 +31,7 @@ include $path . 'assets/inc/header.php';
 
 
 	<figure id = "vidPic2">
-		<img src = "assets/images/vid2.jpg" onclick = "showVideo('video2', 'vidPic2', 'closeVid2')">
+		<img src = "assets/images/vid2.png" onclick = "showVideo('video2', 'vidPic2', 'closeVid2')">
 		<figcaption class = "vidDes">Biu Gee Demonstration</figcaption>
 	</figure>
 
@@ -41,7 +43,7 @@ include $path . 'assets/inc/header.php';
 
 
 	<figure id = "vidPic3">
-		<img src = "assets/images/vid3.jpg" onclick = "showVideo('video3', 'vidPic3', 'closeVid3')">
+		<img src = "assets/images/vid3.png" onclick = "showVideo('video3', 'vidPic3', 'closeVid3')">
 		<figcaption class = "vidDes">Luk Dim Boon Kwan Demonstration</figcaption>
 	</figure>
 
@@ -53,7 +55,7 @@ include $path . 'assets/inc/header.php';
 
 
 	<figure id = "vidPic4">
-		<img src = "assets/images/vid4.jpg" onclick = "showVideo('video4', 'vidPic4', 'closeVid4')">
+		<img src = "assets/images/vid4.png" onclick = "showVideo('video4', 'vidPic4', 'closeVid4')">
 		<figcaption class = "vidDes">Chum Kiu Demonstration</figcaption>
 	</figure>
 
@@ -65,7 +67,7 @@ include $path . 'assets/inc/header.php';
 
 
 	<figure id = "vidPic5">
-		<img src = "assets/images/vid5.jpg" onclick = "showVideo('video5', 'vidPic5', 'closeVid5')">
+		<img src = "assets/images/vid5.png" onclick = "showVideo('video5', 'vidPic5', 'closeVid5')">
 		<figcaption class = "vidDes">Sil Nim Tao Demonstration</figcaption>
 	</figure>
 
@@ -77,7 +79,7 @@ include $path . 'assets/inc/header.php';
 
 
 	<figure id = "vidPic6">
-		<img src = "assets/images/vid6.jpg" onclick = "showVideo('video6', 'vidPic6', 'closeVid6')">
+		<img src = "assets/images/vid6.png" onclick = "showVideo('video6', 'vidPic6', 'closeVid6')">
 		<figcaption class = "vidDes">Mok Yan Jong Demonstration</figcaption>
 	</figure>
 

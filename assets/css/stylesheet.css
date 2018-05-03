@@ -8,6 +8,7 @@
 body {
     background-color: #DEEEEF;
     font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px:
 }
 
 h1, h2, h3{
@@ -387,7 +388,8 @@ img#fb {
  /*
   * Styles the curriculum page.
   */
-  
+ 
+/*styles sash block*/
 .sash
 {
 	padding: 10px;
@@ -399,6 +401,7 @@ img#fb {
 	width: 90%;
 }
 
+/*styles sub category within sash*/
 .subLearn
 {
 	overflow: hidden;
@@ -406,6 +409,7 @@ img#fb {
 	clear: both;
 }
 
+/*styles main category within sash*/
 .sashExpectations
 {
 	list-style-type: square;
@@ -415,71 +419,48 @@ img#fb {
 	margin-bottom: 15px;
 }
 
+/*styles stripe heading*/
+#greenStripe, #redStripe, #whiteStripe, #brownStripe, #blackStripe, #goldStripe{
+	padding: 10px;
+	cursor: pointer;
+}
+
+/*styles stripe heading individually*/
 #greenStripe
 {
-	padding: 10px;	
 	background-color: green;
-	cursor: pointer;
 }
 
 #redStripe
 {
-	padding: 10px;
 	background-color: red;
-	cursor: pointer;
 }
 
 #whiteStripe
 {
-	padding: 10px;
 	background-color: white;
-	cursor: pointer;
 }
 
 #brownStripe{
-	padding: 10px;
 	background-color: brown;
-	cursor: pointer;
 }
 
 #blackStripe{
-	padding: 10px;
 	background-color: black;
 	color: white;
-	cursor: pointer;
 }
 
 #goldStripe{
-	padding: 10px;
 	background-color: gold;
-	cursor: pointer;
 }
 
+/*styles header*/
 #curHead{
 	padding-left: 10px;
 }
 
-#whiteSashContent{
-	display: none;
-}
-
-#greenSashContent{
-	display: none;
-}
-
-#brownSashContent{
-	display: none;
-}
-
-#redSashContent{
-	display: none;
-}
-
-#goldSashContent{
-	display: none;
-}
-
-#blackSashContent{
+/*styles content within sashes*/
+#whiteSashContent, #greenSashContent, #brownSashContent, #redSashContent, #goldSashContent, #blackSashContent{
 	display: none;
 }
 
@@ -833,10 +814,12 @@ img#current
  * Styles the members page.
  */
 
+/*styles videos*/
 #video1, #video2, #video3, #video4, #video5, #video6{
 	display: none;
 }
 
+/*styles close video buttons*/
 #closeVid1, #closeVid2, #closeVid3, #closeVid4, #closeVid5, #closeVid6{
 	cursor: pointer;
 	background-color: red;
@@ -847,14 +830,21 @@ img#current
 	margin-bottom: 20px;
 }
 
+/*styles video preview pictures*/
 #vidPic1, #vidPic2, #vidPic3, #vidPic4, #vidPic5, #vidPic6{
 	display: inline-block;
 	cursor: pointer;
 	margin: 10px;
 }
 
+/*styles video descriptions*/
 .vidDes{
 	text-align: center;
+}
+
+/*Styles p element on members page*/
+#memberHead{
+	margin-left: 10px;
 }
 /* Styles the videos on the members page */
 #videos video
