@@ -116,6 +116,28 @@ function closeVideo(videoId, imageId, closeId){
 	}
 }
 
+/*This function changes image on mouseover
+ *
+ * @param image
+ * @param imageId
+ *
+ */
+function changeImage(image, imageId){
+	var imageSwap = imageId + "Hover";
+	image.src = "assets/images/" + imageSwap + ".png";
+}
+
+
+/* This function returns image on mouse out
+ *
+ * @param image
+ * @param imageId
+ *
+ */
+function returnImage(image, imageId){
+	image.src = "assets/images/" + imageId + ".png";
+}
+
 
 /* Contact Page validateForm Function */
 

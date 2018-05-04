@@ -19,7 +19,7 @@ include $path . 'assets/inc/header.php';
 	<p id = "memberHead">Click on a video to watch.</p>
 	
 	<figure id = "vidPic1">
-		<img src = "assets/images/vid1.png" onclick = "showVideo('video1', 'vidPic1', 'closeVid1')">
+		<img src = "assets/images/pic1.png" id = "pic1" onmouseover = "changeImage(pic1, 'pic1')" onmouseout = "returnImage(pic1, 'pic1')" onclick = "showVideo('video1', 'vidPic1', 'closeVid1')">
     		<figcaption class = "vidDes">Gun Defense Demonstration</figcaption>
 	</figure>
 
@@ -31,7 +31,7 @@ include $path . 'assets/inc/header.php';
 
 
 	<figure id = "vidPic2">
-		<img src = "assets/images/vid2.png" onclick = "showVideo('video2', 'vidPic2', 'closeVid2')">
+		<img src = "assets/images/pic2.png" id = "pic2" onmouseover = "changeImage(pic2, 'pic2')" onmouseout = "returnImage(pic2, 'pic2')" onclick = "showVideo('video2', 'vidPic2', 'closeVid2')">
 		<figcaption class = "vidDes">Biu Gee Demonstration</figcaption>
 	</figure>
 
@@ -43,7 +43,7 @@ include $path . 'assets/inc/header.php';
 
 
 	<figure id = "vidPic3">
-		<img src = "assets/images/vid3.png" onclick = "showVideo('video3', 'vidPic3', 'closeVid3')">
+		<img src = "assets/images/pic3.png" id = "pic3" onmouseover = "changeImage(pic3, 'pic3')" onmouseout = "returnImage(pic3, 'pic3')" onclick = "showVideo('video3', 'vidPic3', 'closeVid3')">
 		<figcaption class = "vidDes">Luk Dim Boon Kwan Demonstration</figcaption>
 	</figure>
 
@@ -55,7 +55,7 @@ include $path . 'assets/inc/header.php';
 
 
 	<figure id = "vidPic4">
-		<img src = "assets/images/vid4.png" onclick = "showVideo('video4', 'vidPic4', 'closeVid4')">
+		<img src = "assets/images/pic4.png" id = "pic4" onmouseover = "changeImage(pic4, 'pic4')" onmouseout = "returnImage(pic4, 'pic4')" onclick = "showVideo('video4', 'vidPic4', 'closeVid4')">
 		<figcaption class = "vidDes">Chum Kiu Demonstration</figcaption>
 	</figure>
 
@@ -67,7 +67,7 @@ include $path . 'assets/inc/header.php';
 
 
 	<figure id = "vidPic5">
-		<img src = "assets/images/vid5.png" onclick = "showVideo('video5', 'vidPic5', 'closeVid5')">
+		<img src = "assets/images/pic5.png" id = "pic5" onmouseover = "changeImage(pic5, 'pic5')" onmouseout = "returnImage(pic5, 'pic5')" onclick = "showVideo('video5', 'vidPic5', 'closeVid5')">
 		<figcaption class = "vidDes">Sil Nim Tao Demonstration</figcaption>
 	</figure>
 
@@ -79,7 +79,7 @@ include $path . 'assets/inc/header.php';
 
 
 	<figure id = "vidPic6">
-		<img src = "assets/images/vid6.png" onclick = "showVideo('video6', 'vidPic6', 'closeVid6')">
+		<img src = "assets/images/pic6.png" id = "pic6" onmouseover = "changeImage(pic6, 'pic6')" onmouseout = "returnImage(pic6, 'pic6')" onclick = "showVideo('video6', 'vidPic6', 'closeVid6')">
 		<figcaption class = "vidDes">Mok Yan Jong Demonstration</figcaption>
 	</figure>
 
