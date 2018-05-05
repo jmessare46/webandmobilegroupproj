@@ -14,28 +14,6 @@ include $path.'assets/inc/header.php';
 <h1 id="title"><?php echo $page ?></h1>
   <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
 
-  <!-- Notes For Omar 
-<p>
-    ///////Page content That's needed </br>
-<!-- this page should contain the following 	
-	• About Us</br>
-•	Instructor Biographies</br>
-•	School’s Philosophy</br>
-•	Class Times and Schedules</br>
-•	Brief summary of what the classes are like</br>
-</p>
- <h1>School’s Philosophy</h1>
- <p>
-     This is coming...<br><br>
-
-     Kung Fu is great you should learn it - Omar
- </p><br>
- 
- -->
-
-
-
-  <!-- about MoyDon headers starts here -->
 <div class="about" >
 
 <h1>About Moy Don Wing Chun Kung Fu</h1><br>
