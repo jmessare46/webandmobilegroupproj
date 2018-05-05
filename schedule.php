@@ -11,24 +11,25 @@ $page = 'Schedule';
 include $path.'assets/inc/header.php';
 ?>
 
-
 <h1>Class Times</h1>
 <div class="classTimes">
 	<?php
 	    $path = './';
-	  	require $path.'../../../dbInfo.php';
-		if ($mysqli) {
-
-		  //get contents of table and send back...
-		  $res=$mysqli->query('SELECT day, className, beginHr, beginMin, timeOfDay1, endHr, endMin, timeOfDay2 FROM classTimes');
+	  	require $path.'assets/inc/dbInfo.php';
+		if ($mysqli) 
+		{
+		  // Gets contents of table and send back...
+		  $res=$mysqli->query('SELECT (day, start, end) FROM classTimes');
 		  if($res){
-			while($rowHolder = mysqli_fetch_array($res,MYSQLI_ASSOC)){
+			while($rowHolder = mysqli_fetch_array($res, MYSQLI_ASSOC))
+			{
 				$records[] = $rowHolder;
 			}// end of while
 		  }// end of if
 			//var_dump($records);
 		}// end of if-mysqli
-		else {
+		else 
+		{
 			echo "<h1> Error Connecting to Database</h1>";
 		}
 
@@ -37,12 +38,11 @@ include $path.'assets/inc/header.php';
 		<div class="times">
 
 			<?php
-					//var_dump($records);
-					foreach($records as $this_row){
-						echo '<h2>'.$this_row['day'] . " " . $this_row['className']." " . $this_row['beginHr'].
-						":". sprintf("%02d",$this_row['beginMin'])." " . $this_row['timeOfDay1']." " . $this_row['endHr'].
-						":". sprintf("%02d",$this_row['endMin'])." ". $this_row['timeOfDay2'].'</h2>';
-					}
+				// var_dump($records);
+				foreach($records as $this_row)
+				{
+					echo '<h2>' . $this_row['day'] . " " . $this_row['start'] . " " . $this_row['end'] . '</h2>';
+				}
 			?>
 
 			</div>
