@@ -10,6 +10,15 @@
 $path = './';
 $page = 'Members Page';
 include $path . 'assets/inc/header.php';
+
+session_start();
+session_name("Login");
+
+// Checks to see if user is logged in
+if( $_SESSION['name'] != "Member" && $_SESSION['name'] != "Owner" )
+{
+    //header("Location: login.php");
+}
 ?>
 
 <a id="logout" href="logout.php">Logout</a>

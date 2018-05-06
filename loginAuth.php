@@ -29,15 +29,16 @@ $stmt->fetch();
 if(password_verify($pass, $res))
 {
     $_SESSION['login'] = true;
-    $_SESSION['name'] = $uname;
     
     // Checks to see if the owner is logging in
     if( $uname == "DGreen" )
     {
+        $_SESSION['name'] = "Owner";
         header('Location: owner.php');
     }
     else
     {
+        $_SESSION['name'] = "Member";
         header('Location: member.php');
     }
 }

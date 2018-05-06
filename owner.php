@@ -13,8 +13,8 @@ $page = 'Owner Page';
 include $path . 'assets/inc/header.php';
 require $path . 'assets/inc/dbInfo.php';
 
-// Checks to see if user is already logged in
-if ( !isset($_SESSION['login']) || $_SESSION['login'] == false )
+// Checks to see if user is logged in
+if ( $_SESSION['name'] != 'Owner' )
 {
     header('Location: login.php');
 }
@@ -44,12 +44,12 @@ function passMatch()
     }
 }
 
+// Changes class times on website
 if(isset($_POST['day']) && isset($_POST['start']) && isset($_POST['end']))
 {
     // Do something
-    $smt = $mysqli->prepare("INSERT INTO classTimes (day, start, end) VALUES (?, ?, ?)");
-    $hash = password_hash($_POST['pass'], PASSWORD_DEFAULT);
-    $smt->bind_param( "ss", $_POST['uname'], $hash );
+    $smt = $mysqli->prepare("INSERT INTO classTimes (start, end) VALUES (?, ?) WHERE day='".$_POST['day']."'");
+    $smt->bind_param( "ss", $_POST['start'], $_POST['end'] );
     $smt->execute();
     $smt->close();
 }
@@ -82,6 +82,7 @@ if(isset($_POST['day']) && isset($_POST['start']) && isset($_POST['end']))
 <body>
 <div id="makeuser">
     <a id="logout" href="logout.php">Logout</a>
+    <a id="member" href="member.php">Member Page</a>
     <h1>Add a Member</h1>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" onsubmit="return validateNewUser();">
         <div>
@@ -107,13 +108,13 @@ if(isset($_POST['day']) && isset($_POST['start']) && isset($_POST['end']))
         <div>
             Select Class Day to Change:<br>
             <select name="day">
-                <option value="mon">Monday</option>
-                <option value="tue">Tuesday</option>
-                <option value="wed">Wednesday</option>
-                <option value="thu">Thursday</option>
-                <option value="fri">Friday</option>
-                <option value="sat">Saturday</option>
-                <option value="sun">Sunday</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
             </select>
         </div>
         <div>
