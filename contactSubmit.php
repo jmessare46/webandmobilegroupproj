@@ -37,11 +37,12 @@ if(isset($_POST['name']) && isset($_POST['email']))
 
     if(mail("mastergreen@rochesternywingchun.com", "Wing Chun Contact Us Form", $message ))
     {
-        echo "<div id = 'submitLine'>Email successfully sent! Thank you for submitting your feedback. We will contact you shortly.</div>";
+        echo "<div id = 'submitLine'>Email successfully sent! Thank you for submitting your feedback. We will contact you shortly. Feel free to
+	continue exploring the website.</div>";
     }
     else
     {
-        echo "<div id = 'submitLineError'>Error: email did not send successfully.</div>";
+        echo "<div id = 'submitLineError'>Error: email did not send successfully. Please try again.</div>";
     }
 }
 else

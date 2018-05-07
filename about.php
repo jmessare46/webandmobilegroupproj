@@ -12,29 +12,15 @@ include $path.'assets/inc/header.php';
 ?>
  <section id="container">
 <h1 id="title"><?php echo $page ?></h1>
-  <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
 
 <div class="about" >
 
-<h1>About Moy Don Wing Chun Kung Fu</h1><br>
-	<div id="moyoverview">
-		
-		<p>Master Donald Green (aka Moy Don) is a Master at Wing Chun (Ving Tsun) Kung-Fu. 
-		He started his journey in martial arts at the age of six. For three years, he learned 
-		Chito Ryu Karate, Ju Jit Su, Judo, Greco Roman and Free Style Wrestling, Boxing, and Kick 
-		Boxing. During this time, Master Green competed in many tournaments, winning 
-		several. He also started doing full-contact, no-rules fighting Brown. This 
-		took its toll on Master Green.</p> 
-
-		<p>With His knowledge he dedicated his life to passing on the pure true martial arts of IP man, Wing Chung style and further his teachings.
-		</p>
-		
-	</div><br>
+<h1 id = "aboutHead">About Moy Don Wing Chun Kung Fu</h1><br><br>
 
 	<div id="logo">
-		<img id = "logoImg" src="assets/images/MoyDonLogo.jpg"  style="min-width:30%; min-height:30%; max-width: 100%; max-height: 100%;"/>
+		<img id = "logoImg" src="assets/images/MoyDonLogo.jpg"  style="min-width:200px; min-height:200px; max-width: 100%; max-height: 100%;"/>
 	</div> 
-</div>
+</div><br>
  <!-- about MoyDon ends here -->
  
  
@@ -63,7 +49,7 @@ include $path.'assets/inc/header.php';
  <!-- Our Instructors -->
  <div class="instructors">
      <div class="bio">
-         <h3>School Owner Bio</h3>
+         <h2 = "aboutHeader">School Owner Bio</h2>
          <img src="assets/images/sifuGreen.jpg" alt="Sifu Green" class="insPic"/><br><br>
          <p>
              Master Donald Green (aka Moy Don) is a Master at Wing Chun (Ving Tsun) Kung-Fu. He started his journey in the
@@ -115,18 +101,18 @@ include $path.'assets/inc/header.php';
              Martial Arts Hall of Fame and received several rewards for teaching Martial Arts. He has been teaching in
              Rochester, N.Y. on and off from 1993. He now owns a school (Kwoon) in Rochester on 80 Rockwell Place near the
              Record Archives Suite 208.
-         </p><br>
+         </p><br><br><hr><br><br>
 
 		  <div class="instructor1">
 		   <h3>Adam Dunn - Assistant Instructor</h3><br>
 		 <img src="assets/images/InstructorAdam.jpg" alt="Sifu Dunn" class="insPic"/><br><br>
-		 <p class = "insBio">Adam first became involved with Wing Chun in 1998. His lack of prior experience lead to rather superficial desires and expectations from the art. It soon became obvious that Ving Tsun was not what he had been seeking, but the efficiency, efficacy, and logic of the art resonated so strongly with him that he never
+		 <p class = "insBio">Adam first became involved with Wing Chun in 1998. His lack of prior experience led to rather superficial desires and expectations from the art. It soon became obvious that Wing Chun was not what he had been seeking, but the efficiency, efficacy, and logic of the art resonated so strongly with him that he never
          left.</p><br>
 	<p>Despite a two year hiatus, he began acting as a junior instructor in 2003. Sifu Green’s only Bai Si
           ceremony to date was performed in 2005, and it was at this time that Adam became a disciple. He was
           extremely proud to be awarded his gold sash and the title of Sifu in 2011. Adam continues to act in the
           role of senior instructor until such time as he chooses to take on students of his own. </p>
-		 </div><br><br>
+		 </div><br><br><br>
 		  <hr><br><div class="instructor2">
 			<h3>Sifu Nathan Melenbacker - Assistant Instructor</h3><br>
 				 <img src="assets/images/natemelenbacker.jpeg" class ="insPic" alt="Sifu Melenbacker"/><br><br>
