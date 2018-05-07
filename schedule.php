@@ -11,7 +11,10 @@ $page = 'Schedule';
 include $path.'assets/inc/header.php';
 ?>
 
+<header>
 <h1>Class Times</h1>
+</header>
+
 <div class="classTimes">
 	<?php
 	    $path = './';
@@ -38,7 +41,7 @@ include $path.'assets/inc/header.php';
 	?>
 		<div class="times">
 			<?php
-                echo "<table style='float: left;'><tr><th>Day</th><th>Start Time</th><th>End Time</th></tr>";
+                echo "<table><tr><th>Day</th><th>Start Time</th><th>End Time</th></tr>";
 				foreach($records as $this_row)
 				{
 					echo "<tr><td> " . $this_row['day'] . "</td><td>" . $this_row['start'] . "</td><td>" . $this_row['end'] . "</td></tr>";
