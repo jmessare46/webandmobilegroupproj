@@ -21,14 +21,14 @@ include $path.'assets/inc/header.php';
 		  // Gets contents of table and send back...
 		  $res=$mysqli->query('SELECT day, start, end FROM classTimes');
 		  $records = array();
-		  if($res){
+		  if($res)
+		  {
 			while($rowHolder = mysqli_fetch_array($res, MYSQLI_ASSOC))
 			{
 				$records[] = $rowHolder;
-			}// end of while
-		  }// end of if
-			//var_dump($records);
-		}// end of if-mysqli
+			}
+		  }
+		}
 		else 
 		{
 			echo "<h1> Error Connecting to Database</h1>";
@@ -37,8 +37,8 @@ include $path.'assets/inc/header.php';
 
 	?>
 		<div class="times">
-
 			<?php
+<<<<<<< HEAD
 				foreach($records as $this_row)
 				{
 					echo "<div style='text-align:center; border-style: dotted; background-color:#e6ffe6; font-size:large;'> " .
@@ -46,25 +46,34 @@ include $path.'assets/inc/header.php';
                     " </td><td style='border: none; background-color: #dddddd; padding: 5px; width: 100px;'>" . $this_row['start'] .
                     " - </td><td style='border: none; background-color: #dddddd; padding: 5px; width: 100px;'>" . $this_row['end'] .
                     " </td></tr>";
+=======
+				// var_dump($records);
+                echo "<table style='float: left;'><tr><th>Day</th><th>Start Time</th><th>End Time</th></tr>";
+				foreach($records as $this_row)
+				{
+					echo "<tr><td> " . $this_row['day'] . "</td><td>" . $this_row['start'] . "</td><td>" . $this_row['end'] . "</td></tr>";
+>>>>>>> joesbranch
 				}
+                echo "</table>";
 			?>
+            <div class="button1">
+                <span><a style="float: right;" href="contact.php">Contact Us</a></span>
+            </div>
 
-			</div>
-		</div>
-	<div class="con">
-		<p>If you would like to schedule a private lesson,</p>
-		<p>please click the button below.</p>
+            <div class="con">
+                <p>If you would like to schedule a private lesson,</p>
+                <p>please click the button below.</p>
 
-	</div>
-	<div class="button1">
-				<span><a href="contact.php">Contact Us</a></span>
-	</div>
+            </div>
 
-	<div class="events">
-		<center><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQyeAArOAxuCmY64HjBmmBney6cxg1RiNaLnkB0UX15WYomLVMa8jLEoSZ5YF86e_U3GWNpzdQkx2xD/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> </center>
-	</div>
-
-
-
+<<<<<<< HEAD
 	</body>
+=======
+            <div class="events">
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQyeAArOAxuCmY64HjBmmBney6cxg1RiNaLnkB0UX15WYomLVMa8jLEoSZ5YF86e_U3GWNpzdQkx2xD/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            </div>
+        </div>
+</div>
+</body>
+>>>>>>> joesbranch
 </html>
