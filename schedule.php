@@ -38,21 +38,10 @@ include $path.'assets/inc/header.php';
 	?>
 		<div class="times">
 			<?php
-<<<<<<< HEAD
-				foreach($records as $this_row)
-				{
-					echo "<div style='text-align:center; border-style: dotted; background-color:#e6ffe6; font-size:large;'> " .
-					"<tr><td style='border: none; background-color: #dddddd; padding: 5px; width: 100px;'>" . $this_row['day'] .
-                    " </td><td style='border: none; background-color: #dddddd; padding: 5px; width: 100px;'>" . $this_row['start'] .
-                    " - </td><td style='border: none; background-color: #dddddd; padding: 5px; width: 100px;'>" . $this_row['end'] .
-                    " </td></tr>";
-=======
-				// var_dump($records);
                 echo "<table style='float: left;'><tr><th>Day</th><th>Start Time</th><th>End Time</th></tr>";
 				foreach($records as $this_row)
 				{
 					echo "<tr><td> " . $this_row['day'] . "</td><td>" . $this_row['start'] . "</td><td>" . $this_row['end'] . "</td></tr>";
->>>>>>> joesbranch
 				}
                 echo "</table>";
 			?>
@@ -66,14 +55,10 @@ include $path.'assets/inc/header.php';
 
             </div>
 
-<<<<<<< HEAD
-	</body>
-=======
             <div class="events">
                 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQyeAArOAxuCmY64HjBmmBney6cxg1RiNaLnkB0UX15WYomLVMa8jLEoSZ5YF86e_U3GWNpzdQkx2xD/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
         </div>
 </div>
 </body>
->>>>>>> joesbranch
 </html>
