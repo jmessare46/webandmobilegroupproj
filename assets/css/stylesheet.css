@@ -864,14 +864,28 @@ img#current
  /*
   *************************************************** Styles the schedule page BEGIN. **********************************************
   */
+ 
+ .classTimes {
+    background-color:#ffcc99;
+    margin: 0 10% 0 10%;
+    min-height:1200;
+    border-radius:100px 100px;
+    padding-left:80px;
+    padding-right: 50px;
+    padding-top: 50px;
+	}
+header{
+  color: #148716;
+  text-align: center;
+}
 
-   div.classTimes {
+   /*div.classTimes {
    	padding: 15px;
    	margin: 20px;
    	background-color: white;
    	color: black;
    }
-   
+   */
   
    
    div.con{
@@ -902,6 +916,18 @@ img#current
 	
 		display: none;
 	}
+	
+ table{
+		border: none;
+		text-align:center;
+	}
+	
+	th, td, tr {
+		border: none;
+		background-color: #dddddd;
+		padding: 5px;
+		width: 100px;
+		}
    /*
      *************************************************** Styles the schedule page END. **********************************************
      */
