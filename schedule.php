@@ -20,6 +20,7 @@ include $path.'assets/inc/header.php';
 		{
 		  // Gets contents of table and send back...
 		  $res=$mysqli->query('SELECT (day, start, end) FROM classTimes');
+		  $records = array();
 		  if($res){
 			while($rowHolder = mysqli_fetch_array($res, MYSQLI_ASSOC))
 			{
@@ -41,7 +42,13 @@ include $path.'assets/inc/header.php';
 				// var_dump($records);
 				foreach($records as $this_row)
 				{
-					echo '<h2>' . $this_row['day'] . " " . $this_row['start'] . " " . $this_row['end'] . '</h2>';
+					echo"<div style='text-align:center; border-style: dotted; background-color:#e6ffe6; font-size:large;'> " .
+					"<tr>
+				      <td style='border: none; background-color: #dddddd; padding: 5px; width: 100px;'> " . $this_row['day'] . "</td>
+                      <td style='border: none; background-color: #dddddd; padding: 5px; width: 100px;'>" . $this_row['start'] . "</td>
+                      <td style='border: none; background-color: #dddddd; padding: 5px; width: 100px;'>" . $this_row['end'] .  "</td>
+					  </tr>";   
+					// echo '<h2>' . $this_row['day'] . " " . $this_row['start'] . " " . $this_row['end'] . '</h2>';
 				}
 			?>
 
@@ -57,7 +64,7 @@ include $path.'assets/inc/header.php';
 	</div>
 
 	<div class="events">
-		<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQyeAArOAxuCmY64HjBmmBney6cxg1RiNaLnkB0UX15WYomLVMa8jLEoSZ5YF86e_U3GWNpzdQkx2xD/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+		<center><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQyeAArOAxuCmY64HjBmmBney6cxg1RiNaLnkB0UX15WYomLVMa8jLEoSZ5YF86e_U3GWNpzdQkx2xD/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> </center>
 	</div>
 
 
