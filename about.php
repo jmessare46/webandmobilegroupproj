@@ -64,7 +64,7 @@ include $path.'assets/inc/header.php';
  <div class="instructors">
      <div class="bio">
          <h3>School Owner Bio</h3>
-
+         <img src="assets/images/sifuGreen.jpg" alt="Sifu Green" class="insPic"/><br><br>
          <p>
              Master Donald Green (aka Moy Don) is a Master at Wing Chun (Ving Tsun) Kung-Fu. He started his journey in the
              Martial Arts at the age of 6 years old; for three years, he learned several Southern Chinese styles, mainly Southern
@@ -119,7 +119,7 @@ include $path.'assets/inc/header.php';
 
 		  <div class="instructor1">
 		   <h3>Adam Dunn - Assistant Instructor</h3><br>
-		 <img src="assets/images/InstructorAdam.jpeg" alt="Nate" class="insPic"/><br><br>
+		 <img src="assets/images/InstructorAdam.jpg" alt="Sifu Dunn" class="insPic"/><br><br>
 		 <p class = "insBio">Adam first became involved with Wing Chun in 1998. His lack of prior experience lead to rather superficial desires and expectations from the art. It soon became obvious that Ving Tsun was not what he had been seeking, but the efficiency, efficacy, and logic of the art resonated so strongly with him that he never
          left.</p><br>
 	<p>Despite a two year hiatus, he began acting as a junior instructor in 2003. Sifu Green’s only Bai Si
@@ -129,7 +129,7 @@ include $path.'assets/inc/header.php';
 		 </div><br><br>
 		  <hr><br><div class="instructor2">
 			<h3>Sifu Nathan Melenbacker - Assistant Instructor</h3><br>
-				 <img src="assets/images/natemelenbacker.jpeg" class ="insPic"alt="Nate"/><br><br>
+				 <img src="assets/images/natemelenbacker.jpeg" class ="insPic" alt="Sifu Melenbacker"/><br><br>
 				 <p class = "insBio">Nate has over 30 years of experience in the martial arts, starting with Karate styles (Isshin-ryu, Kobudo, Kyokushin) and switching to Ving Tsun after meeting Sifu Don Green in 1992.  An Intelligence Specialist and Gulf War Navy Veteran, Nate achieved Gold Sash level along with his training partner, Sifu Adam Dunn, in 2011.</p>
 			  </div>
 		</div><br><br><br>

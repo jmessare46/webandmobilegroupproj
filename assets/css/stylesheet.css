@@ -100,6 +100,15 @@ a:hover{
     margin-left: 5%;
 }
 
+/* Styles the Video on the Index page */
+#demoVid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
 
 /*############################################# Styles About page starts here. ######################## */
 /*
@@ -401,7 +410,24 @@ img#fb {
 /*############################################# Styles the contact page Ends here. ######################## */
 	   
 
+/*
+ *styles contactSubmit page
+ */
 
+ #submitLine, #submitLineError{
+	text-align: center;
+	font-size: 2em;
+	background-color: black;
+	padding-bottom: 5px;
+ }
+ 
+ #submitLine{
+	 color: #00ff00;
+ }
+ 
+ #submitLineError{
+	color: red;
+ }
 
  /*
   * Styles the curriculum page.
@@ -999,13 +1025,23 @@ img#current
     #navBar a{
         font-size: 20px;
     }
+
+    /* Makes video on index page responsive */
+    #demoVid{
+        width: 500px;
+        height: 300px;
+    }
 }
 
 @media only screen and (max-width: 750px){
-
-
     #navBar #loginLink{
         padding-bottom: 0px;
+    }
+
+    /* Makes video on index page responsive */
+    #demoVid{
+        width: 450px;
+        height: 250px;
     }
 }
 
@@ -1060,5 +1096,11 @@ img#current
     /* Changes 2 Column Layout on Owner's Page into a Single Column Layout */
     .column {
         width: 100%;
+    }
+
+    /* Makes video on index page responsive */
+    #demoVid{
+        width: 400px;
+        height: 200px;
     }
   }
