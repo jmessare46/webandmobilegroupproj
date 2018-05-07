@@ -20,8 +20,10 @@
 <body>
 
 <!-- Navigation list shown at the top of the page -->
-<nav id="navBar">
-    <a href="index.php">Home</a>
+<nav id="navBar" class="topNav">
+    <!-- Hamburger Menu Icon -->
+    <a href="javascript:void(0);" class="icon" onclick="isResponsive()">&#9776;</a>
+    <a id="indexLink" href="index.php">Home</a>
     <a href="about.php">About Us</a>
     <a href="contact.php">Contact Us</a>
     <a href="history.php">History</a>
