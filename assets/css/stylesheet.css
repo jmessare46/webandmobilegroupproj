@@ -8,7 +8,7 @@
 body {
     background-color: #DEEEEF;
     font-family: 'Noto Sans', sans-serif;
-    margin-left: 5px:
+    margin-left: 5px;
 }
 
 h1, h2, h3{
@@ -469,23 +469,20 @@ img#fb {
  * Styles the history page.
  */
 
-#history
-{
+#history{
     text-align: center;
     padding-bottom: 30px;
 }
 
 /* The actual timeline (the vertical ruler) */
-.timeline
-{
+.timeline{
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 /* The actual timeline (the vertical ruler) */
-.timeline::after
-{
+.timeline::after{
     content: '';
     position: absolute;
     width: 6px;
@@ -493,8 +490,7 @@ img#fb {
 }
 
 /* Makes middle line in time line */
-#centerline
-{
+#centerline{
     position: relative;
     left: 50%;
     bottom: 0;
@@ -510,8 +506,7 @@ img#fb {
 }
 
 /* This makes the actual line appear in the middle */
-#timeline::before
-{
+#timeline::before{
     content: '';
     position: absolute;
     width: 6px;
@@ -541,55 +536,82 @@ div.left h3, div.right h3
 }
 
 /* Styles the text in the timeline */
-div.left p, div.right p
-{
+div.left p, div.right p{
     padding: 5px;
     padding-left: 10px;
 }
 
 /* Floats the image to the right */
-.timelinecontainer img
-{
+.timelinecontainer img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
     margin: 10px;
     padding: 5px;
-    position: relative;
 }
 
 /* Floats the left picture in the timeline to the left */
-.leftpic
-{
+.leftpic{
     float: left;
 }
 
 /* Floats the right picutre in the timeline to the right */
-.rightpic
-{
+.rightpic{
     float: right;
 }
 
 /* Sizes the text boxes in the timeline */
-div.left
-{
+div.left{
     float: left;
     width: 45%;
     border-radius: 10px 0 10px 10px;
 }
 
 /* Makes the container that has the text and picture a certain height */
-.timelinecontainer
-{
+.timelinecontainer{
     clear: both;
     height: 300px;
 }
 
 /* Floats the div to the right */
-div.right
-{
+div.right{
     float: right;
     width: 45%;
     border-radius: 0 10px 10px 10px;
 }
 
+/* Media Queries for the History Page*/
+@media only screen and (max-width: 650px){
+    #timeline::before{
+        background-color: transparent;
+    }
+
+    #timeline{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .timelinecontainer{
+        margin-top: 10px;
+        margin-left: 17%;
+        margin-bottom: 10px;
+        width: 130%;
+        height: fit-content;
+    }
+
+    .timelinecontainer img{
+        display: none;
+    }
+
+    div.left{
+        float: none;
+    }
+
+    div.right{
+        float: none;
+    }
+}
 
 /*
  * Styles the login page.
@@ -774,7 +796,7 @@ div.right
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
-    //height: 500px;
+    height: 500px;
 }
 
 /* Makes first slide display */
