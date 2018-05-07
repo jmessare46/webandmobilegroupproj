@@ -405,8 +405,8 @@ img#fb {
  *styles contactSubmit page
  */
 
- #submitLine, submitLineError{
-	 text-align: center;
+ #submitLine, #submitLineError{
+	text-align: center;
 	font-size: 2em;
 	background-color: black;
 	padding-bottom: 5px;
