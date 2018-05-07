@@ -108,18 +108,18 @@ a:hover{
 	margin: 0 auto 80px;
 	margin-top: -8px;
 	padding: 20px 80px 50px 80px;
+	min-width: 420px;
 }
-
 .about{
 	width:100%;
 	height:250px; 
 	background-color:#fff;
-	
+	margin-bottom: 50px;	
 }
 
 .about #moyoverview{
 	width:70%;
-	height:250px; 
+	height: auto; 
 	float:left;	
 	padding-bottom:15px;
 }
@@ -158,6 +158,8 @@ a:hover{
 	background-color:#f5f6f6;
 	padding-top:inherit;
 	padding:10px;
+	margin-top: 10px;
+	clear: both;
 }
 
 #mission td{
@@ -185,10 +187,21 @@ span{
 	line-height: 20px;
     text-align:justify;
  }
- .bio .intructor1 .intructor2{
+ .bio .instructor1 .instructor2{
 	 float:left;
  }
-.bio #insPic{
+
+@media screen and (max-width: 800px){
+	.insPic{
+		float: none;
+		display: block;
+	}
+	.insBio{	
+		clear: both;
+	}
+}
+
+.bio .insPic{
 	float: left;
 	width:300px;
     height:300px;
@@ -198,7 +211,7 @@ span{
 div.container {
     width: 100%;
     border: 1px solid gray;
-
+    min-width: 460px;
 }
 #FAQheader {
     padding: 1em;
@@ -210,7 +223,7 @@ div.container {
 
 .downloads {
     float: left;
-    max-width: 50%;
+    max-width: 30%;
     margin: 0;
     padding: 1em;
 }
