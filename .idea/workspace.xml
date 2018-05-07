@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4664f367-9148-40d9-ab7c-ffa36370ac54" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/assets/css/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="775" column="8" selection-start-line="775" selection-start-column="8" selection-end-line="775" selection-end-column="8" />
+              <caret line="819" column="3" selection-start-line="819" selection-start-column="3" selection-end-line="819" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -151,6 +151,9 @@
       <workItem from="1524084934971" duration="1280000" />
       <workItem from="1524439820539" duration="5000" />
       <workItem from="1524580713121" duration="215000" />
+      <workItem from="1525131627318" duration="14000" />
+      <workItem from="1525134196545" duration="13000" />
+      <workItem from="1525136309340" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="Changed id of title to class">
       <created>1522693322440</created>
@@ -177,7 +180,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10779000" />
+    <option name="totallyTimeSpent" value="10809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="616" y="16" width="728" height="788" extended-state="0" />
@@ -194,14 +197,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3296593" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
@@ -554,7 +557,7 @@
     <entry file="file://$PROJECT_DIR$/assets/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="775" column="8" selection-start-line="775" selection-start-column="8" selection-end-line="775" selection-end-column="8" />
+          <caret line="819" column="3" selection-start-line="819" selection-start-column="3" selection-end-line="819" selection-end-column="3" />
         </state>
       </provider>
     </entry>
