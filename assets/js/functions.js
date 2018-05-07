@@ -164,3 +164,15 @@ function validateForm(){
 }
 
 /* End of validateForm Function */
+
+/* Start Mobile Menu isResponsive Function */
+function isResponsive(){
+	var elem = document.getElementById("navBar");
+	if (elem.className === "topNav"){
+    	elem.className += " responsive";
+	} 
+	else{
+    	elem.className = "topNav";
+  	}
+}
+/* End Mobile Menu isResponsive Function */
