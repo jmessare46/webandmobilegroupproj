@@ -17,9 +17,10 @@ include $path . 'assets/inc/header.php';
 <div id="curHead">
 	<h2>Progression</h2>
 		<p>Progression in Wing Chun is denoted through various colored sashes. Moy Don will teach all the way 
-		up to Master level, the gold sash. Expectations for each sash are detailed below. Please click on each sash to display the details.</p>
+		up to Master level, the gold sash. Expectations for each sash are detailed below. <br><br><b>Please click on each sashe to display details.</b></p>
 </div>
-	<br>
+
+<br>
 
 <div class="sash">
     <h2 id="whiteStripe" onclick="showSash('whiteSashContent')">White Sash</h2>
