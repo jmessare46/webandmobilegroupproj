@@ -13,7 +13,7 @@
 <head>
     <title><?php echo $page;?></title>
     <link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/css/stylesheet.css"/>
-    <script rel="script" type="text/javascript" src="<?php echo $path;?>assets/js/functions.js"></script>
+    <script rel="script" src="<?php echo $path;?>assets/js/functions.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat:900|Noto+Sans" rel="stylesheet">
     <link rel="icon" type="image/png" href="../../assets/images/favicon.png">
 </head>

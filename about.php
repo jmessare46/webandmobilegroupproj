@@ -7,18 +7,18 @@
  */
 
 $path = './';
-$page = '';
+$page = 'About Us';
 include $path.'assets/inc/header.php';
 ?>
- <section id="container">
-<h1 id="title"><?php echo $page ?></h1>
+<section id="container">
+
 
 <div class="about" >
 
 <h1 id = "aboutHead">About Moy Don Wing Chun Kung Fu</h1><br><br>
 
 	<div id="logo">
-		<img id = "logoImg" src="assets/images/MoyDonLogo.jpg"  style="min-width:200px; min-height:200px; max-width: 100%; max-height: 100%;"/>
+		<img id = "logoImg" src="assets/images/MoyDonLogo.jpg" alt="Moy Don Logo" style="min-width:200px; min-height:200px; max-width: 100%; max-height: 100%;"/>
 	</div> 
 </div><br>
  <!-- about MoyDon ends here -->
@@ -49,7 +49,7 @@ include $path.'assets/inc/header.php';
  <!-- Our Instructors -->
  <div class="instructors">
      <div class="bio">
-         <h2 = "aboutHeader">School Owner Bio</h2>
+         <h2>School Owner Bio</h2>
          <img src="assets/images/sifuGreen.jpg" alt="Sifu Green" class="insPic"/><br><br>
          <p>
              Master Donald Green (aka Moy Don) is a Master at Wing Chun (Ving Tsun) Kung-Fu. He started his journey in the
