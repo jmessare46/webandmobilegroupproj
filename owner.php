@@ -105,36 +105,6 @@ if(isset($_POST['day']) && isset($_POST['start']) && isset($_POST['end']))
             </div>
         </form><br>
     </div>
-    
-    <div id="timeWrapper" class="column">
-        <h1 id="timeHeader">Change Class Time</h1>
-        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-            <div>
-                Select Class Day to Change:<br>
-                <select name="day">
-                    <option value="Monday">Monday</option>
-                    <option value="Tuesday">Tuesday</option>
-                    <option value="Wednesday">Wednesday</option>
-                    <option value="Thursday">Thursday</option>
-                    <option value="Friday">Friday</option>
-                    <option value="Saturday">Saturday</option>
-                    <option value="Sunday">Sunday</option>
-                </select>
-            </div>
-            <div>
-                Start Time:<br>
-                <input type="time" name="start" size="30" />
-            </div>
-            <div>
-                End Time:<br>
-                <input type="time" name="end" size="30" />
-            </div>
-            <div class="clearfix">
-                <input class="button" type="reset" value="Reset Time" />
-                <input class="button" type="submit" value="Change Time" />
-            </div>
-        </form>
-    </div>
 </div>
 </body>
 </html>
