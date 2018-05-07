@@ -11,10 +11,12 @@ $page = 'Home';
 include $path . 'assets/inc/header.php';
 ?>
 <div id="home">
-    <h1>
-        Invest in your future...
-    </h1><br>
+    <h1 style = "text-align: center;">
+        Welcome to Moy Don Wing Chun!
+    </h1>
 
+    <h2 style = "text-align: center;">欢迎咏春学校！</h2>
+	<br>
     <!-- Slide show of Martial Arts School -->
     <div id="slideshow">
         <div id="slides">
