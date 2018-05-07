@@ -44,7 +44,7 @@ include $path . 'assets/inc/header.php';
     </div><br>
 
     <div id="demoVid">
-    <video controls="controls" width="700" height="500" src="assets/videos/introVideo.mov" alt="Introduction Video"></video>
+    <video id="homeVideo" controls="controls" width="700" height="500" src="assets/videos/introVideo.mov" alt="Introduction Video"></video>
     </div>
 
     <div onload="slideshow();">
