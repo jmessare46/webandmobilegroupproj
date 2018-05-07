@@ -58,7 +58,7 @@ function showSash(sashContentId){
 
 
 /**
- * This function does something.
+ * This function sets the video to appear on click and displays a close video button.
  *
  * @param videoId
  * @param imageId
@@ -71,12 +71,34 @@ function showVideo(videoId, imageId, closeId){
 		video.style.display = "block";
 		image.style.display = "none";
 		document.getElementById(closeId).innerHTML = "Close Video<br>";
-		document.getElementById(closeId).style.display = "inline";
+		document.getElementById(closeId).style.display = "inline-block";
+		hideOthers(videoId, 6);
 	}
 }
 
 /**
- * This function does something.
+ * This function hides other video picture previews once another is opened.
+ *
+ * @param videoId
+ * @param numVideos
+ */
+function hideOthers(videoId, numVideos){
+	var video = document.getElementById(videoId);
+	for(var i = 1; i <= numVideos; i++){
+		var removeVideo = "video" + i;
+		if(removeVideo == videoId){
+			continue;
+		}
+
+		else{
+			var hidePic = "vidPic" + i;
+			document.getElementById(hidePic).style.display = "none";
+		}
+	}
+}
+
+/**
+ * This function closes the video, removes the close button, and brings back up the preview image.
  *
  * @param videoId
  * @param imageId
@@ -87,6 +109,33 @@ function closeVideo(videoId, imageId, closeId){
 	document.getElementById(closeId).innerHTML = "";
 	document.getElementById(closeId).style.display = "none";
 	document.getElementById(imageId).style.display = "inline-block";
+
+	for(var i = 1; i <= 6; i++){
+		var showPic = "vidPic" + i;
+		document.getElementById(showPic).style.display = "inline-block";
+	}
+}
+
+/*This function changes image on mouseover
+ *
+ * @param image
+ * @param imageId
+ *
+ */
+function changeImage(image, imageId){
+	var imageSwap = imageId + "Hover";
+	image.src = "assets/images/" + imageSwap + ".png";
+}
+
+
+/* This function returns image on mouse out
+ *
+ * @param image
+ * @param imageId
+ *
+ */
+function returnImage(image, imageId){
+	image.src = "assets/images/" + imageId + ".png";
 }
 
 
@@ -115,3 +164,15 @@ function validateForm(){
 }
 
 /* End of validateForm Function */
+
+/* Start Mobile Menu isResponsive Function */
+function isResponsive(){
+	var elem = document.getElementById("navBar");
+	if (elem.className === "topNav"){
+    	elem.className += " responsive";
+	} 
+	else{
+    	elem.className = "topNav";
+  	}
+}
+/* End Mobile Menu isResponsive Function */

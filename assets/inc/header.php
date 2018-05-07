@@ -15,12 +15,15 @@
     <link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/css/stylesheet.css"/>
     <script rel="script" type="text/javascript" src="<?php echo $path;?>assets/js/functions.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat:900|Noto+Sans" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
 </head>
 <body>
 
 <!-- Navigation list shown at the top of the page -->
-<nav id="navBar">
-    <a href="index.php">Home</a>
+<nav id="navBar" class="topNav">
+    <!-- Hamburger Menu Icon -->
+    <a href="javascript:void(0);" class="icon" onclick="isResponsive()">&#9776;</a>
+    <a id="indexLink" href="index.php">Home</a>
     <a href="about.php">About Us</a>
     <a href="contact.php">Contact Us</a>
     <a href="history.php">History</a>

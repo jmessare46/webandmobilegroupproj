@@ -43,6 +43,10 @@ include $path . 'assets/inc/header.php';
         </ul>
     </div><br>
 
+    <div id="demoVid">
+    <video controls="controls" width="700" height="500" src="assets/videos/introVideo.mov" alt="Introduction Video"></video>
+    </div>
+
     <div onload="slideshow();">
         <h2>How Wing Chun differs from other styles:</h2>
         <p>
@@ -51,7 +55,9 @@ include $path . 'assets/inc/header.php';
             against all styles of fighting world-wide. A style that is for all ages, sexes, body types, and levels
             of physical fitness. Anyone can use 100% of the potential of the art to defend themselves on the street for their entire lifetime. You will not
             be spending thousands of dollars to learn a martial art that is meant to be performed as a sport on mats, or with rules
-            such as weight classes, pads, and training to hit only select striking points. When you're young, especially as a larger
+            such as weight classes, pads, and training to hit only select striking points.</p>
+	<br>
+	<p> When you're young, especially as a larger
             man, you are usually not a target. When you get older and are not as physically fit or have health issues, you will
             become a target. You need a martial art that you will be able to use in its entirety for your whole life to defend
             yourself, not simply a portion of it because you are unable to execute the movements due to health or advanced age. The

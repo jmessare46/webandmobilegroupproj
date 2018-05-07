@@ -15,7 +15,7 @@ include $path . 'assets/inc/header.php';
 
 <h1 id="history"><?php echo $page ?></h1>
 
-<p>
+
     <div id="timeline">
         <div class="timelinecontainer">
             <img src="assets/images/Kung%20Fu%20Logo.png" alt="Kung Fu Logo" class="rightpic"/>
@@ -103,7 +103,6 @@ include $path . 'assets/inc/header.php';
             </div>
         </div>
     </div>
-</p>
 
 </body>
 </html>

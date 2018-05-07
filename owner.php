@@ -13,8 +13,8 @@ $page = 'Owner Page';
 include $path . 'assets/inc/header.php';
 require $path . 'assets/inc/dbInfo.php';
 
-// Checks to see if user is already logged in
-if ( !isset($_SESSION['login']) || $_SESSION['login'] == false )
+// Checks to see if user is logged in
+if ( $_SESSION['name'] != 'Owner' )
 {
     header('Location: login.php');
 }
@@ -44,12 +44,12 @@ function passMatch()
     }
 }
 
+// Changes class times on website
 if(isset($_POST['day']) && isset($_POST['start']) && isset($_POST['end']))
 {
     // Do something
-    $smt = $mysqli->prepare("INSERT INTO classTimes (day, start, end) VALUES (?, ?, ?)");
-    $hash = password_hash($_POST['pass'], PASSWORD_DEFAULT);
-    $smt->bind_param( "ss", $_POST['uname'], $hash );
+    $smt = $mysqli->prepare("INSERT INTO classTimes (start, end) VALUES (?, ?) WHERE day='".$_POST['day']."'");
+    $smt->bind_param( "ss", $_POST['start'], $_POST['end'] );
     $smt->execute();
     $smt->close();
 }
@@ -59,7 +59,7 @@ if(isset($_POST['day']) && isset($_POST['start']) && isset($_POST['end']))
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset=utf-8" />
+    <meta charset="utf-8" />
     <title>Register</title>
     <style type="text/css">
         form div
@@ -82,53 +82,59 @@ if(isset($_POST['day']) && isset($_POST['start']) && isset($_POST['end']))
 <body>
 <div id="makeuser">
     <a id="logout" href="logout.php">Logout</a>
-    <h1>Add a Member</h1>
-    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" onsubmit="return validateNewUser();">
-        <div>
-            User Name:<br>
-            <input type="text" name="uname" size="30" />
-        </div>
-        <div>
-            Password:<br>
-            <input type="password" name="pass" size="30" />
-        </div>
-        <div>
-            Confirm Password:<br>
-            <input type="password" name="pass2" size="30" />
-        </div>
-        <div class="clearfix">
-            <input type="reset" value="Reset User" />
-            <input type="submit" value="Add User" />
-        </div>
-    </form><br>
     
-    <h1>Change Class Time</h1>
-    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-        <div>
-            Select Class Day to Change:<br>
-            <select name="day">
-                <option value="mon">Monday</option>
-                <option value="tue">Tuesday</option>
-                <option value="wed">Wednesday</option>
-                <option value="thu">Thursday</option>
-                <option value="fri">Friday</option>
-                <option value="sat">Saturday</option>
-                <option value="sun">Sunday</option>
-            </select>
-        </div>
-        <div>
-            Start Time:<br>
-            <input type="time" name="start" size="30" />
-        </div>
-        <div>
-            End Time:<br>
-            <input type="time" name="end" size="30" />
-        </div>
-        <div class="clearfix">
-            <input type="reset" value="Reset Time" />
-            <input type="submit" value="Change Time" />
-        </div>
-    </form>
+    <div id="memWrapper" class="column">
+    <a id="member" href="member.php">Member Page</a>
+        <h1 id="memHeader">Add a Member</h1>
+        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" onsubmit="return validateNewUser();">
+            <div>
+                User Name:<br>
+                <input type="text" name="uname" size="30" />
+            </div>
+            <div>
+                Password:<br>
+                <input type="password" name="pass" size="30" />
+            </div>
+            <div>
+                Confirm Password:<br>
+                <input type="password" name="pass2" size="30" />
+            </div>
+            <div class="clearfix">
+                <input class="button" type="reset" value="Reset User" />
+                <input class="button" type="submit" value="Add User" />
+            </div>
+        </form><br>
+    </div>
+    
+    <div id="timeWrapper" class="column">
+        <h1 id="timeHeader">Change Class Time</h1>
+        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+            <div>
+                Select Class Day to Change:<br>
+                <select name="day">
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                </select>
+            </div>
+            <div>
+                Start Time:<br>
+                <input type="time" name="start" size="30" />
+            </div>
+            <div>
+                End Time:<br>
+                <input type="time" name="end" size="30" />
+            </div>
+            <div class="clearfix">
+                <input class="button" type="reset" value="Reset Time" />
+                <input class="button" type="submit" value="Change Time" />
+            </div>
+        </form>
+    </div>
 </div>
 </body>
 </html>

@@ -8,6 +8,6 @@
 
 session_start();
 session_name("Login");
-$_SESSION['login'] = false;
+session_destroy();
 header('Location: login.php')
 ?>
