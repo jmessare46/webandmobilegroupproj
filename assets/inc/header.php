@@ -39,7 +39,7 @@
             }
 
             // If user is logged in echos Members if not echos Login
-            if(isset($_SESSION['uname']))
+            if(isset($_SESSION['name']))
             {
                 echo $_SESSION['name'];
             }
