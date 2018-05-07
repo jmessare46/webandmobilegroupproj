@@ -119,7 +119,7 @@ include $path.'assets/inc/header.php';
 
 		  <div class="instructor1">
 		   <h3>Adam Dunn - Assistant Instructor</h3><br>
-		 <img src="assets/images/InstructorAdam.jpeg" alt="Sifu Dunn" class="insPic"/><br><br>
+		 <img src="assets/images/InstructorAdam.jpg" alt="Sifu Dunn" class="insPic"/><br><br>
 		 <p class = "insBio">Adam first became involved with Wing Chun in 1998. His lack of prior experience lead to rather superficial desires and expectations from the art. It soon became obvious that Ving Tsun was not what he had been seeking, but the efficiency, efficacy, and logic of the art resonated so strongly with him that he never
          left.</p><br>
 	<p>Despite a two year hiatus, he began acting as a junior instructor in 2003. Sifu Green’s only Bai Si
