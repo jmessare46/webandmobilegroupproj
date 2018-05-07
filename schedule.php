@@ -45,19 +45,17 @@ include $path.'assets/inc/header.php';
 				}
                 echo "</table>";
 			?>
-            <div class="button1">
-                <span><a style="float: right;" href="contact.php">Contact Us</a></span>
-            </div>
-
-            <div class="con">
-                <p>If you would like to schedule a private lesson,</p>
-                <p>please click the button below.</p>
-
-            </div>
+        </div>
 
             <div class="events">
                 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQyeAArOAxuCmY64HjBmmBney6cxg1RiNaLnkB0UX15WYomLVMa8jLEoSZ5YF86e_U3GWNpzdQkx2xD/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
+
+        <div class="con">
+            <p>
+                If you would like to schedule a private lesson please click <a href="contact.php">here</a> to go to
+                the contact us page.
+            </p>
         </div>
 </div>
 </body>
