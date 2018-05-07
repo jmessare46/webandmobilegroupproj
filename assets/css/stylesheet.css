@@ -401,7 +401,24 @@ img#fb {
 /*############################################# Styles the contact page Ends here. ######################## */
 	   
 
+/*
+ *styles contactSubmit page
+ */
 
+ #submitLine, submitLineError{
+	 text-align: center;
+	font-size: 2em;
+	background-color: black;
+	padding-bottom: 5px;
+ }
+ 
+ #submitLine{
+	 color: #00ff00;
+ }
+ 
+ #submitLineError{
+	color: red;
+ }
 
  /*
   * Styles the curriculum page.
