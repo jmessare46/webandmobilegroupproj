@@ -33,19 +33,19 @@ if( $_SESSION['name'] != "Member" && $_SESSION['name'] != "Owner" )
 	</figure>
 
 	<div id = "video1">
-	    	<video controls="controls" width="500" height="600" src="assets/videos/gunDefense.mov"></video>
+	    	<video controls controlsList="nodownload" width="500" height="600" src="assets/videos/gunDefense.mov"></video>
     	</div>
 
 	<div id = "closeVid1" onclick = "closeVideo('video1', 'vidPic1', 'closeVid1')"></div>
 
 
 	<figure id = "vidPic2">
-		<img src = "assets/images/pic2.png" id = "pic2" onmouseover = "changeImage(pic2, 'pic2')" onmouseout = "returnImage(pic2, 'pic2')" onclick = "showVideo('video2', 'vidPic2', 'closeVid2')">
-		<figcaption class = "vidDes">Biu Gee Demonstration</figcaption>
+		<img src="assets/images/pic2.png" id="pic2" onmouseover="changeImage(pic2, 'pic2')" onmouseout="returnImage(pic2, 'pic2')" onclick="showVideo('video2', 'vidPic2', 'closeVid2')">
+		<figcaption class="vidDes">Biu Gee Demonstration</figcaption>
 	</figure>
 
     	<div id = "video2">
-	    	<video controls="controls" width="500" height="600" src="assets/videos/biuGee.mov"></video>
+	    	<video controls controlsList="nodownload" width="500" height="600" src="assets/videos/biuGee.mov"></video>
     	</div>
 
 	<div id = "closeVid2" onclick = "closeVideo('video2', 'vidPic2', 'closeVid2')"></div>
@@ -57,7 +57,7 @@ if( $_SESSION['name'] != "Member" && $_SESSION['name'] != "Owner" )
 	</figure>
 
     	<div id = "video3">
-	    	<video controls="controls" width="500" height="600" src="assets/videos/lukDimBoonKwan.mov"></video>
+	    	<video controls controlsList="nodownload" width="500" height="600" src="assets/videos/lukDimBoonKwan.mov"></video>
     	</div>
 
 	<div id = "closeVid3" onclick = "closeVideo('video3', 'vidPic3', 'closeVid3')"></div>
@@ -69,7 +69,7 @@ if( $_SESSION['name'] != "Member" && $_SESSION['name'] != "Owner" )
 	</figure>
 
     	<div id = "video4">
-	    	<video controls="controls" width="500" height="600" src="assets/videos/chumKiu.mov"></video>
+	    	<video controls controlsList="nodownload" width="500" height="600" src="assets/videos/chumKiu.mov"></video>
     	</div>
 
 	<div id = "closeVid4" onclick = "closeVideo('video4', 'vidPic4', 'closeVid4')"></div>
@@ -81,7 +81,7 @@ if( $_SESSION['name'] != "Member" && $_SESSION['name'] != "Owner" )
 	</figure>
 
     	<div id = "video5">
-	    	<video controls="controls" width="500" height="600" src="assets/videos/silNimTao.mov"></video>
+	    	<video controls controlsList="nodownload" width="500" height="600" src="assets/videos/silNimTao.mov"></video>
 	</div>
 
 	<div id = "closeVid5" onclick = "closeVideo('video5', 'vidPic5', 'closeVid5')"></div>
@@ -93,7 +93,7 @@ if( $_SESSION['name'] != "Member" && $_SESSION['name'] != "Owner" )
 	</figure>
 
 	<div id = "video6">
-		<video controls="controls" width="500" height="600" src="assets/videos/mokYanJong.mov"></video>
+		<video controls controlsList="nodownload" width="500" height="600" src="assets/videos/mokYanJong.mov"></video>
 	</div>
 
 	<div id = "closeVid6" onclick = "closeVideo('video6', 'vidPic6', 'closeVid6')"></div>
