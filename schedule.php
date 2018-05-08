@@ -11,12 +11,6 @@ $page = 'Schedule';
 include $path.'assets/inc/header.php';
 ?>
 
-<<<<<<< HEAD
-=======
-<header>
-<h1>Class Times</h1>
-</header>
->>>>>>> master
 
 <div class="classTimes">
 	<h1>Class Times</h1>
