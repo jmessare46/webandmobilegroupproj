@@ -16,7 +16,7 @@ include $path.'assets/inc/header.php';
 	<h1>Class Times</h1>
 	<?php
 	    $path = './';
-  	require $path.'../../../dbInfo.inc';
+  	require $path.'assets/inc/dbInfo.php';
 		if ($mysqli)
 		{
 		  // Gets contents of table and send back...
