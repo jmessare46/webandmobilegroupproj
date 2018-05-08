@@ -863,49 +863,21 @@ img#current
  /*
   *************************************************** Styles the schedule page BEGIN. **********************************************
   */
-<<<<<<< HEAD
-=======
- 
->>>>>>> master
- .classTimes {
-    background-color:#ffcc99;
+ div.classTimes {
+    background-color:white;
     margin: 0 10% 0 10%;
     min-height:1200;
-    border-radius:100px 100px;
-    padding-left:80px;
-    padding-right: 50px;
-    padding-top: 50px;
-<<<<<<< HEAD
+
+    padding: 50px 400px;
+
     text-align: center;
-    
     }
-=======
-	}
->>>>>>> master
+
 header{
   color: #148716;
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
-   /*div.classTimes {
-   	padding: 15px;
-   	margin: 20px;
-   	background-color: white;
-   	color: black;
-   }
-   */
-  
-   
->>>>>>> master
-   div.con{
-       padding: 15px;
-    margin: 20px;
-       color: black;
-    text-align: right;
-
-   }
 
 
    div.button1{
@@ -919,7 +891,6 @@ header{
        }
 
     .button1:hover{
-<<<<<<< HEAD
             background-color: skyblue;
             box-shadow: 0 .8em 1em 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     }
@@ -931,7 +902,8 @@ header{
 
  table{
         border: none;
-        text-align:center;
+        align:center;
+        
     }
 
     th, td, tr {
@@ -939,6 +911,7 @@ header{
         background-color: #dddddd;
         padding: 5px;
         width: 100px;
+       
         }
      div.classTimes, p {
      
@@ -947,45 +920,33 @@ header{
      }
       
       div.con{
-      	padding: 15px;
-   	margin: 20px;
-      	color: black;
-       text-align: center;
+      	 background-color:white;
+	    margin:  1%;
+	    padding: 50px 400px;
+	    float: left;
+    	    text-align: center;
       
       }
    	
       div.events{
       	   
-   	    width: 50%;
+   	    margin: auto;
    	    text-align: center;
        	    padding: 10px;
-       	    margin: 0 10% 0 10%;
+       	    margin: 2%;
        	  
       
    }
    
-=======
-   	     background-color: skyblue;
-   	     box-shadow: 0 .8em 1em 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-	}
-	
-	.button1 li {
-	
-		display: none;
-	}
-	
- table{
-		border: none;
-		text-align:center;
-	}
-	
-	th, td, tr {
-		border: none;
-		background-color: #dddddd;
-		padding: 5px;
-		width: 100px;
-		}
->>>>>>> master
+   	div.iframe {
+   	
+			    margin:  1%;
+			    padding: 50px 400px;
+			    float: left;
+    	    text-align: center;
+   	
+   	}
+   
    /*
      *************************************************** Styles the schedule page END. **********************************************
      */
