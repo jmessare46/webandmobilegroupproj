@@ -914,7 +914,7 @@ header{
         width: 100px;
        
         }
-     div.classTimes, p {
+     div.classTimes, #contactPara {
      
      	float: left;
      	padding-left: -20px;

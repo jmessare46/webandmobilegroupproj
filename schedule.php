@@ -54,7 +54,7 @@ include $path.'assets/inc/header.php';
 </div>
 
 <div class="con">
-		            <p>
+		            <p id = "contactPara">
 		                If you would like to schedule a private lesson please click <a href="contact.php">here</a> to go to
 		                the contact us page.
 		            </p>
