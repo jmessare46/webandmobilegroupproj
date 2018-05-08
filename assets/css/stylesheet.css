@@ -864,6 +864,10 @@ img#current
  /*
   *************************************************** Styles the schedule page BEGIN. **********************************************
   */
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> master
  .classTimes {
     background-color:#ffcc99;
     margin: 0 10% 0 10%;
@@ -872,14 +876,30 @@ img#current
     padding-left:80px;
     padding-right: 50px;
     padding-top: 50px;
+<<<<<<< HEAD
     text-align: center;
     
     }
+=======
+	}
+>>>>>>> master
 header{
   color: #148716;
   text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+   /*div.classTimes {
+   	padding: 15px;
+   	margin: 20px;
+   	background-color: white;
+   	color: black;
+   }
+   */
+  
+   
+>>>>>>> master
    div.con{
        padding: 15px;
     margin: 20px;
@@ -900,6 +920,7 @@ header{
        }
 
     .button1:hover{
+<<<<<<< HEAD
             background-color: skyblue;
             box-shadow: 0 .8em 1em 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     }
@@ -944,6 +965,28 @@ header{
       
    }
    
+=======
+   	     background-color: skyblue;
+   	     box-shadow: 0 .8em 1em 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+	
+	.button1 li {
+	
+		display: none;
+	}
+	
+ table{
+		border: none;
+		text-align:center;
+	}
+	
+	th, td, tr {
+		border: none;
+		background-color: #dddddd;
+		padding: 5px;
+		width: 100px;
+		}
+>>>>>>> master
    /*
      *************************************************** Styles the schedule page END. **********************************************
      */
