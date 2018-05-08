@@ -347,7 +347,7 @@ article {
 /* Changes Input Boxes Borders When in Focus*/ 
 .formStyle input[type="text"]:focus,
 .formStyle input[type="number"]:focus,
-.formStyle input[type="email"]:foucs,
+.formStyle input[type="email"]:focus,
 .formStyle input[type="search"]:focus,
 .formStyle textarea:focus,
 .formStyle select:focus 
@@ -367,7 +367,6 @@ article {
     border-right-style: none;
     border-left-style: none;    
     color: #fff;
-    -webkit-transition: background-color .7s;
     transition: background-color .7s;
     cursor: pointer;
 }

@@ -17,7 +17,7 @@ include $path . 'assets/inc/header.php';
 <div id="curHead">
 	<h2>Progression</h2>
 		<p>Progression in Wing Chun is denoted through various colored sashes. Moy Don will teach all the way 
-		up to Master level, the gold sash. Expectations for each sash are detailed below. <br><br><b>Please click on each sashe to display details.</b></p>
+		up to Master level, the gold sash. Expectations for each sash are detailed below. <br><br><b>Please click on each sash to display details.</b></p>
 </div>
 
 <br>
@@ -294,9 +294,10 @@ include $path . 'assets/inc/header.php';
 			
 			<li>Perfect mastery of yourself and the art</li>
 			
-			<li>One must show discipline, humility, confidence, compassion, control, and humanity</li>
-			<br>	
+			<li>One must show discipline, humility, confidence, compassion, control, and humanity</li>	
 		</ul>
+
+		<br>
 
 		<p>Advanced physical fitness for those under forty or those over forty who are able to join by a doctor's release. This includes long distance running,
 		many different sprints, sparring, drills, and other various exercises. All of these are to be done  under duress and high stress including a gauntlet
