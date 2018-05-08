@@ -864,44 +864,86 @@ img#current
  /*
   *************************************************** Styles the schedule page BEGIN. **********************************************
   */
+ .classTimes {
+    background-color:#ffcc99;
+    margin: 0 10% 0 10%;
+    min-height:1200;
+    border-radius:100px 100px;
+    padding-left:80px;
+    padding-right: 50px;
+    padding-top: 50px;
+    text-align: center;
+    
+    }
+header{
+  color: #148716;
+  text-align: center;
+}
 
-   div.classTimes {
-   	padding: 15px;
-   	margin: 20px;
-   	background-color: white;
-   	color: black;
-   }
-   
-  
-   
    div.con{
-   	padding: 15px;
-	margin: 20px;
-   	color: black;
+       padding: 15px;
+    margin: 20px;
+       color: black;
     text-align: right;
-   
+
    }
 
 
    div.button1{
-   	    
-   	    width: 15%;
-   	    background-color: lavender;
-   	    border-radius: 5em;
-   	    padding: .5em;
-   	    margin: .5em;
-   	    float: right;
-   	}    
-	
+
+           width: 15%;
+           background-color: lavender;
+           border-radius: 5em;
+           padding: .5em;
+           margin: .5em;
+           float: right;
+       }
+
     .button1:hover{
-   	     background-color: skyblue;
-   	     box-shadow: 0 .8em 1em 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-	}
-	
-	.button1 li {
-	
-		display: none;
-	}
+            background-color: skyblue;
+            box-shadow: 0 .8em 1em 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    .button1 li {
+
+        display: none;
+    }
+
+ table{
+        border: none;
+        text-align:center;
+    }
+
+    th, td, tr {
+        border: none;
+        background-color: #dddddd;
+        padding: 5px;
+        width: 100px;
+        }
+     div.classTimes, p {
+     
+     	float: left;
+     	padding-left: -20px;
+     }
+      
+      div.con{
+      	padding: 15px;
+   	margin: 20px;
+      	color: black;
+       text-align: center;
+      
+      }
+   	
+      div.events{
+      	   
+   	    width: 50%;
+   	    text-align: center;
+       	    padding: 10px;
+       	    margin: 0 10% 0 10%;
+       	  
+      
+   }
+   
    /*
      *************************************************** Styles the schedule page END. **********************************************
      */

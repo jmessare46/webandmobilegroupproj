@@ -11,12 +11,13 @@ $page = 'Schedule';
 include $path.'assets/inc/header.php';
 ?>
 
-<h1>Class Times</h1>
+
 <div class="classTimes">
+	<h1>Class Times</h1>
 	<?php
 	    $path = './';
-	  	require $path.'assets/inc/dbInfo.php';
-		if ($mysqli) 
+  	require $path.'../../../dbInfo.inc';
+		if ($mysqli)
 		{
 		  // Gets contents of table and send back...
 		  $res=$mysqli->query('SELECT day, start, end FROM classTimes');
@@ -29,7 +30,7 @@ include $path.'assets/inc/header.php';
 			}
 		  }
 		}
-		else 
+		else
 		{
 			echo "<h1> Error Connecting to Database</h1>";
 		}
@@ -47,16 +48,20 @@ include $path.'assets/inc/header.php';
 			?>
         </div>
 
-            <div class="events">
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQyeAArOAxuCmY64HjBmmBney6cxg1RiNaLnkB0UX15WYomLVMa8jLEoSZ5YF86e_U3GWNpzdQkx2xD/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            </div>
 
-        <div class="con">
-            <p>
-                If you would like to schedule a private lesson please click <a href="contact.php">here</a> to go to
-                the contact us page.
-            </p>
+		<div class="con">
+		            <p>
+		                If you would like to schedule a private lesson please click <a href="contact.php">here</a> to go to
+		                the contact us page.
+		            </p>
         </div>
+
 </div>
+
+			<div class="events">
+			<h1>Events</h1>
+               <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQyeAArOAxuCmY64HjBmmBney6cxg1RiNaLnkB0UX15WYomLVMa8jLEoSZ5YF86e_U3GWNpzdQkx2xD/embed?start=true&loop=true&delayms=10000"
+               frameborder="0" width="740" height="340" align="middle" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+			</div>
 </body>
 </html>
