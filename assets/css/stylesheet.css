@@ -190,7 +190,8 @@ span{
 	font-size:1.5em;
 }
 
-.instructors{
+.instructors
+{
 	padding: 15px;
 	font-size: 14px;
 	font-style: normal;
@@ -198,10 +199,13 @@ span{
 	font-weight: 400;
 	line-height: 20px;
     text-align:justify;
+    margin-bottom: 600px;
  }
- .bio .instructor1 .instructor2{
-	 float:left;
- }
+
+.bio .instructor1 .instructor2
+{
+    float:left;
+}
 
 .instructor1, .instructor2{
 	margin-bottom: 50px;
@@ -226,12 +230,16 @@ span{
 	padding-bottom: 30px;
 }
 
-div.container {
+div.container
+{
     width: 100%;
     border: 1px solid gray;
     min-width: 460px;
+    clear: both;
 }
-#FAQheader {
+
+#FAQheader
+{
     padding: 1em;
     color: white;
     background-color: black;
@@ -239,47 +247,52 @@ div.container {
     text-align: center;
 }
 
-.downloads {
+.downloads
+{
     float: left;
     max-width: 30%;
     margin: 0;
     padding: 1em;
 }
 
-.downloads ul {
+.downloads ul
+{
     list-style-type: none;
     padding: 0;
 }
    
-.downloads ul a {
+.downloads ul a
+{
     text-decoration: none;
 }
 
-article {
+article
+{
     margin-left: 170px;
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
 }
- /* Styles the about Page Ends here */
 
  /*############################################# Styles About page Ends here. ######################## */
  
  
- /* The actual timeline (the vertical ruler) */
- .timeline {
-     position: relative;
-     max-width: 1200px;
-     margin: 0 auto;
- }
+/* The actual timeline (the vertical ruler) */
+.timeline
+{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
  
- /* The actual timeline (the vertical ruler) */
- .timeline::after {
-     content: '';
-     position: absolute;
-     width: 6px;
-     background-color: white;
- }
+/* The actual timeline (the vertical ruler) */
+.timeline::after
+{
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+}
  
 
  /*
@@ -296,13 +309,13 @@ article {
 
 #banner
 {
-  position: absolute;
-  top: 55px;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 230px;
-  z-index: -1;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 230px;
+    z-index: -1;
 }
 
 /* CSS for form structure*/
@@ -327,6 +340,7 @@ article {
     color: #fff;
     margin: -16px -16px 16px -16px;
 }
+
 /* CSS for form inputs*/
 .formStyle input[type="text"],
 .formStyle input[type="number"],
@@ -417,7 +431,7 @@ img#fb {
 	   
 
 /*
- *styles contactSubmit page
+ * Styles contactSubmit page
  */
 
  #submitLine, #submitLineError{
@@ -435,11 +449,11 @@ img#fb {
 	color: red;
  }
 
- /*
-  * Styles the curriculum page.
-  */
+/*
+ * Styles the curriculum page.
+ */
  
-/*styles sash block*/
+/* Styles sash block*/
 .sash
 {
 	padding: 10px;
