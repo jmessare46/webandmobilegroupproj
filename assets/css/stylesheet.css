@@ -5,12 +5,14 @@
     margin: 0;
 }
 
-body {
+body
+{
     background-color: #DEEEEF;
     font-family: 'Noto Sans', sans-serif;
 }
 
-h1, h2, h3{
+h1, h2, h3
+{
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -20,13 +22,15 @@ h1, h2, h3{
     margin-bottom: 10px;
 }
 
-/*General Link Stylings*/
-a{
+/* General Link Stylings*/
+a
+{
     color: #BF0603;
     text-decoration: none;
 }
 
-a:hover{
+a:hover
+{
     color: black;
     text-decoration: underline;
     font-style: italic
@@ -34,7 +38,8 @@ a:hover{
 
 /* Styles the header */
 
-.topNav{
+.topNav
+{
     width: 100%;
     display: inline-block;
     background-color: #001427;
@@ -43,7 +48,8 @@ a:hover{
 }
 
 /* Styles the links in the navigation bar */
-.topNav a{
+.topNav a
+{
     display: inline-block;
     padding: 10px;
     font-size: 28px;
@@ -52,7 +58,8 @@ a:hover{
     font-style: normal;
 }
 
-.topNav a:hover{
+.topNav a:hover
+{
     cursor: pointer;
     text-shadow: 2px 2px #001427;
     background-color: #BF0603;
@@ -60,48 +67,57 @@ a:hover{
 }
 
 /* Hides the hamburger icon when screen is larger than 600px*/
-.topNav .icon {
+.topNav .icon
+{
     display: none;
 }
 
 /* Styles the login button to stay to the right */
-#loginLink{
+#loginLink
+{
     display: inline-block;
     position: absolute;
     right: 0;
 }
 
 /* Styles the Index Page */
-#indexWrapper{
+#indexWrapper
+{
     margin: 0 5% 2% 5%;
     padding: 25px 25px 25px 25px;
     background-color: #fff;
 }
 
-#indexWrapper h1{
+#indexWrapper h1
+{
     text-align: center;
 }
 
-#indexWrapper h2{
+#indexWrapper h2
+{
     padding-bottom: 10px;
 }
 
-#indexWrapper p{
+#indexWrapper p
+{
     margin: 10px 20px 10px 20px;
 }
 
-#indexWrapper ul{
+#indexWrapper ul
+{
     margin-top: 10px;
 }
  /* Makes the mouse turn into a pointer when hovering over the menu
     items and changes the divs background color */
 
-#indexWrapper li{
+#indexWrapper li
+{
     margin-left: 5%;
 }
 
 /* Styles the Video on the Index page */
-#demoVid{
+#demoVid
+{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -293,7 +309,6 @@ article
 
  /*############################################# Styles About page Ends here. ######################## */
  
- 
 /* The actual timeline (the vertical ruler) */
 .timeline
 {
@@ -310,7 +325,6 @@ article
     width: 6px;
     background-color: white;
 }
- 
 
  /*
   ##################################### Styles the contact page starts here. #######################################
@@ -427,7 +441,8 @@ iframe
 }
 
 /* facebook logo */
-img#fb {
+img#fb
+{
     height: 50px;
     width: auto;
     float: right;
@@ -451,20 +466,23 @@ img#fb {
  * Styles contactSubmit page
  */
 
- #submitLine, #submitLineError{
-	text-align: center;
-	font-size: 2em;
-	background-color: black;
-	padding-bottom: 5px;
- }
+#submitLine, #submitLineError
+{
+    text-align: center;
+    font-size: 2em;
+    background-color: black;
+    padding-bottom: 5px;
+}
+
+#submitLine
+{
+    color: #00ff00;
+}
  
- #submitLine{
-	 color: #00ff00;
- }
- 
- #submitLineError{
-	color: red;
- }
+#submitLineError
+{
+    color: red;
+}
 
 /*
  * Styles the curriculum page.
@@ -501,7 +519,8 @@ img#fb {
 }
 
 /*styles stripe heading*/
-#greenStripe, #redStripe, #whiteStripe, #brownStripe, #blackStripe, #goldStripe{
+#greenStripe, #redStripe, #whiteStripe, #brownStripe, #blackStripe, #goldStripe
+{
 	padding: 10px;
 	cursor: pointer;
 }
@@ -522,26 +541,31 @@ img#fb {
 	background-color: white;
 }
 
-#brownStripe{
+#brownStripe
+{
 	background-color: brown;
 }
 
-#blackStripe{
+#blackStripe
+{
 	background-color: black;
 	color: white;
 }
 
-#goldStripe{
+#goldStripe
+{
 	background-color: gold;
 }
 
-/*styles header*/
-#curHead{
+/* Styles header*/
+#curHead
+{
 	padding-left: 10px;
 }
 
-/*styles content within sashes*/
-#whiteSashContent, #greenSashContent, #brownSashContent, #redSashContent, #goldSashContent, #blackSashContent{
+/* Styles content within sashes*/
+#whiteSashContent, #greenSashContent, #brownSashContent, #redSashContent, #goldSashContent, #blackSashContent
+{
 	display: none;
 }
 
@@ -549,20 +573,23 @@ img#fb {
  * Styles the history page.
  */
 
-#history{
+#history
+{
     text-align: center;
     padding-bottom: 30px;
 }
 
 /* The actual timeline (the vertical ruler) */
-.timeline{
+.timeline
+{
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 /* The actual timeline (the vertical ruler) */
-.timeline::after{
+.timeline::after
+{
     content: '';
     position: absolute;
     width: 6px;
@@ -570,7 +597,8 @@ img#fb {
 }
 
 /* Makes middle line in time line */
-#centerline{
+#centerline
+{
     position: relative;
     left: 50%;
     bottom: 0;
@@ -579,14 +607,16 @@ img#fb {
 }
 
 /* Acts as a sort of container for all of the elements in the timeline */
-#timeline {
+#timeline
+{
     position: relative;
     margin: 0 auto;
     overflow: auto;
 }
 
 /* This makes the actual line appear in the middle */
-#timeline::before{
+#timeline::before
+{
     content: '';
     position: absolute;
     width: 6px;
@@ -616,13 +646,15 @@ div.left h3, div.right h3
 }
 
 /* Styles the text in the timeline */
-div.left p, div.right p{
+div.left p, div.right p
+{
     padding: 5px;
     padding-left: 10px;
 }
 
 /* Floats the image to the right */
-.timelinecontainer img{
+.timelinecontainer img
+{
     max-width: 100%;
     height: auto;
     position: relative;
@@ -631,48 +663,57 @@ div.left p, div.right p{
 }
 
 /* Floats the left picture in the timeline to the left */
-.leftpic{
+.leftpic
+{
     float: left;
 }
 
 /* Floats the right picutre in the timeline to the right */
-.rightpic{
+.rightpic
+{
     float: right;
 }
 
 /* Sizes the text boxes in the timeline */
-div.left{
+div.left
+{
     float: left;
     width: 45%;
     border-radius: 10px 0 10px 10px;
 }
 
 /* Makes the container that has the text and picture a certain height */
-.timelinecontainer{
+.timelinecontainer
+{
     clear: both;
     height: 300px;
 }
 
 /* Floats the div to the right */
-div.right{
+div.right
+{
     float: right;
     width: 45%;
     border-radius: 0 10px 10px 10px;
 }
 
 /* Media Queries for the History Page*/
-@media only screen and (max-width: 650px){
-    #timeline::before{
+@media only screen and (max-width: 650px)
+{
+    #timeline::before
+    {
         background-color: transparent;
     }
 
-    #timeline{
+    #timeline
+    {
         display: flex;
         flex-direction: column;
         overflow: hidden;
     }
 
-    .timelinecontainer{
+    .timelinecontainer
+    {
         margin-top: 10px;
         margin-left: 17%;
         margin-bottom: 10px;
@@ -680,15 +721,18 @@ div.right{
         height: fit-content;
     }
 
-    .timelinecontainer img{
+    .timelinecontainer img
+    {
         display: none;
     }
 
-    div.left{
+    div.left
+    {
         float: none;
     }
 
-    div.right{
+    div.right
+    {
         float: none;
     }
 }
@@ -918,48 +962,47 @@ div.button1
     box-shadow: 0 .8em 1em 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-    .button1 li {
+.button1 li
+{
+    display: none;
+}
 
-        display: none;
-    }
+table
+{
+    border: none;
+    align:center;
+}
 
- table{
-        border: none;
-        align:center;
-        
-    }
+th, td, tr
+{
+    border: none;
+    background-color: #dddddd;
+    padding: 5px;
+    width: 100px;
+}
 
-    th, td, tr {
-        border: none;
-        background-color: #dddddd;
-        padding: 5px;
-        width: 100px;
-       
-        }
-     div.classTimes, p {
-     
-     	float: left;
-     	padding-left: -20px;
-     }
+div.classTimes, p
+{
+    float: left;
+    padding-left: -20px;
+}
       
-      div.con{
-      	 background-color:white;
-	    margin:  1%;
-	    padding: 50px 400px;
-	    float: left;
-    	    text-align: center;
-      
-      }
-   	
-      div.events{
-      	   
-   	    margin: auto;
-   	    text-align: center;
-       	    padding: 10px;
-       	    margin: 2%;
-       	  
-      
-   }
+div.con
+{
+    background-color:white;
+    margin:  1%;
+    padding: 50px 400px;
+    float: left;
+    text-align: center;
+}
+
+div.events
+{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin: 2%;
+}
    
 div.iframe
 {
@@ -996,21 +1039,25 @@ div.iframe
 }
 
 /*styles video preview pictures*/
-#vidPic1, #vidPic2, #vidPic3, #vidPic4, #vidPic5, #vidPic6{
+#vidPic1, #vidPic2, #vidPic3, #vidPic4, #vidPic5, #vidPic6
+{
 	display: inline-block;
 	cursor: pointer;
 	margin: 10px;
 }
 
 /*styles video descriptions*/
-.vidDes{
+.vidDes
+{
 	text-align: center;
 }
 
 /*Styles p element on members page*/
-#memberHead{
+#memberHead
+{
 	margin-left: 10px;
 }
+
 /* Styles the videos on the members page */
 #videos video
 {
@@ -1023,7 +1070,8 @@ div.iframe
  */
 
  /* Styles the owner input section background */
-#makeuser{
+#makeuser
+{
     background: white;
     width: 95%;
     display: block;
@@ -1032,42 +1080,48 @@ div.iframe
     padding: 10px;
 }
 
-#makeuser:after {
+#makeuser:after
+{
     content: "";
     display: table;
     clear: both;
 }
 
-.column{
+.column
+{
     float: left;
     width: 50%;
 }
 
 /* Aligns the Time and Member form headers */
-#memHeader{
+#memHeader
+{
     margin-left: 15px;
     margin-top: 30px;
 }
 
-#timeHeader{
+#timeHeader
+{
     margin-left: 15px;
 }
 
 /* Changes the cursor when hovering over a reset or submit button */
-.button:hover{
+.button:hover
+{
     cursor: pointer;
 }
 
 /* Makes the input sections a little bigger */
-#makeuser input{
+#makeuser input
+{
     font-size: 14px;
     padding: 8px;
     margin-top: 10px; 
  }
 
 
-@media only screen and (max-width: 1300px) {
-
+@media only screen and (max-width: 1300px)
+{
     /**
      * Styles the contact us page.
      */
@@ -1085,15 +1139,18 @@ div.iframe
 @media only screen and (max-width: 1000px)
 {
     /* Makes the text in the nav bar get smaller */
-    #navBar a{
+    #navBar a
+    {
         font-size: 22px;
     }
 
     /* Floats the image to the right */
-    .timelinecontainer img{
+    .timelinecontainer img
+    {
         width: 40%;
     }
 
+    /* Styles the mission statements */
     div.mission div
     {
         display: block;
@@ -1103,85 +1160,108 @@ div.iframe
     }
 }
 
-@media only screen and (max-width: 820px){
-    #navBar a{
+@media only screen and (max-width: 820px)
+{
+    #navBar a
+    {
         font-size: 20px;
     }
 
     /* Makes video on index page responsive */
-    #demoVid{
+    #demoVid
+    {
         width: 500px;
         height: 300px;
     }
 }
 
-@media only screen and (max-width: 750px){
-    #navBar #loginLink{
+@media only screen and (max-width: 750px)
+{
+    #navBar #loginLink
+    {
         padding-bottom: 0px;
     }
 
     /* Makes video on index page responsive */
-    #demoVid{
+    #demoVid
+    {
         width: 450px;
         height: 250px;
     }
 }
 
 /* Changes display of navbar links for mobile */
-@media screen and (max-width: 750px) {
-    .topNav a:not(:last-child) {display: none;}
-    .topNav a.icon {
-      float: left;
-      display: block;
+@media screen and (max-width: 750px)
+{
+    .topNav a:not(:last-child)
+    {
+        display: none;
+    }
+
+    .topNav a.icon
+    {
+        float: left;
+        display: block;
     }
   }
 
 /* Styling for mobile menu's responsive class*/
-@media screen and (max-width: 750px) {
-    .topNav.responsive, .topNav.responsive #loginLink{
+@media screen and (max-width: 750px)
+{
+    .topNav.responsive, .topNav.responsive #loginLink
+    {
         display: block;
         position: relative;
     }
 
-    #loginLink{
+    #loginLink
+    {
         padding-top: 0px;
     }
 
-    #loginLink a{
+    #loginLink a
+    {
         padding-top: 15px;
     }
 
-    .topNav.responsive a.icon {
-      position: absolute;
-      left: 0;
-      top: 0;
+    .topNav.responsive a.icon
+    {
+        position: absolute;
+        left: 0;
+        top: 0;
     }
 
-    .topNav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-      font-size: 18px;
+    .topNav.responsive a
+    {
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: 18px;
     }
 
-    .topNav.responsive a:not(:first-child), .topNav.responsive #loginLink a{
+    .topNav.responsive a:not(:first-child), .topNav.responsive #loginLink a
+    {
         padding-top: 16px;
         padding-left: 40px;
     }
 
-    .topNav.responsive #indexLink, .topNav.responsive .icon{
+    .topNav.responsive #indexLink, .topNav.responsive .icon
+    {
         background-color: #BF0603;
     }
   }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px)
+{
     /* Changes 2 Column Layout on Owner's Page into a Single Column Layout */
-    .column {
+    .column
+    {
         width: 100%;
     }
 
     /* Makes video on index page responsive */
-    #demoVid{
+    #demoVid
+    {
         width: 400px;
         height: 200px;
     }
