@@ -64,15 +64,17 @@ function showSash(sashContentId){
  * @param imageId
  * @param closeId
  */
-function showVideo(videoId, imageId, closeId){
-	var video = document.getElementById(videoId);
-	var image = document.getElementById(imageId);
+function showVideo(videoId, imageId, closeId, index){
+	var video = document.getElementsByClassName(videoId)[index-1];
+	var image = document.getElementsByClassName(imageId)[index-1];
 	if(!video.style.display || video.style.display === "none"){
 		video.style.display = "block";
 		image.style.display = "none";
-		document.getElementById(closeId).innerHTML = "Close Video<br>";
-		document.getElementById(closeId).style.display = "inline-block";
-		hideOthers(videoId, 6);
+		video.style.width = "500px";
+		video.style.width = "600px";
+		document.getElementsByClassName(closeId)[index-1].innerHTML = "Close Video<br>";
+		document.getElementsByClassName(closeId)[index-1].style.display = "inline-block";
+		hideOthers(videoId, document.getElementsByClassName(videoId).length);
 	}
 }
 
@@ -83,16 +85,15 @@ function showVideo(videoId, imageId, closeId){
  * @param numVideos
  */
 function hideOthers(videoId, numVideos){
-	var video = document.getElementById(videoId);
-	for(var i = 1; i <= numVideos; i++){
+	for(var i = 0; i < numVideos; i++){
 		var removeVideo = "video" + i;
 		if(removeVideo == videoId){
 			continue;
 		}
 
 		else{
-			var hidePic = "vidPic" + i;
-			document.getElementById(hidePic).style.display = "none";
+			var hidePic = "vidPic";
+			document.getElementsByClassName(hidePic)[i].style.display = "none";
 		}
 	}
 }
@@ -104,29 +105,17 @@ function hideOthers(videoId, numVideos){
  * @param imageId
  * @param closeId
  */
-function closeVideo(videoId, imageId, closeId){
-	document.getElementById(videoId).style.display = "none";
-	document.getElementById(closeId).innerHTML = "";
-	document.getElementById(closeId).style.display = "none";
-	document.getElementById(imageId).style.display = "inline-block";
+function closeVideo(videoId, imageId, closeId, index){
+	document.getElementsByClassName(videoId)[index-1].style.display = "none";
+	document.getElementsByClassName(closeId)[index-1].innerHTML = "";
+	document.getElementsByClassName(closeId)[index-1].style.display = "none";
+	document.getElementsByClassName(imageId)[index-1].style.display = "inline-block";
 
-	for(var i = 1; i <= 6; i++){
-		var showPic = "vidPic" + i;
-		document.getElementById(showPic).style.display = "inline-block";
+	for(var i = 1; i <= document.getElementsByClassName(videoId).length; i++){
+		var showPic = "vidPic";
+		document.getElementsByClassName(showPic)[i-1].style.display = "inline-block";
 	}
 }
-
-/*This function changes image on mouseover
- *
- * @param image
- * @param imageId
- *
- */
-function changeImage(image, imageId){
-	var imageSwap = imageId + "Hover";
-	image.src = "assets/images/" + imageSwap + ".png";
-}
-
 
 /* This function returns image on mouse out
  *
