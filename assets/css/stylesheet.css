@@ -1021,12 +1021,14 @@ div.iframe
  */
 
 /*styles videos*/
-#video1, #video2, #video3, #video4, #video5, #video6{
+.video
+{
 	display: none;
 }
 
 /*styles close video buttons*/
-#closeVid1, #closeVid2, #closeVid3, #closeVid4, #closeVid5, #closeVid6{
+.closeVid
+{
 	cursor: pointer;
 	background-color: red;
 	display: none;
@@ -1038,7 +1040,7 @@ div.iframe
 }
 
 /*styles video preview pictures*/
-#vidPic1, #vidPic2, #vidPic3, #vidPic4, #vidPic5, #vidPic6
+.vidPic
 {
 	display: inline-block;
 	cursor: pointer;
@@ -1058,10 +1060,18 @@ div.iframe
 }
 
 /* Styles the videos on the members page */
-#videos video
+.video video
 {
     align-items: center;
     padding: 10px;
+    width: 500px;
+    height: 600px;
+}
+
+.videoPics
+{
+    width: 400px;
+    height: 400px;
 }
 
 /**
