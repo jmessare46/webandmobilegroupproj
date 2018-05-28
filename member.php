@@ -11,11 +11,11 @@ $path = './';
 $page = 'Members Page';
 include $path . 'assets/inc/header.php';
 
-//session_start();
+session_start();
 session_name("Login");
 
 // Checks to see if user is logged in
-//if( $_SESSION['name'] != "Member" && $_SESSION['name'] != "Owner" )
+if( $_SESSION['name'] != "Member" && $_SESSION['name'] != "Owner" )
 {
     //header("Location: login.php");
 }
@@ -37,7 +37,7 @@ $videoNames = [];
 foreach($videoDir as $vid)
 {
     // Checks to see if the file is a .mov file
-    if(strpos($vid, ".mov") && !strpos($vid, "intro") && !strpos($vid, "Intro"))
+    if(strpos($vid, ".mov") && $vid != "Intro Video.mov" && $vid != "Intro Video.mov")
     {
         array_push($videoNames, $vid);
     }
