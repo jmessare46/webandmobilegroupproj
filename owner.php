@@ -105,6 +105,39 @@ if(isset($_POST['day']) && isset($_POST['start']) && isset($_POST['end']))
             </div>
         </form><br>
     </div>
+
+    <figure class='vidPic'>
+        <img src='assets/images/MoyDonLogo.jpg' class='videoPics' onclick="showVideo('video', 'vidPic', 'closeVid', 1)">
+        <figcaption class='vidDes'>How to Delete Users From Site</figcaption>
+    </figure>
+
+    <div class='video'>
+        <video controls src='assets/instructions/How%20to%20Delete%20Users%20From%20Site.mov'></video>
+    </div>
+
+    <div class='closeVid' onclick="closeVideo('video', 'vidPic', 'closeVid', 1)"></div>
+
+    <figure class='vidPic'>
+        <img src='assets/images/MoyDonLogo.jpg' class='videoPics' onclick="showVideo('video', 'vidPic', 'closeVid', 2)">
+        <figcaption class='vidDes'>Update, Change, and Remove Class Times</figcaption>
+    </figure>
+
+    <div class='video'>
+        <video controls src='assets/instructions/Update,%20Change,%20and%20Remove%20Class%20Times.mov'></video>
+    </div>
+
+    <div class='closeVid' onclick="closeVideo('video', 'vidPic', 'closeVid', 2)"></div>
+
+    <figure class='vidPic'>
+        <img src='assets/images/MoyDonLogo.jpg' class='videoPics' onclick="showVideo('video', 'vidPic', 'closeVid', 3)">
+        <figcaption class='vidDes'>How to Upload Videos to Members Page</figcaption>
+    </figure>
+
+    <div class='video'>
+        <video controls src='assets/instructions/How%20to%20Upload%20Videos%20to%20Member%20Page.mov'></video>
+    </div>
+
+    <div class='closeVid' onclick="closeVideo('video', 'vidPic', 'closeVid', 3)"></div>
 </div>
 </body>
 </html>
