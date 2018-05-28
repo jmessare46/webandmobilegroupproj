@@ -65,7 +65,7 @@ include $path . 'assets/inc/header.php';
         </p>
     </div>
 
-    <video id="demoVid" controls="controls" width="700" height="500" src="assets/videos/introVideo.mov" alt="Introduction Video"></video>
+    <video id="demoVid" controls="controls" width="700" height="500" src="assets/videos/Intro Video.mov" alt="Introduction Video"></video>
 </div>
 
 </body>
