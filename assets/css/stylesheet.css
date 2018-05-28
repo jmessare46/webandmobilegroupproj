@@ -459,11 +459,10 @@ img#fb
 }
 
 /*############################################# Styles the contact page Ends here. ######################## */
-	   
 
-/*
- * Styles contactSubmit page
- */
+
+/*############################################# Styles the contact submit page Starts here. ######################## */
+
 
 #submitLine, #submitLineError
 {
@@ -483,9 +482,10 @@ img#fb
     color: red;
 }
 
-/*
- * Styles the curriculum page.
- */
+/*############################################# Styles the contact submit page Ends here. ######################## */
+
+/*############################################# Styles the curriculum page starts here. ######################## */
+
  
 /* Styles sash block*/
 .sash
@@ -567,6 +567,8 @@ img#fb
 {
 	display: none;
 }
+
+/*############################################# Styles the curriculum page Ends here. ######################## */
 
 /*
  * Styles the history page.
@@ -1072,6 +1074,12 @@ div.iframe
 {
     width: 400px;
     height: 400px;
+}
+
+#instBanner
+{
+    padding: 5px;
+    height: 40px;
 }
 
 /**
